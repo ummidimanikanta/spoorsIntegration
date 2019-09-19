@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="csrLoginPage">false</entry>
+	<entry key="smscKey">smsc</entry>
+	<entry key="trialKey">trial</entry>
+	<entry key="graceKey">grace</entry>
+	<entry key="trackFreqKey">trackFreq</entry>
+	<entry key="locationProviderKey">locationProvider</entry>
+	<entry key="jobsViaSmsKey">jobsViaSmsKey</entry>
+	<entry key="mPinKey">mPinKey</entry>
+	<entry key="startStopWorkKey">startStopWorkKey</entry>
+	<entry key="startStopWork">true</entry>
+	<entry key="visibleCustomersKey">visibleCustomersKey</entry>
+	<entry key="callLogKey">callLogKey</entry>
+	<entry key="smsLogKey">smsLogKey</entry>
+	<entry key="autoIntervalKey">autoIntervalKey</entry>
+	<entry key="mceKey">mceKey</entry>
+	<entry key="uploadViaKey">uploadViaKey</entry>
+	<entry key="mapToKey">mapToKey</entry>
+	<entry key="empTrackTypeIdKey">empTrackTypeId</entry>
+	<entry key="trackUploadFrequencyKey">trackUploadFrequencyKey</entry>
+	<entry key="workOnSyncFrequencyKey">workOnSyncFrequencyKey</entry>
+	<entry key="workOffSyncFrequencyKey">workOffSyncFrequencyKey</entry>
+	<entry key="sendAllMappedCustomersInSyncKey">sendAllMappedCustomersInSync</entry>
+	<entry key="captureSignInReasonKey">captureSignInReasonKey</entry>
+	
+	<entry key="startWorkMandatoryForActivitiesKey">startWorkMandatoryForActivitiesKey</entry>
+	<entry key="checkOutCustomerwhenClickedOnStopWorkKey">checkOutCustomerwhenClickedOnStopWorkKey</entry>
+	<entry key="restrictCheckoutBeforePerformActivityKey">restrictCheckoutBeforePerformActivityKey</entry>
+	<entry key="startWorkReasonRequiredKey">startWorkReasonRequiredKey</entry>
+	<entry key="startWorkReasonMandatoryKey">startWorkReasonMandatoryKey</entry>
+	
+	<entry key="commentLocationTimeoutKey">commentLocationTimeout</entry>
+	<entry key="locationShelfLifeKey">locationShelfLife</entry>
+	<entry key="locationRoundThresholdKey">locationRoundThresholdKey</entry>
+	<entry key="showCompletedJobsKey">showCompletedJobs</entry>
+	<entry key="appTitleKey">appTitleKey</entry>
+	<entry key="locationRequiredKey">locationRequiredKey</entry>
+	<entry key="lockCountKey">lockCountKey</entry>
+	<entry key="numDaysKey">numDaysKey</entry>
+	<entry key="encryptValueKey">encryptValueKey</entry>
+	<entry key="outOfWorkingHoursKey">outOfWorkingHoursKey</entry>
+	
+	<entry key="tagManageKey">tagManageKey</entry>
+	<entry key="tagManage">false</entry>
+	<entry key="timeOutOfSyncOnMobileDeviceKey">timeOutOfSyncOnMobileDeviceKey</entry>
+	<entry key="timeOutOfSyncOnMobileDevice">1</entry>
+	
+	<entry key="timeOutOfSyncOnMobileDeviceDurationKey">timeOutOfSyncOnMobileDeviceDurationKey</entry>
+	<entry key="timeOutOfSyncOnMobileDeviceDuration">900000</entry>
+	
+	<entry key="timeSpentAtCustomerKey">timeSpentAtCustomerKey</entry>
+	<entry key="stopRemainderKey">stopRemainderKey</entry>
+	<entry key="freqEmailIdsKey">freqEmailIdsKey</entry>
+	
+	<entry key="hideCustomerInfoKey">hideCustomerInfoKey</entry>
+	<entry key="showAllCustomersKey">showAllCustomersKey</entry>
+	<entry key="mapCustomerToEmployeeKey">mapCustomerToEmployeeKey</entry>
+	<entry key="showCustomersOfEmployeesToManagerKey">showCustomersOfEmployeesToManagerKey</entry>
+	<entry key="compressMediasKey">compressMediasKey</entry>
+	<entry key="pickFromGallaryKey">pickFromGallaryKey</entry>
+	<entry key="versionUpdateKey">versionUpdateKey</entry>
+	<entry key="rootEmpKey">rootEmp</entry>
+	<entry key="tokenKey">tokenKey</entry>
+	<entry key="ccavenueMerchantIdKey">ccavenue_merchant_id</entry>
+	<entry key="ccavenueWorkingKey">ccavenue_working_key</entry>
+	<entry key="ccavenueAccessCodeKey">ccavenue_accessCode_key</entry>
+	<entry key="glGPSThresholdKey">glGPSThreshold</entry>
+	<entry key="glSTThresholdKey">glSTThreshold</entry>
+	<entry key="autoFilterCustomersBasedOnTagsKey">autoFilterCustomersBasedOnTagsKey</entry>
+
+	<entry key="gpsbufferdistanceKey">Gpsbufferdistance</entry>
+	<entry key="cellbufferdistanceKey">Cellbufferdistance</entry>
+	<entry key="wifibufferdistanceKey">Wifibufferdistance</entry>
+	<entry key="glWifiThresholdKey">glWifiThreshold</entry>
+	<entry key="empTrackTypeId">2</entry>
+	
+	<entry key="defaultTimeZoneKey">defaultTimeZone</entry>
+	<entry key="defaultTimeZone">49</entry>
+
+	<entry key="defaultJobTypeKey">defaultJobType</entry>
+	<entry key="defaultStartStateKey">defaultStartState</entry>
+	<entry key="defaultEndStateKey">defaultEndState</entry>
+	<entry key="syncDelayNotificationKey">syncDelayNotfication</entry>
+	<entry key="testModeKey">testMode</entry>
+	<entry key="trackByKey">trackBy</entry>
+	<entry key="smsTrackFreqKey">smsTrackFreq</entry>
+	<entry key="captureLocationInFormUpdateKey">captureLocationInFormUpdate</entry>
+	<entry key="captureLocationInFormMediaKey">captureLocationInFormMedia</entry>
+	<entry key="allowLatLngUpdateInNamedLocationKey">allowLatLngUpdateInNamedLocationKey</entry>
+	<entry key="defaultAppScreenKey">defaultAppScreenKey</entry>
+	<entry key="intermediateThresholdKey">intermediateThresholdKey</entry>
+	<entry key="finalThresholdKey">finalThresholdKey</entry>
+	<entry key="nearByCustomerKey">nearByCustomerKey</entry>
+	<entry key="defaultNbcRadiusKey">defaultNbcRadiusKey</entry>
+	<entry key="defaultAppUnUsedDurationKey">defaultAppUnUsedDurationKey</entry>
+	<entry key="defaultNbcLimitKey">defaultNbcLimitKey</entry>
+	<entry key="printerServiceRecordUuidKey">printerServiceRecordUuid</entry>
+	<entry key="printerColumnWidthKey">printerColumnWidth</entry>
+	
+	<entry key="maxNoOfDaysForDayPlanCreationFromNowKey">maxNoOfDaysForDayPlanCreationFromNowKey</entry>
+
+     <entry key="defaultAppUnUsedDuration">0</entry>
+     <entry key="maxNoOfDaysForDayPlanCreationFromNow">30</entry>
+	<entry key="appVersion">1.4.0</entry>
+	<entry key="mapDistanceOffset">50</entry>
+	<entry key="locationProvider">2</entry>
+	<entry key="jobsViaSms">false</entry>
+	<entry key="trackFreq">300000</entry>
+	<entry key="commentLocationTimeout">300000</entry>
+	<entry key="locationShelfLife">600000</entry>
+	<entry key="locationRoundThreshold">50</entry>
+	<entry key="showCompletedJobs">true</entry>
+	<entry key="canUpdateHomeLocation">true</entry>
+	<entry key="canAddCustomerInfo">true</entry>
+	<entry key="canEditCustomerInfo">true</entry>
+	<entry key="hideCustomerInfo">false</entry>
+	<entry key="showAllCustomers">true</entry>
+	<entry key="showCustomersOfEmployeesToManager">true</entry>
+	<entry key="mapCustomerToEmployee">true</entry>
+	<entry key="compressMedias">true</entry>
+	<entry key="canPickFromGallary">false</entry>
+	<entry key="autoFilterCustomersBasedOnTags">false</entry>
+	<entry key="versionUpdate">false</entry>
+	<entry key="only200">true</entry>
+	<entry key="managerAuthoritiyValue">ROLE_MNGR</entry>
+	<entry key="userAuthoritiyValue">ROLE_USER</entry>
+	<entry key="customerAuthoritiyValue">ROLE_CUSTOMER</entry>
+	<entry key="webPageSize">10</entry>
+	<entry key="mediaBaseUrl">/media/get</entry>
+	<entry key="hclCallUpdatesUrl">http://wservqas02.hclinsys.com/VendorToHcl/inbound</entry>
+	<entry key="provisioningPrefix">TRACK Register </entry>
+	<entry key="mailHost">smtp.mail.yahoo.com</entry>
+	<entry key="mailUserName">alerts@spoors.in</entry>
+	<entry key="mailPassword">RuwrorErk891</entry>
+	<entry key="syncDelayNotification">90000000</entry>
+	<entry key="trackBy">1</entry>
+	<entry key="smsTrackFreq">1800000</entry>
+	<entry key="defaultCellAccuracy">500</entry>
+	<entry key="defaultGpsAccuracy">1000</entry>
+	<entry key="reportSechduleDailyQueueSize">100000</entry>
+	<entry key="reportSechduleWeeklyQueueSize">100000</entry>
+	<entry key="reportSechduleMonthlyQueueSize">100000</entry>
+	<entry key="reportMailDeliveryStartTime">02:30:00</entry>
+	<entry key="reportMailDeliveryEndTime">14:30:00</entry>
+	<entry key="captureLocationInFormUpdate">true</entry>
+	<entry key="allowLatLngUpdateInNamedLocation">true</entry>
+	<!-- <entry key="defaultAppScreen">Agenda</entry> -->
+	<entry key="defaultAppScreen">Home</entry>
+	<entry key="printerColumnWidth">12</entry>
+	<entry key="printerServiceRecordUuid">00001101-0000-1000-8000-00805F9B34FB</entry>
+	
+	<entry key="trackUploadFrequency">300000</entry>
+	<entry key="workOnSyncFrequency">300000</entry>
+	<entry key="workOffSyncFrequency">1800000</entry>
+
+	<entry key="successRegistrationSms">Registration completed successfully.</entry>
+	<entry key="alreadyActiveSms">Your account is already active.</entry>
+	<entry key="activeInOtherDeviceSms">Your account is already active in another device.</entry>
+	<entry key="changeTrackingDviceSms">Successfully changed default tracking device.</entry>
+	<entry key="unAuthorizedSms">You are no longer authorized to use EFFORT</entry>
+	<entry key="unRecocnizedSms">Not authorized to use EFFORT</entry>
+	
+	<entry key="imeiMissMatchSms">Registration failed due to IMEI mismatch.</entry>
+	
+	<entry key="webUserCreateMailSubject">Welcome to EFFORT</entry>
+	<entry key="sendTrackUrlToCustomerMailSubject">Track Job</entry>
+	
+	<entry key="mediaMailBodySubject">Meeting related media</entry>
+
+	<entry key="minEscalateThreshold">600</entry>
+	<entry key="minEscalateThreshold">0</entry>
+	<entry key="locationRequired">0</entry>
+	<entry key="timeSpentAtCustomer">900000</entry>
+	<entry key="stopRemainder">7200000</entry>
+	<entry key="defaultNumDays">7</entry>
+	<entry key="encryptValue">false</entry>	
+	<entry key="googleApiKey" >AIzaSyAZ7fgDt6DcJ4dtP5WsNz35behllkpvpvw</entry>
+
+	<entry key="runOutlier">true</entry>
+<!-- 	<entry key="outlierThreshold">28</entry> -->
+	<entry key="outlierThreshold">41</entry>
+
+    <entry key="jmsDestination">Effortx</entry>
+	<entry key="jmsDestinationForJobAddOrModifi">EffortxJobAddMod</entry>
+	<entry key="jmsDestinationForJobCompletedRecieve">EffortxJobCompleted</entry>
+	
+	<!-- <entry key="jmsDestination">EffortPlusUat</entry>
+     <entry key="jmsDestinationForJobAddOrModifi">EffortPlusUatJobAddMod</entry>
+     <entry key="jmsDestinationForJobCompletedRecieve">EffortPlusUatJobCompleted</entry> --> 
+	
+	 <!-- <entry key="jmsDestination">EffortPlusUat</entry>
+     <entry key="jmsDestinationForJobAddOrModifi">EffortPlusUatJobAddMod</entry>
+     <entry key="jmsDestinationForJobCompletedRecieve">EffortPlusUatJobCompleted</entry> -->
+	
+<!-- 	 <entry key="jmsDestination">Effort_local</entry>
+	<entry key="jmsDestinationForJobAddOrModifi">EffortJobAddMod_local</entry>
+	<entry key="jmsDestinationForJobCompletedRecieve">EffortJobCompleted_local</entry> -->
+	
+    <!-- <entry key="jmsDestination">Effort_ND</entry>
+	<entry key="jmsDestinationForJobAddOrModifi">EffortJobAddMod_ND</entry>
+	<entry key="jmsDestinationForJobCompletedRecieve">EffortJobCompleted_ND</entry>
+	 -->
+	<entry key="jmsMessageLifeInMinutes">3</entry>
+	<entry key="jmsMessageRequeDelayInMilies">100</entry>
+
+	<entry key="finalThreshold">4</entry>
+	<entry key="intermediateThreshold">2</entry>
+
+	<entry key="nearByCustomer">true</entry>
+	<entry key="defaultNbcRadius">10</entry>
+	
+	<entry key="defaultNbcLimit">10</entry>
+	<entry key="aitelDsrFormSpecId">10</entry>
+	<entry key="restApiRetryCount">3</entry>
+	
+
+
+	<entry key="formSpecUniqueId1">7e791edf-181b-4879-91c6-b914bd0c868c,668a6ef8-982f-4062-a7ea-f966863c9dba,99b0778d-0092-4578-8848-6c0b7dbbd11b,dc11bc81-acef-46aa-8af4-888227336626,c07e34b4-ab02-43a9-b82b-41a93a09fc33</entry>
+	<entry key="formSpecUniqueId2">0ccd87f3-393c-4961-a63f-b1a783728af9</entry>
+	<entry key="formSpecUniqueId3">5c76c83b-4b0f-4494-8a45-3054aa3da99b</entry>
+	<entry key="formSpecUniqueId4">75e80848-bd38-415a-a781-68a706efc425</entry>
+
+
+	<!-- Import constants -->
+
+	<entry key="bulkUploadSubject">Import Status</entry>
+	
+	<entry key="appLogoWidth">144</entry>
+	<entry key="appLogoHeight">144</entry>
+	
+	<!-- Validation for Date constants -->
+	<entry key="service_assign_date_range">180</entry>
+	<entry key="customerSearchFieldsKey">customerSearchFields</entry>
+    <entry key="customerSearchFields">1##customerName,2##customerNo,3##primaryContactFirstName,4##primaryContactLastName</entry>
+    
+    <entry key="selectDateFormatKey">selectDateFormatKey</entry>
+	<entry key="selectDateFormat">1</entry>
+
+	 <entry key="empDistanceTravelledKey">empDistanceTravelledKey</entry>
+	<entry key="empDistanceTravelled">Kms</entry>
+	
+	<entry key="signInSignOutConditionKey">signInSignOutConditionKey</entry>
+	<entry key="signInSignOutCondition">1</entry>
+
+	<entry key="signInMissingConditionKey">signInMissingConditionKey</entry>
+	<entry key="signInMissingCondition">signInMissingCondition</entry>
+	
+	<entry key="customerBulkUploadType">1</entry>
+	<entry key="maximumRetries">20</entry>
+	<entry key="listBulkUploadType">2</entry>
+	<entry key="employeeBulkUploadType">3</entry>
+	<entry key="dayPlansBulkUploadType">4</entry>
+	<entry key="workBulkUploadType">5</entry>
+	<entry key="nearByCustomerDistance">20</entry>
+	<entry key="routeOptimizationBulkUploadType">6</entry>
+	
+	
+	<entry key="customerHistoryLimit">10</entry>
+	<entry key="syncJsonSize">512</entry>  <!--1048576 in Bytes -->
+	<entry key="identifiersLimit">10</entry>
+	
+	<entry key="approvalSignInSignOutConditionKey">approvalSignInSignOutConditionKey</entry>
+	<entry key="approvalSignInSignOutCondition">false</entry>
+	
+	<entry key="frontCameraCaptureSignatureKey">frontCameraCaptureSignatureKey</entry>
+	<entry key="frontCameraCaptureSignature">true</entry>
+	
+	<entry key="fullTextCustomerSearchKey">fullTextCustomerSearchKey</entry>
+	<entry key="fullTextCustomerSearch">false</entry>
+	<entry key="enforceCustomerIdWhenAddingCustomerKey">enforceCustomerIdWhenAddingCustomerKey</entry>
+	<entry key="enforceCustomerIdWhenAddingCustomer">false</entry>
+	<entry key="hclExternalWorkSpecId">HCL-CALLS-OA</entry>
+	<entry key="hclTicketNoFieldSpecUniqueId">c2c6136b-a9fd-4db1-90c9-2bb075718a9d</entry>
+	
+     <entry key="locServSignInOutKey">locServSignInOutKey</entry>	
+     <entry key="locServSignInOut">1</entry>	
+     
+     
+     <entry key="enforceCustomerCheckInKey">enforceCustomerCheckInKey</entry>	
+     <entry key="enforceCustomerCheckIn">false</entry>
+     
+     <entry key="enforceCustomerNearWorkLocationCheckInKey">enforceCustomerNearWorkLocationCheckInKey</entry>	
+     <entry key="enforceCustomerNearWorkLocationCheckIn">false</entry>
+     
+     <entry key="enableOrDisableLockFeatureKey">enableOrDisableLockFeatureKey</entry>	
+     <entry key="enableOrDisableLockFeature">true</entry>
+     
+     <entry key="displayCustomerSummaryDetailsKey">displayCustomerSummaryDetailsKey</entry>	
+     <entry key="displayCustomerSummaryDetails">false</entry>
+     
+     
+      <entry key="canAddCustomersFromClientForAssignedRoutesKey">canAddCustomersFromClientForAssignedRoutesKey</entry>	
+     <entry key="canAddCustomersFromClientForAssignedRoutes">false</entry>
+     
+     
+     <entry key="locationMandatoryCheckKey">locationMandatoryCheckKey</entry>	
+     <entry key="locationMandatoryCheck">false</entry>
+     
+     <entry key="customerMappingViaKey">customerMappingViaKey</entry>
+     <entry key="customerMappingVia">1</entry>
+     
+     <entry key="defaultLocationMandatoryCheckRadiusKey">defaultLocationMandatoryCheckRadiusKey</entry>	
+     <entry key="defaultLocationMandatoryCheckRadius">50</entry>
+     
+     <entry key="nearWorkLocationMandatoryCheckKey">nearWorkLocationMandatoryCheckKey</entry>	
+     <entry key="nearWorkLocationMandatoryCheck">false</entry>
+     
+     <entry key="defaultNearWorkLocationMandatoryCheckRadiusKey">defaultNearWorkLocationMandatoryCheckRadiusKey</entry>	
+     <entry key="defaultNearWorkLocationMandatoryCheckRadius">50</entry>
+     
+     <entry key="checkInReasonEnabledKey">checkInReasonEnabledKey</entry>
+     <entry key="checkInReasonsListEnabledKey">checkInReasonsListEnabledKey</entry>
+     <entry key="checkInReasonEditTextEnabledKey">checkInReasonEditTextEnabledKey</entry>
+     <entry key="checkInReasonEditTextLengthKey">checkInReasonEditTextLengthKey</entry>
+     <entry key="checkInReasonListSelectedValueKey">checkInReasonListSelectedValueKey</entry>
+     
+     <entry key="checkInReasonEnabled">false</entry>	
+     <entry key="checkInReasonsListEnabled">false</entry>
+     <entry key="checkInReasonEditTextEnabled">false</entry>
+     <entry key="checkInReasonEditTextLength">100</entry>
+     <entry key="checkInReasonListSelectedValue"></entry>
+     
+     
+     <entry key="defaultSearchforFormsKey">defaultSearchforFormsKey</entry>	
+     <entry key="defaultSearchforForms">2</entry>
+     
+     <entry key="editDayPlanKey">editDayPlanKey</entry>	
+     <entry key="editDayPlan">3</entry>	
+     
+     <entry key="deleteDayPlanKey">deleteDayPlanKey</entry>	
+     <entry key="deleteDayPlan">3</entry>
+     
+     <entry key="deleteCustInDayPlanKey">deleteCustInDayPlanKey</entry>	
+     <entry key="deleteCustInDayPlan">3</entry>
+     
+     <entry key="checkInToCompleteDayPlanKey">checkInToCompleteDayPlanKey</entry>	
+     <entry key="checkInToCompleteDayPlan">true</entry>	
+     
+     <entry key="editJobsKey">editJobsKey</entry>	
+     <entry key="editJobs">3</entry>
+     
+     <entry key="incompCustInDPKey">incompCustInDPKey</entry>	
+     <entry key="incompCustInDP">true</entry>
+     
+     <entry key="locationWaitingProgressRequiredKey">locationWaitingProgressRequiredKey</entry>
+     <entry key="locationWaitingProgressRequired">false</entry>
+     
+       <entry key="empCheckInTargetKey">empCheckInTarget</entry>	
+     <entry key="empCheckInTarget">0</entry>
+     
+     <entry key="oneMonthSubscriptionKey">1_month_effort_subscription</entry>
+     <entry key="visitRetryCount">5</entry>
+     <entry key="cpvLimit">1000</entry>
+     
+     <entry key="employeeTerritororyBulkUploadType">11</entry>
+     <entry key="employeeCustomerTypeBulkUploadType">12</entry>
+     <entry key="employeeRoutePlanBulkUploadType">13</entry>
+     
+	 <entry key="allowUserToSaveFormAsDraftKey">allowUserToSaveFormAsDraftKey</entry>	
+     <entry key="allowUserToSaveFormAsDraft">true</entry>
+     <entry key="employeeRoutePlanBulkAssignmentUploadType">14</entry>
+	 <entry key="routePlanCreationBulkUploadType">15</entry>
+	 <entry key="forceCustomerCheckInCheckOutKey">forceCustomerCheckInCheckOutKey</entry>	
+     <entry key="forceCustomerCheckInCheckOut">false</entry>
+     
+     <entry key="performForceActivitiesKey">performForceActivitiesKey</entry>	
+     <entry key="performForceActivities">false</entry>
+     
+     <entry key="performForceJobKey">performForceJobKey</entry>	
+     <entry key="performForceJob">false</entry>
+     
+     <entry key="performForceWorkKey">performForceWorkKey</entry>	
+     <entry key="performForceWork">false</entry>
+     
+     <entry key="leaveCancelRangeKey">leaveCancelRangeKey</entry>	
+     <entry key="leaveCancelRange">0</entry>
+     
+     
+     <entry key="wdsWorkSpecId">1398</entry>
+     <entry key="wdsFormSpecUniqueId">0d2ad9ca-0d8c-49dd-95d2-781573f8479b</entry>
+     <entry key="wdsAvStatusFoundUniqueId">c4d77fb4-153a-4da9-9c33-6ab00ad8b9cd</entry>
+     <entry key="wdsAvStatusNotFoundUniqueId">a225a5eb-343c-4bd3-9000-86cac6a6e1ec</entry>
+     <entry key="wdsAvStatusDemolishedUniqueId">6b9aa8b9-1fd0-4288-93e1-03ffd993c5b6</entry>
+     
+     <entry key="wdsAvStatusFoundEntityId">213614,213615,213616</entry>
+	 <entry key="wdsAvStatusNotFoundEntityId">213617,213618</entry>	
+	 <entry key="wdsAvStatusDemolishedEntityId">213619</entry>
+	 
+	 <entry key="signOutConditionKey">signOutConditionKey</entry>
+	 <entry key="defaultSignOutCondition">1</entry>
+	 
+	 <entry key="windowsPushNotificationAccessTokenUrl">https://login.live.com/accesstoken.srf</entry>
+	 <entry key="windowsPushNotificationAccessTokenHeaderContentType">application/x-www-form-urlencoded</entry>
+	 <entry key="pushNotificationDefaultMessage">You have new items to be synced from web, Please sync</entry>
+	 <entry key="windowsPushNotificationAccessTokenParameterString"><![CDATA[grant_type=client_credentials<<>>client_id=ms-app://s-1-15-2-1587717254-2750746349-944580056-3990297692-1927852306-1310224030-54222276<<>>client_secret=hb9lH5cNN+Xy1jW+lmAivXS7pR8Rtj/R<<>>scope=notify.windows.com]]></entry>
+	 
+	  <entry key="placeHoldersGroupLimit">100</entry>
+	  
+	  <entry key="maxApiCustomersSize">1000</entry>
+	  
+	  <entry key="maxRegularExprCharactersSize">100</entry>
+	  <entry key="maxErrorMsgCharactersSize">160</entry>
+	  
+	  <entry key="stalinCompanyMobileTrackingReportThreshold">20</entry>
+	  
+	  <!--  Author: Bhavani
+  Requirement : Email Support in Schedule Report -->
+  
+ 	<entry key="emailIdLimit">500</entry>
+
+	<entry key="enableKNOXKey">enableKNOXKey</entry>
+	<entry key="enableKNOX">false</entry>
+
+	<entry key="knoxWifiServiceActiveKey">knoxWifiServiceActiveKey</entry>
+	<entry key="knoxWifiServiceActive">false</entry>
+
+	<entry key="knoxGpsServiceActiveKey">knoxGpsServiceActiveKey</entry>
+	<entry key="knoxGpsServiceActive">false</entry>
+
+	<entry key="knoxUninstallEffortAppKey">knoxUninstallEffortAppKey</entry>
+	<entry key="knoxUninstallEffortApp">false</entry>
+
+	<entry key="knoxTypeKey">knoxTypeKey</entry>
+	<entry key="knoxType">1</entry>
+
+	<entry key="knoxPackagesKey">knoxPackagesKey</entry>
+	<entry key="knoxPackages"></entry>
+	
+	<!-- Change Purpose: MDM activation in working hours 
+	Resource: Naidu -->
+	<entry key="mdmKnoxWifiServiceActiveTypeKey">mdmKnoxWifiServiceActiveTypeKey</entry>
+	<entry key="mdmKnoxWifiServiceActiveType">0</entry>
+	<entry key="mdmKnoxGpsServiceActiveTypeKey">mdmKnoxGpsServiceActiveTypeKey</entry>
+	<entry key="mdmKnoxGpsServiceActiveType">0</entry>
+	
+	
+<!-- 	<entry key="debugLogEnable">true</entry> -->
+		<entry key="debugLogEnable">false</entry>
+     
+     
+     <!-- Dashboard Modules Display Order For New Companies -->
+ 	<entry key="dashboardNewCompanySetting_Employee">1</entry>
+ 	<entry key="dashboardNewCompanySetting_Job">2</entry>
+ 	<entry key="dashboardNewCompanySetting_Work">3</entry>
+ 	<entry key="dashboardNewCompanySetting_Forms">4</entry>
+ 	<entry key="dashboardNewCompanySetting_EmpLocations">5</entry>
+ 	<entry key="dashboardNewCompanySetting_DayplanAndRoutePlan">6</entry>
+     
+     <entry key="invoiceSpoorsAcno">50200002992932</entry>
+	<entry key="invoiceBankName">HDFC Bank Ltd</entry>
+	<entry key="invoiceBranchName">Srinagar Colony Hyd</entry>
+	<entry key="MICR">500240025</entry>
+	<entry key="IFSC"> HDFC0001554</entry>
+	<entry key="PAN"> AATCS0562K</entry>
+	<entry key="TIN"></entry>
+	<entry key="ST_no">AATCS0562KSD001</entry>
+	<entry key="invoiceSpoorsAddress">Spoors Technology Solutions India Pvt. Ltd.@@2-52/2, 4th Floor, Sai Prithvi Cyber Arcade@@Above Bata Showroom,@@Madhapur, Hyderabad,@@Telangana - 500081, India@@Office : 040-42300557@@secure.spoors.in</entry>
+	<entry key="invoiceSpoorsAddressGSTVersion">Spoors Technology Solutions India Pvt. Ltd.@@2-52/2, 4th Floor, Sai Prithvi Cyber Arcade@@Above Bata Showroom,@@Madhapur, Hyderabad,@@Telangana - 500081, India@@Office : 040-42300557@@secure.spoors.in@@GSTIN: 36AATCS0562K1ZU</entry>
+	<entry key="invoiceFooterNote">Note: Please e-mail the details of Payment, TDS deducted and any Adjustments in Invoice to finance@spoors.in with invoice and amount @@This is a computer generated invoice hence signature is not required</entry>
+	<entry key="spoorsEmailId">finance@spoors.in</entry>
+	<entry key="spoorsContactNumber">040-42300557</entry>
+	 <entry key="workSharingEnable">false</entry>
+	 <entry key="workSharingEnableKey">workSharingEnableKey</entry>
+	
+
+	 
+	 <entry key="leaveTodayStrategryKey">leaveTodayStrategryKey</entry>	
+     <entry key="defaultLeaveTodayStrategry">approved</entry>
+     
+
+	 <entry key="canCompletePastAssignedRoutes">canCompletePastAssignedRoutes</entry>
+	 <entry key="canCompletePastAssignedRoutesValue">true</entry>
+	 
+	 <entry key="canCompleteFutureAssignedRoutes">canCompleteFutureAssignedRoutes</entry>
+	 <entry key="canCompleteFutureAssignedRoutesValue">true</entry>
+	 
+	 <!-- 	Date: 2016-05-10 
+	*Change Purpose: Nagging notifications
+	*Resource: Deva starts-->
+	 <entry key="showNetworkTurnedOffNotificationKey">showNetworkTurnedOffNotificationKey</entry>	
+     <entry key="networkTurnedOffNotificationTypeKey">networkTurnedOffNotificationTypeKey</entry>
+	 <entry key="showNetworkTurnedOffNotification">true</entry>
+	 <entry key="networkTurnedOffNotificationType">1</entry>
+	 
+	 <entry key="showJobWorkReminderNotificationKey">showJobWorkReminderNotificationKey</entry>	
+     <entry key="reminderMinutesKey">reminderMinutesKey</entry>
+	 <entry key="showJobWorkReminderNotification">true</entry>
+	 <entry key="reminderMinutes">15</entry>
+	 <entry key="customerChecoutReminderNotificationKey">customerChecoutReminderNotificationKey</entry>	
+	 <entry key="customerChecoutReminderNotification">true</entry>
+	  <entry key="showLocationServicesNotificationKey">showLocationServicesNotificationKey</entry>	
+	 <entry key="showLocationServicesNotification">true</entry>
+	  <entry key="showDelayJobWorkReminderNotificationKey">showDelayJobWorkReminderNotificationKey</entry>	
+	 <entry key="showDelayJobWorkReminderNotification">true</entry>
+	<!--  nag ends -->
+	
+	   <!-- SECURITY Utils STARTS   -->
+	<!-- <entry key = "exprForTypeName">^[%=/{}&lt;&gt;'`"`]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+|\\,.;: -]).)*$</entry>
+	<entry key = "exprForTypeAddress">^[%=&lt;&gt;`]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.';\"?: -/]).)*$</entry> 
+	<entry key = "exprForTypeEmail">^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$</entry>
+	<entry key = "exprForTypeEmail">^((?![a-zA-Z0-9.@!#$%&amp;'*+-/?^_`{|}~]).)*$</entry>
+	<entry key = "exprForTypeCompanyName">^[%=/&lt;&gt;`]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.';\"?: -]).)*$</entry> 
+	<entry key = "exprForTypePhone">^((?![0-9\(\)+ -]).)*$</entry>
+	<entry key = "exprForTypeCompanyLabel">^[%=/&lt;&gt;`]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.';\"?: -]).)*$</entry>
+	<entry key = "exprForTypeText">^[%=&lt;&gt;`]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.';\"?: -]).)*$</entry>
+	<entry key = "exprForTypeFormOrEntityFieldlabel">^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.';\"?: -]).)*$</entry>
+	<entry key = "exprForTypeFormOrEntityFieldlabel">^[=&lt;&gt;`"]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()/%()!_+{}|\\,.';?: -]).)*$</entry>
+	<entry key = "exprForTypeFormOrEntityTitle">^[%=/&lt;&gt;`"]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.';?: -]).)*$</entry>
+	<entry key = "exprForTypeOtherTitle">^[%=/&lt;&gt;`"]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.';?: -]).)*$</entry>
+	<entry key = "exprForTypeCompanyLevelId">^[%=&lt;&gt;'`"]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}|\\,.;?: -]).)*$</entry>
+	<entry key = "exprForTypeCaptcha">^((?![a-zA-Z0-9]).)*$</entry>
+	<entry key = "exprForTypeNumber">^((?![0-9.-]).)*$</entry> 
+	<entry key = "exprForTypeNumberCsv">^((?![0-9.,-]).)*$</entry> 
+	<entry key = "exprForTypeAlphabet">^((?![a-zA-Z ]).)*$</entry> 
+	<entry key = "exprForTypeAlpahbetWithUnderscore">^((?![a-zA-Z _]).)*$</entry> 
+	<entry key = "exprForTypeAlpahbetWithHyphen">^((?![a-zA-Z -]).)*$</entry> 
+	<entry key = "exprForTypeAlpahbetWithHyphenAndUnderscore">^((?![a-zA-Z_ -]).)*$</entry> 
+	<entry key = "exprForTypeDatetime">^((?![a-zA-Z0-9./: -]).)*$</entry> 
+	<entry key = "exprForTypeJson">^[%=&lt;&gt;`]|[^p{L}]^((?![a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|\\,.';\"//?: -]).)*$</entry>
+	<entry key = "exprForTypeBoolean">^((?!(y|e|s|Y|E|S|n|o|N|O|t|r|u|T|R|U|F|A|L|f|a|l|1|0)).)*$</entry> 
+	<entry key = "exprForTypeLocation">^((?![0-9., -]).)*$</entry> 
+	<entry key = "exprForTypeSqlOrder">^((?!(A|S|C|D|E|a|s|c|d|e)).)*$</entry> 
+	<entry key = "exprForSkipNewLine">^([\n\t\r\f])*$</entry>
+	<entry key = "exprForTypeUrl">^((?![a-zA-Z0-9@#&amp;_+!,.;?|/: -]).)*$</entry>  -->
+	   <!-- SECURITY Utils ENDS -->
+	   
+	   
+	     <!-- SECURITY Utils STARTS NEW WITH MULTI-LANGUAGE SUPPORT AND XSS -->
+	<entry key = "exprForTypeName">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+|,.;: -]).)*$</entry>
+	<entry key = "exprForTypeAddress">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|,.;?: -/]).)*$</entry> 
+	<entry key = "exprForTypeEmail">^[_A-Za-z0-9-+]+(.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(.[A-Za-z0-9]+)*(.[A-Za-z]{2,})$</entry>
+	<entry key = "exprForTypeCompanyName">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|,.;?: -]).)*$</entry> 
+	<entry key = "exprForTypePhone">^((?![0-9\(\)+ -]).)*$</entry>
+	<entry key = "exprForTypeCompanyLabel">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|,.;?: -]).)*$</entry>
+	<entry key = "exprForTypeText">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|,.;\/?%: -]).)*$</entry>
+	<entry key = "exprForTypeFormOrEntityFieldlabel">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()/%()!_+{}\[\]|,.;?: -]).)*$</entry>
+	<entry key = "exprForTypeFormOrEntityTitle">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|,.;?: -]).)*$</entry>
+	<entry key = "exprForTypeOtherTitle">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|,.;?: -]).)*$</entry>
+	<entry key = "exprForTypeCompanyLevelId">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|,.;?: -]).)*$</entry>
+	<entry key = "exprForTypeCaptcha">^((?![a-zA-Z0-9]).)*$</entry>
+	<entry key = "exprForTypeNumber">^((?![0-9.-]).)*$</entry> 
+	<entry key = "exprForTypeNumberCsv">^((?![0-9.,-]).)*$</entry> 
+	<entry key = "exprForTypeAlphabet">^((?![a-zA-Z ]).)*$</entry> 
+	<entry key = "exprForTypeAlpahbetWithUnderscore">^((?![a-zA-Z _]).)*$</entry> 
+	<entry key = "exprForTypeAlpahbetWithHyphen">^((?![a-zA-Z -]).)*$</entry> 
+	<entry key = "exprForTypeAlpahbetWithHyphenAndUnderscore">^((?![a-zA-Z_ -]).)*$</entry> 
+	<entry key = "exprForTypeDatetime">^((?![a-zA-Z0-9./: -]).)*$</entry> 
+	<entry key = "exprForTypeJson">^((?![\x{0C00}-\x{0C7F}\x{0980}-\x{09FF}\x{0900}-\x{097F}\x{0B80}-\x{0BFF}\x{0600}-\x{06FF}\x{0C80}-\x{0CFF}\x{00A0}-\x{00FF}\x{0100}-\x{017F}\x{0180}-\x{024F}\x{0A80}-\x{0AFF}\x{0370}-\x{03FF}\x{0400}-\x{04FF}\x{0500}-\x{052F}\x{0E00}-\x{0E7F}\x{1000}-\x{109F}\x{10A0}-\x{10FF}\x{1200}-\x{137F}\x{0B00}-\x{0B7F}\x{1E00}-\x{1EFF}\x{20A0}-\x{20CF}\x{0D00}-\x{0D7F}\x{1F00}-\x{1FFF}\x{1780}-\x{17FF}\x{19E0}-\x{19FF}\x{10300}-\x{1032F}\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{F900}-\x{FAFF}\x{2F800}-\x{2FA1F}a-zA-Z0-9~@#&amp;$^*()!_+{}\[\]|\\,.;//\"?: -]).)*$</entry>
+	<entry key = "exprForTypeBoolean">^((?!(y|e|s|Y|E|S|n|o|N|O|t|r|u|T|R|U|F|A|L|f|a|l|1|0)).)*$</entry> 
+	<entry key = "exprForTypeLocation">^((?![0-9., -]).)*$</entry> 
+	<entry key = "exprForTypeSqlOrder">^((?!(A|S|C|D|E|a|s|c|d|e)).)*$</entry> 
+	<entry key = "exprForSkipNewLine">^([\n\t\r\f])*$</entry>
+	<entry key = "exprForTypeUrl">^((?![a-zA-Z0-9@#&amp;_+!,.;?=|/: -]).)*$</entry> 
+	<entry key = "exprForTypeAlphaNumeric">^((?![a-zA-Z0-9 ]).)*$</entry> 
+	<entry key = "exprForTypeExpression">^((?![a-zA-Z0-9&lt; &gt;,_]).)*$</entry>
+	<entry key = "exprForTypePositiveNumberCsv">^((?![0-9,]).)*$</entry> 
+	   <!-- SECURITY Utils ENDS NEW WITH MULTI-LANGUAGE SUPPORT AND XSS -->
+	   
+	<!--  Customer Activity Settings  -->
+	<entry key ="jobActivitiyVisibility">false</entry>
+	<!-- <entry key ="jobActivitiyVisibility">true</entry> -->
+	<!-- <entry key ="workActivitiyVisibility">true</entry> -->
+	<entry key ="workActivitiyVisibility">false</entry>
+	<entry key ="formActivitiyVisibility">true</entry>
+	<entry key ="jobActivitiyVisibilityKey">jobActivitiyVisibility</entry>
+	<entry key ="workActivitiyVisibilityKey">workActivityVisibility</entry>
+	<entry key ="formActivitiyVisibilityKey">formActivityVisibility</entry>
+	
+	
+	<!-- Sign-In/Out Activity Configuration Settings  -->
+	
+	<entry key ="signInActivitiyVisibility">false</entry>
+	<entry key ="signOutActivitiyVisibility">false</entry>
+	<entry key ="formsVisibleForSignInActivity">false</entry>
+	<entry key ="formsVisibleForSignOutActivity">false</entry>
+	<entry key ="signInActivitiyVisibilityKey">signInActivitiyVisibility</entry>
+	<entry key ="signOutActivitiyVisibilityKey">signOutActivitiyVisibility</entry>
+	
+	
+	<entry key ="displayFormActivitiesInMobileForms">false</entry>
+	<entry key ="displayFormActivitiesInMobileFormsKey">displayFormActivitiesInMobileFormsKey</entry>
+    <!-- <entry key ="xeroxServiceCallWorkSpec_ColumnNames_For_xls">Notification,Spare Parts,Qty,Parts Status,User status,PartnerResp.,Total Color,Total Mono,A3 Color,A3 Mono,Area,Total Length,Low Usage,Medium Usage,High Usage,Arrived Date,Arrived Time,Wk.St dt,Wk.St.tm.,Wk.Ed. dt.,Wk.Ed.tm,Causal Code group,Damage Code,Text Code,Remarks</entry> -->
+     <entry key ="xeroxServiceCallWorkSpec_ColumnNames_For_xls">Notification,Spare Parts,Qty,Parts Status,User status,PartnerResp.,Total Color,Total Mono,A3 Color,A3 Mono,Area,Total Length,Low Usage,Medium Usage,High Usage,Arrived Date,Arrived Time,Wk.St dt,Wk.St.tm.,Wk.Ed. dt.,Wk.Ed.tm,Causal Code group,Damage Code,Text Code,Remarks,Dispatch Date,Dispatch Time</entry>
+	
+	<entry key= "userFormSpecEditRestriction">1</entry>
+	<entry key= "system_defined_max_imageSize_for_type_image">10485760</entry><!-- bytes --> <!-- 10MB 10x1024x1024 bytes base2 method -->
+	<entry key= "system_defined_min_imageSize_for_type_image">5120</entry><!-- bytes --><!-- 5KB 5x1024 bytes base2 method -->
+	
+	<entry key ="timeSpentAtCustomerLocation">false</entry>
+	<entry key ="timeSpentAtCustomerLocationKey">timeSpentAtCustomerLocationKey</entry>
+	<entry key ="customerSkipCheckKey">customerSkipCheckKey</entry>
+	<entry key ="customerSkipCheckDaysKey">customerSkipCheckDaysKey</entry>
+	
+	<entry key ="minimumTimeSpentAtCustomerLocation">0</entry>
+	<entry key ="minimumTimeSpentAtCustomerLocationKey">minimumTimeSpentAtCustomerLocationKey</entry>
+	
+	<entry key="xeroxServiceCallsSerialNoUniqueIdKey">xeroxServiceCallsSerialNoUniqueIdKey</entry>
+	
+	<!-- <entry key ="arial_unicode_font_ttf_path">/resources/fonts/ufonts.com_arial-unicode-ms.ttf</entry> -->
+    <entry key ="arial_unicode_font_ttf_path">/fonts/ufonts.com_arial-unicode-ms.ttf</entry> 
+	<!-- <entry key ="walden_css_for_multi_lang_pdf_export">/resources/javaCss/walden.css</entry> -->
+	<entry key ="walden_css_for_multi_lang_pdf_export">/javaCss/walden.css</entry>
+	
+	<entry key="selectImportDateFormatKey">selectImportDateFormatKey</entry>
+	<entry key="selectImportDateFormat">1</entry>
+	
+	<entry key="workLocationDistance">250</entry> <!-- In meters  -->
+	
+	<entry key="captureImageAtStartWorkKey">captureImageAtStartWorkKey</entry>
+	
+	<entry key="pickContactFormPhoneBookKey">pickContactFormPhoneBookKey</entry>
+	<entry key="showNearbyKey">showNearbyKey</entry>
+	<entry key="mpinForKnoxKey">mpinForKnoxKey</entry>
+	<entry key="sapCompletedBackUpDirName">CompletedBackUp</entry>
+	<entry key="sapCompletedCSVBackUpDirName">CompletedCSVBackUp</entry>
+	<entry key="supportedIsdCodes">973,62,964,962,961,60,968,63,974,966,65,93,374,994,880,975,673,855,86,357,995,852,98,972,81,7,965,996,856,960,976,95,977,850,82,94,963,886,992,66,90,993,971,998,84,967,670</entry>
+	
+	<entry key="locationMandatoryCheckKeyForWork">locationMandatoryCheckWorkKey</entry>	
+    <entry key="locationMandatoryCheckForWork">false</entry>
+ 	<entry key="defaultLocationMandatoryCheckRadiusKeyForWork">defaultLocationMandatoryCheckRadiusWorkKey</entry>	
+    <entry key="defaultLocationMandatoryCheckRadiusForWork">50</entry>
+	<entry key="enforceWorkCheckInKey">enforceWorkCheckInKey</entry>	
+    <entry key="enforceWorkCheckIn">false</entry>
+ 	<entry key="forceWorkCheckInCheckOutKey">forceWorkCheckInCheckOutKey</entry>	
+    <entry key="forceWorkCheckInCheckOut">false</entry>
+    <entry key="checkOutWorkOnStopWorkKey">checkOutWorkOnStopWorkKey</entry>	
+    <entry key="checkOutWorkOnStopWork">false</entry>
+    
+    <entry key="formOnSignInSignOutKey">formOnSignInSignOut</entry>
+	<entry key="formOnSignInSignOut">1</entry>
+	<entry key="printLogs">false</entry>
+	<entry key="showPreviousDaySignInAtDashboardKey">showPreviousDaySignInAtDashboard</entry>
+    <entry key="callDurationThresholdKey">callDurationThresholdKey</entry>
+    <entry key="callDurationThreshold">30</entry>
+    <entry key="dashboardRefreshTimeInMinutesKey">dashboardRefreshTimeInMinutes</entry>
+    <entry key="companyPasswordSetting">true</entry>
+	<entry key="companyPasswordSettingKey">companyPasswordSettingKey</entry>
+	<entry key ="rootDetection">true</entry>
+	<entry key ="rootDetectionKey">allowRootedDevices</entry>
+	<entry key="eliminateDuplicateMedia">true</entry>
+	<entry key="eliminateDuplicateMediaKey">eliminateDuplicateMediaKey</entry>
+	
+	<entry key="enableCustomerHierarchyKey">enableCustomerHierarchyKey</entry>
+	
+	<entry key="canAssignOnUnavailabityKey">canAssignOnUnavailabityKey</entry>	
+    <entry key="canAssignOnUnavailabity">true</entry>
+    <entry key= "system_defined_max_reportMail_attachmentSize">5242880</entry> <!-- bytes --> <!-- 5MB 5x1024x1024 bytes base2 method -->
+   <!--  <entry key= "system_defined_max_reportMail_attachmentSize">14000</entry> -->
+   
+   
+   <entry key="enableProximityForCustomerCheckInKey">enableProximityForCustomerCheckInKey</entry>	
+   <entry key="enableProximityForCustomerCheckIn">false</entry>
+   
+    <entry key="enableProximityForCustomerCheckOutKey">enableProximityForCustomerCheckOutKey</entry>	
+   <entry key="enableProximityForCustomerCheckOut">false</entry>
+   
+    <entry key="forceCustomerCheckOutKey">forceCustomerCheckOutKey</entry>	
+   <entry key="forceCustomerCheckOut">false</entry>
+   
+   
+   <entry key="enableProximityForActivitiesKey">enableProximityForActivitiesKey</entry>	
+   <entry key="enableProximityForActivities">false</entry>
+   
+    <entry key="enableProximityForJobKey">enableProximityForJobKey</entry>	
+   <entry key="enableProximityForJob">false</entry>
+   
+    <entry key="enableProximityForWorkKey">enableProximityForWorkKey</entry>	
+   <entry key="enableProximityForWork">false</entry>
+   
+    <entry key="checkOutOnlyInForceCheckInLocationKey">checkOutOnlyInForceCheckInLocation</entry>	
+   <entry key="checkOutOnlyInForceCheckInLocation">false</entry>
+   
+    <entry key="allowActivitiesOnlyInForceCheckInLocationKey">allowActivitiesOnlyInForceCheckInLocation</entry>	
+   <entry key="allowActivitiesOnlyInForceCheckInLocation">false</entry>
+   
+   
+   <entry key="dateForSendingIncompletedWorks">2017-06-30</entry>
+    <entry key="muluguSurveyTotalScore">60</entry>
+     
+     <entry key="useOpenStreetMapsKey">useOpenStreetMapsKey</entry>
+     <!-- <entry key="spoorsStateCode">36</entry>
+	<entry key="invoiceTaxMataDataIdsOfSameStates">1,2</entry>
+	<entry key="invoiceTaxMataDataIdsOfOtherStates">3</entry> -->
+	<entry key="sac_code">998315</entry>
+	<entry key="spoors_GSTIN_No">36AATCS0562K1ZU</entry>
+	
+	<entry key="effortPredefinedAdUserPassword">Spoors@123</entry>
+	<entry key="ltf_fi_rcu_dataPushRetryCountLimit">20</entry>
+    
+    <entry key="ibgrp_schedulerTaskForms_RetryCount_Limit">4</entry>
+    <entry key="ibgrp_schedulerTaskForms_DailyRetryCount_Limit">20</entry>
+    
+    <entry key="sendWorkTrackUrlToCustomerMailSubject">Track Work</entry>
+    
+    <entry key="canAllowPrevoiusAction">false</entry>	
+    <entry key="canAllowPrevoiusActionKey">canAllowPrevoiusActionKey</entry>
+    <entry key="disableReportValidation">false</entry>
+    <entry key="gridFencingDistance">50</entry>	
+    <entry key="gridFencingDistanceKey">gridFencingDistanceKey</entry>
+    <entry key="sterilite_dashboard_not_entered_threshold">60</entry>
+    <entry key="mobileSignInType">true</entry>
+    <entry key="mobileSignInTypeKey">mobileSignInTypeKey</entry>
+    <entry key="obl_customer_allowed_dealer_categories">A,B,C</entry>
+    <entry key="leaveApplyModeKey">leaveApplyMode</entry>
+    <entry key="leaveApplyMode">1</entry>
+    <entry key="dailyPlanTypeKey">dailyPlanType</entry>
+    <entry key="dailyPlanType">1</entry>
+    <entry key="showLeaveApproveOrRejectButton">showLeaveApproveOrRejectButton</entry>
+    <entry key="runOnServiceKey">runOnServiceKey</entry>
+    <entry key="minimumActivitiesPerDayVanitha">5</entry>
+    <entry key="maxKiloMetersForLocalDistanceVanitha">50</entry>
+    
+    <entry key="ltfAdServiceUserName">ltfspoors</entry>
+    <entry key="ltfAdServicePassword">trewq@321</entry>
+    
+    <entry key="googleDirectionsServiceApiURL">https://maps.googleapis.com/maps/api/directions/json?origin={origin}&amp;destination={destination}&amp;client={client}&amp;mode={mode}</entry>
+    <entry key="googleMapClient">gme-spoorstechnology</entry>
+	<entry key="googleMapKeyString">LWFKFv5GyJPYvgOMT2n0PvMiFXg=</entry>
+	
+	<entry key="monthPlanApproval">true</entry>
+    <entry key="monthPlanApprovalKey">monthPlanApproval</entry>
+    <entry key="stockFromERPKey">https://14.140.109.181:5048/OrientBell/OData/Company('Orient%20Bell%20Limited')/Inventory?$filter='</entry>
+    
+    <entry key="locationTimeoutForActivityKey">locationTimeoutForActivity</entry>
+    <entry key="locationTimeoutForActivity">180</entry>
+    
+    
+    <entry key="enforceCustomEntityCheckInKey">enforceCustomEntityCheckIn</entry>
+    <entry key="locationMandatoryCheckForCustomEntityKey">locationMandatoryCheckForCustomEntity</entry>
+    <entry key="defaultlocationMandatoryCheckForCustomEntityRadiusKey">defaultlocationMandatoryCheckForCustomEntityRadius</entry>
+    <entry key="enableProximityForCustomEntityCheckInKey">enableProximityForCustomEntityCheckIn</entry>
+    <entry key="forceCustomEntityCheckInCheckOutKey">forceCustomEntityCheckInCheckOut</entry>
+    <entry key="enableProximityForCustomEntityCheckOutKey">enableProximityForCustomEntityCheckOut</entry>
+    <entry key="forceCustomEntityCheckOutKey">forceCustomEntityCheckOut</entry>
+    <entry key="enableProximityForActivitiesAtCEKey">enableProximityForActivitiesAtCE</entry>
+    <entry key="checkOutOnlyInForceCheckInLocationAtCEKey">checkOutOnlyInForceCheckInLocationAtCE</entry>
+    <entry key="allowActivitiesOnlyInForceCheckInLocationAtCEKey">allowActivitiesOnlyInForceCheckInLocationAtCE</entry>
+    <entry key="performForceWorkAtCustomEntityKey">performForceWorkAtCustomEntity</entry>
+    <entry key="performForceActivitiesAtCEKey">performForceActivitiesAtCE</entry>
+    <entry key="enableProximityForWorkAtCustomEntityKey">enableProximityForWorkAtCustomEntity</entry>	
+    
+    <entry key="mapCustomEntitySpecToEmployeeKey">mapCustomEntitySpecToEmployee</entry>
+    <entry key="visibleCustomEntitySpecKey">visibleCustomEntitySpec</entry>
+    <entry key="sendCustomEntitySpecForOfflineUseKey">sendCustomEntitySpecForOfflineUse</entry>
+    <entry key="sendCutomEntityDataInSyncViaKey">sendCutomEntityDataInSyncVia</entry>
+    
+    <entry key="disableInternFieldNamesForJsonObjectMapper">true</entry>
+    
+    <entry key="syncRequestLimitSizeInBytes">2097152</entry> <!-- 2097152 = 2MB -->
+    <entry key="syncResponseLimitSizeInBytes">5242880</entry> <!-- 5242880 = 5MB -->
+    
+    <entry key="supportMultiLanguageKey">supportMultiLanguage</entry>
+    <entry key="encryptSqliteFile">false</entry>
+    <entry key="encryptSqliteFileKey">encryptSqliteFile</entry>
+    <entry key="showNextActionPopUpKey">showNextActionPopUp</entry>
+    <entry key="showNextActionPopUp">false</entry>
+    
+    <entry key="work_to_form_fields_auto_copy_created_by_uniqueId">-15</entry>
+    <entry key="oblCustomerImportUserName">orientbell</entry>
+    <entry key="oblCustomerImportPassword">Orient#123</entry>
+    
+    <entry key="trackSignInKey">trackSignIn</entry>
+    <entry key="trackSignIn">true</entry>
+    <entry key="trackSignOutKey">trackSignOut</entry>
+    <entry key="trackSignOut">true</entry>
+    <entry key="trackDuringSignInSignOutKey">trackDuringSignInSignOut</entry>
+    <entry key="trackDuringSignInSignOut">true</entry>
+    <entry key="trackCheckInKey">trackCheckIn</entry>
+    <entry key="trackCheckIn">true</entry>
+    <entry key="trackCheckOutKey">trackCheckOut</entry>
+    <entry key="trackCheckOut">true</entry>
+    <entry key="trackDuringCheckInCheckOutKey">trackDuringCheckInCheckOut</entry>
+    <entry key="trackDuringCheckInCheckOut">true</entry>
+    <entry key="trackFormsKey">trackForms</entry>
+    <entry key="trackForms">true</entry>
+    <entry key="trackRoutePlansKey">trackRoutePlans</entry>
+    <entry key="trackRoutePlans">true</entry>
+    <entry key="trackWorksKey">trackWorks</entry>
+    <entry key="trackWorks">true</entry>
+    
+    <entry key="siemensServiceOrderWorkSpecId">siemensServiceOrderWorkSpecId</entry>
+    <entry key="siemensServiceOrderDocumentIdFieldSpecUniqueId">siemensServiceOrderDocumentIdFieldSpecUniqueId</entry>
+    <entry key="siemensServiceOrderProjectNameFieldSpecUniqueId">siemensServiceOrderProjectNameFieldSpecUniqueId</entry>
+    <entry key="siemensServiceOrderCustomeFieldSpecUniqueId">siemensServiceOrderCustomeFieldSpecUniqueId</entry>
+    <entry key="siemensServiceOrderSerialNumberFieldSpecUniqueId">siemensServiceOrderSerialNumberFieldSpecUniqueId</entry>
+    <entry key="siemensServiceOrderCustomerPoFieldSpecUniqueId">siemensServiceOrderCustomerPoFieldSpecUniqueId</entry>
+    
+    <entry key="siemensServiceOrderSubTaskWorkSpecActionSpecId">siemensServiceOrderSubTaskWorkSpecActionSpecId</entry>
+    <entry key="siemensCustomerTimeSheetFormSpecUniqueId">siemensCustomerTimeSheetFormSpecUniqueId</entry>
+    
+    <entry key="siemensCustomerTimeSheetDateFieldSpecUniqueId">siemensCustomerTimeSheetDateFieldSpecUniqueId</entry>
+    <entry key="siemensCustomerTimeSheetActivityTypeFieldSpecUniqueId">siemensCustomerTimeSheetActivityTypeFieldSpecUniqueId</entry>
+    <entry key="siemensCustomerTimeSheetStartTimeFieldSpecUniqueId">siemensCustomerTimeSheetStartTimeFieldSpecUniqueId</entry>
+    <entry key="siemensCustomerTimeSheetEndTimeFieldSpecUniqueId">siemensCustomerTimeSheetEndTimeFieldSpecUniqueId</entry>
+    <entry key="siemensCustomerTimeSheetRestHoursFieldSpecUniqueId">siemensCustomerTimeSheetRestHoursFieldSpecUniqueId</entry>
+    <entry key="siemensCustomerTimeSheetWorkHoursFieldSpecUniqueId">siemensCustomerTimeSheetWorkHoursFieldSpecUniqueId</entry>
+    <entry key="siemensCustomerTimeSheetTypeOfChargingFieldSpecUniqueId">siemensCustomerTimeSheetTypeOfChargingFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetCcNoFieldSpecUniqueId">siemensCustomerTimeSheetCcNoFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWbsNo1FieldSpecUniqueId">siemensCustomerTimeSheetWbsNo1FieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWbsNo2FieldSpecUniqueId">siemensCustomerTimeSheetWbsNo2FieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWbsNo3FieldSpecUniqueId">siemensCustomerTimeSheetWbsNo3FieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWbsNo4FieldSpecUniqueId">siemensCustomerTimeSheetWbsNo4FieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWbs62OcFieldSpecUniqueId">siemensCustomerTimeSheetWbs62OcFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetShoreFieldSpecUniqueId">siemensCustomerTimeSheetShoreFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetHardShipFieldSpecUniqueId">siemensCustomerTimeSheetHardShipFieldSpecUniqueId</entry>
+    <entry key="siemensCustomerTimeSheetRemarksFieldSpecUniqueId">siemensCustomerTimeSheetRemarksFieldSpecUniqueId</entry>
+    <entry key="siemensEmployeeBuDepCostCenterEntitySpecId">siemensEmployeeBuDepCostCenterEntitySpecId</entry>
+    <entry key="siemensEmployeeBuDepCostCenterEmployeeEntityFieldSpecId">siemensEmployeeBuDepCostCenterEmployeeEntityFieldSpecId</entry>
+  	<entry key="siemensEmployeeBuDepCostCenterBusinessUnitEntityFieldSpecId">siemensEmployeeBuDepCostCenterBusinessUnitEntityFieldSpecId</entry>
+  	<entry key="siemensEmployeeBuDepCostCenterDepartmentEntityFieldSpecId">siemensEmployeeBuDepCostCenterDepartmentEntityFieldSpecId</entry>
+  	<entry key="siemensEmployeeBuDepCostCenterCostCenterEntityFieldSpecId">siemensEmployeeBuDepCostCenterCostCenterEntityFieldSpecId</entry>
+  
+    <entry key="siemensCustomerTimeSheetWorkSpecId">siemensCustomerTimeSheetWorkSpecId</entry>
+    
+     <entry key="siemensMonthlyTimeSheetFormSpecUniqueId">siemensMonthlyTimeSheetFormSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetDateFieldSpecUniqueId">siemensMonthlyTimeSheetDateFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetActivityTypeFieldSpecUniqueId">siemensMonthlyTimeSheetActivityTypeFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetStartTimeFieldSpecUniqueId">siemensMonthlyTimeSheetStartTimeFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetEndTimeFieldSpecUniqueId">siemensMonthlyTimeSheetEndTimeFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetWorkHoursFieldSpecUniqueId">siemensMonthlyTimeSheetWorkHoursFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetRestHoursFieldSpecUniqueId">siemensMonthlyTimeSheetRestHoursFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetTypeOfChargingFieldSpecUniqueId">siemensMonthlyTimeSheetTypeOfChargingFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetCcNoFieldSpecUniqueId">siemensMonthlyTimeSheetCcNoFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetWbsNo1FieldSpecUniqueId">siemensMonthlyTimeSheetWbsNo1FieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetWbsNo2FieldSpecUniqueId">siemensMonthlyTimeSheetWbsNo2FieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetWbsNo3FieldSpecUniqueId">siemensMonthlyTimeSheetWbsNo3FieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetWbsNo4FieldSpecUniqueId">siemensMonthlyTimeSheetWbsNo4FieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetWbs62OcFieldSpecUniqueId">siemensMonthlyTimeSheetWbs62OcFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetShoreFieldSpecUniqueId">siemensMonthlyTimeSheetShoreFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetHardShipFieldSpecUniqueId">siemensMonthlyTimeSheetHardShipFieldSpecUniqueId</entry>
+     <entry key="siemensMonthlyTimeSheetRemarksFieldSpecUniqueId">siemensMonthlyTimeSheetRemarksFieldSpecUniqueId</entry>
+     <entry key="siemensEmployeeDeparmentMappingEntitySpecId">siemensEmployeeDeparmentMappingEntitySpecId</entry>
+     <entry key="siemensEmployeeDeparmentMappingDepartmentEntityFieldSpecId">siemensEmployeeDeparmentMappingDepartmentEntityFieldSpecId</entry>
+     <entry key="siemensEmployeeDeparmentMappingEmployeeEntityFieldSpecId">siemensEmployeeDeparmentMappingEmployeeEntityFieldSpecId</entry>
+     <entry key="siemensEmployeeDeparmentMappingBusinessUnitEntityFieldSpecId">siemensEmployeeDeparmentMappingBusinessUnitEntityFieldSpecId</entry>
+     <entry key="siemensBusinessUnitEntitySpecId">siemensBusinessUnitEntitySpecId</entry>
+     <entry key="siemensDepartmentDepartmentEntityFieldSpecId">siemensDepartmentDepartmentEntityFieldSpecId</entry>
+     <entry key="siemensDepartmentBusinessUnitEntityFieldSpecId">siemensDepartmentBusinessUnitEntityFieldSpecId</entry>
+     <entry key="siemensActivityTypeEntitySpecId">siemensActivityTypeEntitySpecId</entry>
+     <entry key="siemensActivityTypeTypeEntityFieldSpecId">siemensActivityTypeTypeEntityFieldSpecId</entry>
+     <entry key="siemensActivityTypeActivityTypeEntityFieldSpecId">siemensActivityTypeActivityTypeEntityFieldSpecId</entry>
+     <entry key="siemensDepartmentEntitySpecId">siemensDepartmentEntitySpecId</entry>
+     <entry key="siemensTypeEntitySpecId">siemensTypeEntitySpecId</entry>
+     
+     <entry key="siemensCustomerTimeSheetWorkFormSpecUniqueId">siemensCustomerTimeSheetWorkFormSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkWBSTypeFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWBSTypeFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkWBS1DigitFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWBS1DigitFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkWBS2DigitFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWBS2DigitFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkWBS3DigitFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWBS3DigitFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkWBS4DigitFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWBS4DigitFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkLocationFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkLocationFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkDailyRateFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkDailyRateFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkHourlyRateFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkHourlyRateFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkStartDateFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkStartDateFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkEndDateFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkEndDateFormFieldSpecUniqueId</entry>
+     <entry key="siemensActivityTypeValidEntityIdsForCBReport">siemensActivityTypeValidEntityIdsForCBReport</entry>
+     <entry key="siemensCustomerTimeSheetDomesticOrInterNationalFieldSpecUniqueId">siemensCustomerTimeSheetDomesticOrInterNationalFieldSpecUniqueId</entry>
+     <entry key="siemensDomesticEntityId">siemensDomesticEntityId</entry>
+     <entry key="siemensInternationalEntityId">siemensInternationalEntityId</entry>
+
+     <entry key="siemensTravelEntityIds">siemensTravelEntityIds</entry>
+
+     <entry key="siemensCustomerTimeSheetWorkWBSDigitFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWBSDigitFormFieldSpecUniqueId</entry>
+     <entry key="siemensCustomerTimeSheetWorkWBS620CFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWBS620CFormFieldSpecUniqueId</entry>
+     <entry key="siemens620PEntityId">siemens620PEntityId</entry>
+     <entry key="siemens620CEntityId">siemens620CEntityId</entry>
+     <entry key="siemensCustomerTimeSheetWorkWorkNameFormFieldSpecUniqueId">siemensCustomerTimeSheetWorkWorkNameFormFieldSpecUniqueId</entry>
+     <entry key="siemensDIReportCustomerTimeSheetFormSpecActivityTypeSupportedEntities">siemensDIReportCustomerTimeSheetFormSpecActivityTypeSupportedEntities</entry>
+     
+     <entry key="maharajaOfflineOrderFormSpecUniqueId">maharajaOfflineOrderFormSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormCustomerFieldSpecUniqueId">maharajaOfflineOrderFormCustomerFieldSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormCategorySectionFieldSpecUniqueId">maharajaOfflineOrderFormCategorySectionFieldSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormProductSectionFieldSpecUniqueId">maharajaOfflineOrderFormProductSectionFieldSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormQuantitySectionFieldSpecUniqueId">maharajaOfflineOrderFormQuantitySectionFieldSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormPriceSectionFieldSpecUniqueId">maharajaOfflineOrderFormPriceSectionFieldSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormCmmfCodeSectionFieldSpecUniqueId">maharajaOfflineOrderFormCmmfCodeSectionFieldSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormStockOnDisplaySectionFieldSpecUniqueId">maharajaOfflineOrderFormStockOnDisplaySectionFieldSpecUniqueId</entry>
+     <entry key="maharajaOfflineOrderFormStockOnGodownSectionFieldSpecUniqueId">maharajaOfflineOrderFormStockOnGodownSectionFieldSpecUniqueId</entry>
+     
+     <entry key="siemensUtilizationEntitySpecId">siemensUtilizationEntitySpecId</entry>
+     <entry key="siemensUtilizationEntitySpecBUEntityFieldSpecId">siemensUtilizationEntitySpecBUEntityFieldSpecId</entry>
+	 <entry key="siemensUtilizationEntitySpecDepartmentEntityFieldSpecId">siemensUtilizationEntitySpecDepartmentEntityFieldSpecId</entry>
+	 <entry key="siemensUtilizationEntitySpecFromDateEntityFieldSpecId">siemensUtilizationEntitySpecFromDateEntityFieldSpecId</entry>
+	 <entry key="siemensUtilizationEntitySpecToDateEntityFieldSpecId">siemensUtilizationEntitySpecToDateEntityFieldSpecId</entry>
+	 <entry key="siemensUtilizationEntitySpecPublicHolidaysEntityFieldSpecId">siemensUtilizationEntitySpecPublicHolidaysEntityFieldSpecId</entry>
+	 <entry key="siemensUtilizationEntitySpecBudgetHeadCountEntityFieldSpecId">siemensUtilizationEntitySpecBudgetHeadCountEntityFieldSpecId</entry>
+	 <entry key="siemensUtilizationEntitySpecHoursPerMonthEntityFieldSpecId">siemensUtilizationEntitySpecHoursPerMonthEntityFieldSpecId</entry>
+	 <entry key="siemensUtilizationEntitySpecAvailableHeadCountEntityFieldSpecId">siemensUtilizationEntitySpecAvailableHeadCountEntityFieldSpecId</entry>
+     <entry key="siemensLoadFromActualOrdersInHandEntityId">siemensLoadFromActualOrdersInHandEntityId</entry>
+     <entry key="siemensHolidayAndVacationEntityId">siemensHolidayAndVacationEntityId</entry>
+     <entry key="siemensSickenessEntityId">siemensSickenessEntityId</entry>
+     <entry key="siemensIndirectHoursOwnDepartmentEntityId">siemensIndirectHoursOwnDepartmentEntityId</entry>
+     <entry key="siemensWeeklyOffEntityId">siemensWeeklyOffEntityId</entry>
+     <entry key="siemensTrainingEntityId">siemensTrainingEntityId</entry>
+     <entry key="siemensWorkingHoursPerDay">siemensWorkingHoursPerDay</entry>
+     
+     <entry key="siemensCompanyIds">siemensCompanyIds</entry>
+     <entry key="siemensServiceOrderTypeOfServiceFieldSpecUniqueId">siemensServiceOrderTypeOfServiceFieldSpecUniqueId</entry>
+     <entry key="siemensServiceOrderActualEndActionSpecId">siemensServiceOrderActualEndActionSpecId</entry>
+     
+     <entry key="siemensServiceOrderTypeOfServiceEntitySpecServiceEntityId">siemensServiceOrderTypeOfServiceEntitySpecServiceEntityId</entry>
+     <entry key="siemensServiceOrderTypeOfServiceEntitySpecNewUnitIandCEntityId">siemensServiceOrderTypeOfServiceEntitySpecNewUnitIandCEntityId</entry>
+     
+     <entry key="siemensServiceOrderActionSpecIdForMobilization">siemensServiceOrderActionSpecIdForMobilization</entry>
+     <entry key="siemensServiceOrderPlannedOrBreakdownFieldSpecUniqueId">siemensServiceOrderPlannedOrBreakdownFieldSpecUniqueId</entry>
+     <entry key="siemensPlannedOrBreakDownEntitySpecBreakDownEntityId">siemensPlannedOrBreakDownEntitySpecBreakDownEntityId</entry>
+     <entry key="siemensServiceOrderActualEndActionDateFieldSpecUniqueId">siemensServiceOrderActualEndActionDateFieldSpecUniqueId</entry>
+     <entry key="siemensServiceOrderAcceptanceOfFSReportActionSpecId">siemensServiceOrderAcceptanceOfFSReportActionSpecId</entry>
+     <entry key="siemensServiceOrderJourneyTypeFieldSpecUniqueId">siemensServiceOrderJourneyTypeFieldSpecUniqueId</entry>
+     <entry key="siemensServiceOrderActionSpecIdForDelegation">siemensServiceOrderActionSpecIdForDelegation</entry>
+     <entry key="latest_client_production_version">6</entry>
+     <entry key="siemensServiceOrdeWorkSpecTicketWorkProcessSubTaskSpecId">siemensServiceOrdeWorkSpecTicketWorkProcessSubTaskSpecId</entry>
+     <entry key="siemensTicketWorkSpecId">siemensTicketWorkSpecId</entry>
+     <entry key="siemensTicketWorkSpecTypeOfTicketFieldSpecUniqueId">siemensTicketWorkSpecTypeOfTicketFieldSpecUniqueId</entry>
+     <entry key="siemensTypeOfTicketEntitySpecCustomerCallEntityId">siemensTypeOfTicketEntitySpecCustomerCallEntityId</entry>
+     <entry key="siemensServiceOrderOrderDetailsFieldSpecUniqueId">siemensServiceOrderOrderDetailsFieldSpecUniqueId</entry>
+     <entry key="siemensOrderDetailsEntitySpecId">siemensOrderDetailsEntitySpecId</entry>
+     <entry key="siemensOrderDetailsEntitySpecFreeOfChargeEntityId">siemensOrderDetailsEntitySpecFreeOfChargeEntityId</entry>
+     <entry key="siemensOrderDetailsEntitySpecSeeAndCareVisitEntityId">siemensOrderDetailsEntitySpecSeeAndCareVisitEntityId</entry>
+     <entry key="siemensOrderDetailsEntitySpecSalesSupportByFsEntityId">siemensOrderDetailsEntitySpecSalesSupportByFsEntityId</entry>
+     <entry key="siemensOrderDetailsValidEntityIdsForServiceJobsAndIcJobs">siemensOrderDetailsValidEntityIdsForServiceJobsAndIcJobs</entry>
+     <entry key="siemensServiceOrderInvoiceSubmissionActionSpecId">siemensServiceOrderInvoiceSubmissionActionSpecId</entry>
+     <entry key="siemensSiteClosureFormSpecUniqueId">siemensSiteClosureFormSpecUniqueId</entry>
+     <entry key="siemensSiteClosureFormSpecHaveYouGotCustomerFeedBackFieldSpecUniqueId">siemensSiteClosureFormSpecHaveYouGotCustomerFeedBackFieldSpecUniqueId</entry>
+     <entry key="siemensServiceOrderWorkSpecSiteClosureActionSpecId">siemensServiceOrderWorkSpecSiteClosureActionSpecId</entry>
+     <entry key="siemensMonthlyTimeSheetWorkSpecId">siemensMonthlyTimeSheetWorkSpecId</entry>
+     
+     <!-- Aqua constants -->
+     <entry key="ibgrp_aqua_zones_entity_specId">ibgrp_aqua_zones_entity_specId</entry>
+	 <entry key="ibgrp_aqua_states_entity_specId">ibgrp_aqua_states_entity_specId</entry>
+	 <entry key="ibgrp_aqua_zone_state_mapping_entity_specId">ibgrp_aqua_zone_state_mapping_entity_specId</entry>
+	 <entry key="ibgrp_aqua_zone_state_mapping_zone_entityField_specId">ibgrp_aqua_zone_state_mapping_zone_entityField_specId</entry>
+	 <entry key="ibgrp_aqua_zone_state_mapping_state_entityField_specId">ibgrp_aqua_zone_state_mapping_state_entityField_specId</entry>
+     <entry key="aquaDealerCustomEntitySpecId">aquaDealerCustomEntitySpecId</entry>
+     <entry key="aquaPondCustomEntitySpecId">aquaPondCustomEntitySpecId</entry>
+     <entry key="aquaFarmerCustomEntitySpecId">aquaFarmerCustomEntitySpecId</entry>
+     <entry key="aquaSalesTargetEntitySpecId">aquaSalesTargetEntitySpecId</entry>
+     <entry key="aquaCollectionsTargetEntitySpecId">aquaCollectionsTargetEntitySpecId</entry>
+     
+     
+     <entry key="ibCustomerTypeEntityId">ibCustomerTypeEntityId</entry>
+     <entry key="competitorCustomerTypeEntityId">competitorCustomerTypeEntityId</entry>
+     
+     <!-- Farmer starts -->
+     <entry key="farmerTypeFishCustomerTypeId">farmerTypeFishCustomerTypeId</entry>
+     <entry key="farmerTypeShrimpCustomerTypeId">farmerTypeShrimpCustomerTypeId</entry>
+     <entry key="customerTypeFieldSpecUniqueId">customerTypeFieldSpecUniqueId</entry><!-- IB or Competitor -->
+     <entry key="farmerCultureTypeUniqueId">farmerCultureTypeUniqueId</entry>
+ 	 <entry key="farmerCultureTypeFishEntityId">farmerCultureTypeFishEntityId</entry>
+ 	 <entry key="farmerCultureTypeShrimpEntityId">farmerCultureTypeShrimpEntityId</entry>
+ 	 <entry key="farmerCultureTypeBothEntityId">farmerCultureTypeBothEntityId</entry>
+ 	 <entry key="farmerIbCustomerTypeId">farmerIbCustomerTypeId</entry>
+     <entry key="farmerCompetitorCustomerTypeId">farmerCompetitorCustomerTypeId</entry>
+     <!-- Dealer starts -->
+     <entry key="dealerCultureTypeFieldSpecUniqueId">dealerCultureTypeFieldSpecUniqueId</entry><!-- Fish or shrimp or both -->
+     <entry key="dealerCultureTypeFishEntityId">dealerCultureTypeFishEntityId</entry>
+	 <entry key="dealerCultureTypeShrimpEntityId">dealerCultureTypeShrimpEntityId</entry>
+	 <entry key="dealerCultureTypeBothEntityId">dealerCultureTypeBothEntityId</entry>
+	 <entry key="dealerTypeFieldSpecUniqueId">dealerTypeFieldSpecUniqueId</entry><!-- IB or Competitor -->
+	 <!--Ponds starts  -->
+	 <entry key="pondCultureTypeFieldSpecUniqueId">pondCultureTypeFieldSpecUniqueId</entry><!-- Fish or shrimp or both -->
+     <entry key="pondCultureTypeFishEntityId">pondCultureTypeFishEntityId</entry>
+	 <entry key="pondCultureTypeShrimpEntityId">pondCultureTypeShrimpEntityId</entry>
+	 <entry key="pondCultureTypeBothEntityId">pondCultureTypeBothEntityId</entry>
+	 <entry key="pondTypeFieldSpecUniqueId">pondTypeFieldSpecUniqueId</entry><!-- IB or Competitor -->
+      <!-- Aqua constants -->
+      
+     <entry key="aqua_salesTarget_entitySpecId">aqua_salesTarget_entitySpecId</entry><!-- sales Targer Entity Spec -->
+     <entry key="aqua_salesTarget_emp_entityFieldSpecId">aqua_salesTarget_emp_entityFieldSpecId</entry>
+	 <entry key="aqua_salesTarget_salesTarget_entityFieldSpecId">aqua_salesTarget_salesTarget_entityFieldSpecId</entry>
+	 <entry key="aqua_salesTarget_salesAchivement_entityFieldSpecId">aqua_salesTarget_salesAchivement_entityFieldSpecId</entry>
+	 
+	 <entry key="aqua_collectionsTarget_entitySpecId">aqua_collectionsTarget_entitySpecId</entry><!-- collection Targer Entity Spec -->
+     <entry key="aqua_collectionsTarget_emp_entityFieldSpecId">aqua_collectionsTarget_emp_entityFieldSpecId</entry>
+	 <entry key="aqua_collectionsTarget_collectionsTarget_entityFieldSpecId">aqua_collectionsTarget_collectionsTarget_entityFieldSpecId</entry>
+	 <entry key="aqua_collectionsTarget_collectionsAchivement_entityFieldSpecId">aqua_collectionsTarget_collectionsAchivement_entityFieldSpecId</entry>
+	 <entry key="aqua_pond_culture_area_fieldSpec_uniuqeId">aqua_pond_culture_area_fieldSpec_uniuqeId</entry>
+	 <entry key="stocking_seed_fieldSpec_uniuqeId">stocking_seed_fieldSpec_uniuqeId</entry>
+	 
+	 <entry key="dealer_customer_formFieldSpec_uniqueId">dealer_customer_formFieldSpec_uniqueId</entry>
+	 <entry key="noOfPonds_customer_formFieldSpec_uniqueId">noOfPonds_customer_formFieldSpec_uniqueId</entry>
+	 <entry key="area_customer_formFieldSpec_uniqueId">area_customer_formFieldSpec_uniqueId</entry>
+	 <entry key="water_reserviors_formFieldSpec_uniqueId">water_reserviors_formFieldSpec_uniqueId</entry>
+	 <entry key="no_of_reserviors_formFieldSpec_uniqueId">no_of_reserviors_formFieldSpec_uniqueId</entry>
+	  
+	  <entry key="pondCustomEntitySpec_pondName_formFieldSpec_uniqueId">pondCustomEntitySpec_pondName_formFieldSpec_uniqueId</entry>
+	 <entry key="pondCustomEntitySpec_farmerName_formFieldSpec_uniqueId">pondCustomEntitySpec_farmerName_formFieldSpec_uniqueId</entry>
+	 <entry key="pondCustomEntitySpec_feedBrand_formFieldSpec_uniqueId">pondCustomEntitySpec_feedBrand_formFieldSpec_uniqueId</entry>
+	<entry key="pondCustomEntitySpec_pondOwnershipType_formFieldSpec_uniqueId">pondCustomEntitySpec_pondOwnershipType_formFieldSpec_uniqueId</entry>
+	<entry key="pondCustomEntitySpec_pondLocationDistrict_formFieldSpec_uniqueId">pondCustomEntitySpec_pondLocationDistrict_formFieldSpec_uniqueId</entry>
+	<entry key="pondCustomEntitySpec_pondLocationVillege_formFieldSpec_uniqueId">pondCustomEntitySpec_pondLocationVillege_formFieldSpec_uniqueId</entry>
+	<entry key="pondCustomEntitySpec_typeOfPond_formFieldSpec_uniqueId">pondCustomEntitySpec_typeOfPond_formFieldSpec_uniqueId</entry>
+	<entry key="pondCustomEntitySpec_pondSize_formFieldSpec_uniqueId">pondCustomEntitySpec_pondSize_formFieldSpec_uniqueId</entry>
+	
+	<entry key="aqua_fish_stockingFromSpec_uniqueId">aqua_fish_stockingFromSpec_uniqueId</entry>
+	<entry key="stockingFormSpec_pondName_formFieldSpec_uniqueId">stockingFormSpec_pondName_formFieldSpec_uniqueId</entry>
+	<entry key="stockingFormSpec_stockingDate_formFieldSpec_uniqueId">stockingFormSpec_stockingDate_formFieldSpec_uniqueId</entry>
+	<entry key="pondCustomEntitySpec_seedStockingQty_formFieldSpec_uniqueId">pondCustomEntitySpec_seedStockingQty_formFieldSpec_uniqueId</entry>
+	<entry key="stockingFormSpec_stockingDensity_formFieldSpec_uniqueId">stockingFormSpec_stockingDensity_formFieldSpec_uniqueId</entry>
+	<entry key="pondCustomEntitySpec_pondCultureType_formFieldSpec_uniqueId">pondCustomEntitySpec_pondCultureType_formFieldSpec_uniqueId</entry>
+	<entry key="stockingFormSpec_fishSpecies_formFieldSpec_uniqueId">stockingFormSpec_fishSpecies_formFieldSpec_uniqueId</entry>
+	<entry key="stockingFormSpec_postLarveSize_formFieldSpec_uniqueId">stockingFormSpec_postLarveSize_formFieldSpec_uniqueId</entry>
+	
+	<entry key="aqua_fish_samplingFromSpec_uniqueId">aqua_fish_samplingFromSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_pondName_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_pondName_formFieldSpec_uniqueId</entry>
+	 <entry key="aqua_fish_samplingFormSpec_doc_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_doc_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_fish_samplingFormSpec_survivalPercentage_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_survivalPercentage_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_fish_samplingFormSpec_avgBodyWeight_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_avgBodyWeight_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_fish_samplingFormSpec_avgWeeklyGrowth_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_avgWeeklyGrowth_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_fish_samplingFormSpec_totalBiomass_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_totalBiomass_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_fish_samplingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFromSpec_dissolvedOxygen_uniqueId">aqua_fish_samplingFromSpec_dissolvedOxygen_uniqueId</entry>
+	<entry key="aqua_fish_samplingFromSpec_amoniaPercentage_uniqueId">aqua_fish_samplingFromSpec_amoniaPercentage_uniqueId</entry>
+	<entry key="aqua_fish_samplingFromSpec_salinity_uniqueId">aqua_fish_samplingFromSpec_salinity_uniqueId</entry>
+	<entry key="aqua_fish_samplingFromSpec_feedVariant_uniqueId">aqua_fish_samplingFromSpec_feedVariant_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_dailyFeed_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_dailyFeed_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFromSpec_waterSource_fieldSpec_uniqueId">aqua_fish_samplingFromSpec_waterSource_fieldSpec_uniqueId</entry>
+	
+	<entry key="aqua_fish_harvestingFromSpec_uniqueId">aqua_fish_harvestingFromSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_pondName_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_pondName_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_totalBiomass_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_totalBiomass_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_fish_harvestingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId</entry>
+    <entry key="customer_farmer_type_of_customer_field_spec_unique_id">customer_farmer_type_of_customer_field_spec_unique_id</entry>
+    <entry key="aqua_employee_and_state_relation_entity_spec_id">aqua_employee_and_state_relation_entity_spec_id</entry>
+    <entry key="aqua_employee_and_state_relation_entity_spec_employee_field_spec_unique_id">aqua_employee_and_state_relation_entity_spec_employee_field_spec_unique_id</entry>
+    <entry key="aqua_employee_and_state_relation_entity_spec_state_field_spec_unique_id">aqua_employee_and_state_relation_entity_spec_state_field_spec_unique_id</entry>
+    <entry key="aqua_state_and_zone_entity_spec_id">aqua_state_and_zone_entity_spec_id</entry>
+    <entry key="aqua_state_and_zone_state_field_unique_id">aqua_state_and_zone_state_field_unique_id</entry>
+    <entry key="aqua_state_and_zone_zone_field_unique_id">aqua_state_and_zone_zone_field_unique_id</entry>
+    <entry key="aqua_shrimp_samplingFromSpec_uniqueId">aqua_shrimp_samplingFromSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_stockingFormSpec_uniqueId">aqua_shrimp_stockingFormSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_harvestingFormSpec_uniqueId">aqua_shrimp_harvestingFormSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_stockingFormSpec_pondName_formFieldSpec_uniqueId">aqua_shrimp_stockingFormSpec_pondName_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_stockingFormSpec_stockingDate_formFieldSpec_uniqueId">aqua_shrimp_stockingFormSpec_stockingDate_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_stockingFormSpec_stockingDensity_formFieldSpec_uniqueId">aqua_shrimp_stockingFormSpec_stockingDensity_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_stockingFormSpec_shrimpSpecies_formFieldSpec_uniqueId">aqua_shrimp_stockingFormSpec_shrimpSpecies_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_stockingFormSpec_postLarveSize_formFieldSpec_uniqueId">aqua_shrimp_stockingFormSpec_postLarveSize_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFormSpec_doc_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_doc_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFormSpec_survivalPercentage_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_survivalPercentage_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFormSpec_avgBodyWeight_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_avgBodyWeight_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFormSpec_dailyFeed_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_dailyFeed_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFromSpec_dissolvedOxygen_uniqueId">aqua_shrimp_samplingFromSpec_dissolvedOxygen_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFromSpec_amoniaPercentage_uniqueId">aqua_shrimp_samplingFromSpec_amoniaPercentage_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFromSpec_salinity_uniqueId">aqua_shrimp_samplingFromSpec_salinity_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFromSpec_waterSource_fieldSpec_uniqueId">aqua_shrimp_samplingFromSpec_waterSource_fieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFromSpec_feedVariant_uniqueId">aqua_shrimp_samplingFromSpec_feedVariant_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFormSpec_pondName_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_pondName_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_samplingFormSpec_totalBiomass_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_totalBiomass_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_harvestingFormSpec_pondName_formFieldSpec_uniqueId">aqua_shrimp_harvestingFormSpec_pondName_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_harvestingFormSpec_totalBiomass_formFieldSpec_uniqueId">aqua_shrimp_harvestingFormSpec_totalBiomass_formFieldSpec_uniqueId</entry>
+    <entry key="aqua_shrimp_harvestingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId">aqua_shrimp_harvestingFormSpec_cumulativeFeedConsumption_formFieldSpec_uniqueId</entry>
+    
+    <entry key="restrictCheckInBasedOnPreviousCheckOut">false</entry>
+    <entry key="restrictCheckInBasedOnPreviousCheckOutKey">restrictCheckInBasedOnPreviousCheckOut</entry>
+    <entry key="durationForRestictingCheckIn">30</entry>
+    <entry key="durationForRestictingCheckInKey">durationForRestictingCheckIn</entry>
+    
+    <!-- IBGroup Poultry changes starts (after new slab changes)  -->
+    <entry key="IBGRP_new_Lot_WorkSpecId">IBGRP_new_Lot_WorkSpecId</entry>
+    <entry key="IBGRP_new_lot_workForm_workName_field_uniqueId">IBGRP_new_lot_workForm_workName_field_uniqueId</entry>
+    <entry key="IBGRP_new_lot_workForm_customer_field_uniqueId">IBGRP_new_lot_workForm_customer_field_uniqueId</entry>
+    <entry key="IBGRP_new_lot_workForm_emp_field_uniqueId">IBGRP_new_lot_workForm_emp_field_uniqueId</entry>
+    <entry key="IBGRP_new_lot_workForm_startTime_field_uniqueId">IBGRP_new_lot_workForm_startTime_field_uniqueId</entry>
+    <entry key="IBGRP_new_lot_workForm_chicksPlacedDate_field_uniqueId">IBGRP_new_lot_workForm_chicksPlacedDate_field_uniqueId</entry>
+    <entry key="IBGRP_new_lot_workForm_chicksPlacedQuantity_field_uniqueId">IBGRP_new_lot_workForm_chicksPlacedQuantity_field_uniqueId</entry>
+    <entry key="IBGRP_new_lot_workForm_branchCode_field_uniqueId">IBGRP_new_lot_workForm_branchCode_field_uniqueId</entry>
+    <entry key="IBGRP_new_lot_workForm_branchName_field_uniqueId">IBGRP_new_lot_workForm_branchName_field_uniqueId</entry>
+   
+    <entry key="IBGRP_new_lot_workForm_branchOffice_field_uniqueId">IBGRP_new_lot_workForm_branchOffice_field_uniqueId</entry>
+   
+    <entry key="ibgrp_new_lot_work_close_actionSpecId">ibgrp_new_lot_work_close_actionSpecId</entry>
+    <entry key="IBGRP_new_line_lotWork_lineProcessType_uniqueId">IBGRP_new_line_lotWork_lineProcessType_uniqueId</entry>
+    <entry key="ibgrp_new_line_lotWork_chicksCapacity_uniqueId">ibgrp_new_line_lotWork_chicksCapacity_uniqueId</entry>
+    <entry key="ibgrp_new_lotWork_branchCode_field_spec_uniqueId">ibgrp_new_lotWork_branchCode_field_spec_uniqueId</entry>
+    <entry key="phillipsCustomerFieldCategoryUniqueId">phillipsCustomerFieldCategoryUniqueId</entry>
+    
+    <entry key="newlotweek1">newlotweek1</entry>
+	<entry key="newlotweek1day1">newlotweek1day1</entry>
+	<entry key="newlotweek1day2">newlotweek1day2</entry>
+	<entry key="newlotweek1day3">newlotweek1day3</entry>
+	<entry key="newlotweek1day4">newlotweek1day4</entry>
+	<entry key="newlotweek1day5">newlotweek1day5</entry>
+	<entry key="newlotweek1day6">newlotweek1day6</entry>
+	
+	<entry key="newlotweek2">newlotweek2</entry>
+	<entry key="newlotweek2day1">newlotweek2day1</entry>
+	<entry key="newlotweek2day2">newlotweek2day2</entry>
+	<entry key="newlotweek2day3">newlotweek2day3</entry>
+	<entry key="newlotweek2day4">newlotweek2day4</entry>
+	<entry key="newlotweek2day5">newlotweek2day5</entry>
+	<entry key="newlotweek2day6">newlotweek2day6</entry>
+	
+	<entry key="newlotweek3">newlotweek3</entry>
+	<entry key="newlotweek3day1">newlotweek3day1</entry>
+	<entry key="newlotweek3day2">newlotweek3day2</entry>
+	<entry key="newlotweek3day3">newlotweek3day3</entry>
+	<entry key="newlotweek3day4">newlotweek3day4</entry>
+	<entry key="newlotweek3day5">newlotweek3day5</entry>
+	<entry key="newlotweek3day6">newlotweek3day6</entry>
+	
+	<entry key="newlotweek4">newlotweek4</entry>
+	<entry key="newlotweek4day1">newlotweek4day1</entry>
+	<entry key="newlotweek4day2">newlotweek4day2</entry>
+	<entry key="newlotweek4day3">newlotweek4day3</entry>
+	<entry key="newlotweek4day4">newlotweek4day4</entry>
+	<entry key="newlotweek4day5">newlotweek4day5</entry>
+	<entry key="newlotweek4day6">newlotweek4day6</entry>
+	
+	<entry key="newlotweek5">newlotweek5</entry> <!-- 29-31 days -->
+	<entry key="newlotweek5day1">newlotweek5day1</entry>
+	<entry key="newlotweek5day2">newlotweek5day2</entry>
+	
+	<entry key="newlotweek6">newlotweek6</entry>  <!-- 32-34 Days -->
+	<entry key="newlotweek6day1">newlotweek6day1</entry>
+	<entry key="newlotweek6day2">newlotweek6day2</entry>
+		
+	<entry key="newlotweek7">newlotweek7</entry> <!-- 35-37 Days -->
+	<entry key="newlotweek7day1">newlotweek7day1</entry>
+	<entry key="newlotweek7day2">newlotweek7day2</entry>
+
+	<entry key="newlotweek8">newlotweek8</entry>  <!-- 38-40 Days -->
+	<entry key="newlotweek8day1">newlotweek8day1</entry>
+	<entry key="newlotweek8day2">newlotweek8day2</entry>
+	
+	<entry key="newlotweek9">newlotweek9</entry>  <!-- 41-43 Days -->
+	<entry key="newlotweek9day1">newlotweek9day1</entry>
+	<entry key="newlotweek9day2">newlotweek9day2</entry>
+
+	<entry key="newlotweek10">newlotweek10</entry>	<!-- 44-46 Days -->
+	<entry key="newlotweek10day1">newlotweek10day1</entry>
+	<entry key="newlotweek10day2">newlotweek10day2</entry>
+	
+	<entry key="newlotweek11">newlotweek11</entry> <!-- 47-49 Days -->
+	<entry key="newlotweek11day1">newlotweek11day1</entry>
+	<entry key="newlotweek11day2">newlotweek11day2</entry>
+	
+	<entry key="newlotweek12">newlotweek12</entry> <!-- 50-52 Days -->
+	<entry key="newlotweek12day1">newlotweek12day1</entry>
+	<entry key="newlotweek12day2">newlotweek12day2</entry>
+	
+	<entry key="newlotweek13">newlotweek13</entry> <!-- 53-56 Days -->
+	<entry key="newlotweek13day1">newlotweek13day1</entry>
+	<entry key="newlotweek13day2">newlotweek13day2</entry>
+	<entry key="newlotweek13day3">newlotweek13day2</entry>
+	
+    <entry key="IBGRP_new_Daily_Mortality_Form_UniqueId">IBGRP_new_Daily_Mortality_Form_UniqueId</entry>
+    <entry key="IBGRP_new_Weekly_Mortality_Form_UniqueId">IBGRP_new_Weekly_Mortality_Form_UniqueId</entry>
+    <entry key="ibgrp_daily_monitoring_formSpec_avgBodyWeight_field_uniqueId">ibgrp_daily_monitoring_formSpec_avgBodyWeight_field_uniqueId</entry>
+    
+    <entry key="IBGRP_new_Daily_Mortality_Form_Mortality_Count_Field_UniqueId">IBGRP_new_Daily_Mortality_Form_Mortality_Count_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Daily_Mortality_Form_Feed_Consumption_Actual_Field_UniqueId">IBGRP_new_Daily_Mortality_Form_Feed_Consumption_Actual_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Daily_Mortality_Form_Feed_Physical_Field_UniqueId">IBGRP_new_Daily_Mortality_Form_Feed_Physical_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Daily_Mortality_Form_Mortality_Reason_Field_UniqueId">IBGRP_new_Daily_Mortality_Form_Mortality_Reason_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Daily_Mortality_Form_Antibiotic_Field_UniqueId">IBGRP_new_Daily_Mortality_Form_Antibiotic_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Daily_Mortality_Form_Preventive_Field_UniqueId">IBGRP_new_Daily_Mortality_Form_Preventive_Field_UniqueId</entry>
+    
+    <entry key="IBGRP_new_Weekly_Mortality_Form_Mortality_Count_Field_UniqueId">IBGRP_new_Weekly_Mortality_Form_Mortality_Count_Field_UniqueId</entry>
+    <entry key="IBGRP_new_Weekly_Mortality_Form_Feed_Consumption_Actual_Field_UniqueId">IBGRP_new_Weekly_Mortality_Form_Feed_Consumption_Actual_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Weekly_Mortality_Form_Feed_Physical_Field_UniqueId">IBGRP_new_Weekly_Mortality_Form_Feed_Physical_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Weekly_Mortality_Form_Mortality_Reason_Field_UniqueId">IBGRP_new_Weekly_Mortality_Form_Mortality_Reason_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Weekly_Mortality_Form_Antibiotic_Field_UniqueId">IBGRP_new_Weekly_Mortality_Form_Antibiotic_Field_UniqueId</entry>
+	<entry key="IBGRP_new_Weekly_Mortality_Form_Preventive_Field_UniqueId">IBGRP_new_Weekly_Mortality_Form_Preventive_Field_UniqueId</entry>
+    <entry key="IBGRP_new_Weekly_Mortality_Form_BodyWeight_Field_UniqueId">IBGRP_new_Weekly_Mortality_Form_BodyWeight_Field_UniqueId</entry>
+    <entry key="lotWorkTriggerActionSpecIds">lotWorkTriggerActionSpecIds</entry>
+    <!-- IBGroup Poultry changes ends (after new slab changes)  -->
+
+
+    <entry key="restrictCheckInBasedOnPreviousCheckIn">false</entry>
+    <entry key="restrictCheckInBasedOnPreviousCheckInKey">restrictCheckInBasedOnPreviousCheckIn</entry>
+    <entry key="durationForRestictingCheckIn">1</entry>
+    <entry key="durationForRestictingCheckInKey">durationForRestictingCheckIn</entry>
+    <entry key="allowForceCheckInBasedOnPreviousCheckOut">false</entry>
+    <entry key="allowForceCheckInBasedOnPreviousCheckOutKey">allowForceCheckInBasedOnPreviousCheckOut</entry>
+
+   <!-- Xerox constants starts -->
+    <entry key="xerox_call_creationAndUpdate_end_point_url">xerox_call_creationAndUpdate_end_point_url</entry>
+    <entry key="xerox_stock_creationAndUpdate_end_point_url">xerox_stock_creationAndUpdate_end_point_url</entry>
+    <entry key="xerox_new_completed_call_end_point_url">xerox_new_completed_call_end_point_url</entry>
+    
+    <entry key="xerox_call_creationAndUpdate_api_userName">xerox_call_creationAndUpdate_api_userName</entry>
+    <entry key="xerox_call_creationAndUpdate_api_password">xerox_call_creationAndUpdate_api_password</entry>
+    
+    <entry key="xerox_stock_creationAndUpdate_api_userName">xerox_stock_creationAndUpdate_api_userName</entry>
+    <entry key="xerox_stock_creationAndUpdate_api_password">xerox_stock_creationAndUpdate_api_password</entry>
+    
+    <entry key="xerox_new_call_push_api_userName">xerox_new_call_push_api_userName</entry>
+    <entry key="xerox_new_call_push_api_password">xerox_new_call_push_api_password</entry>
+    
+    <entry key="xeroxSAPBucketWorkFormSpecUniqueId">xeroxSAPBucketWorkFormSpecUniqueId</entry>
+    <entry key="xerox_bucket_call_workSpecId">xerox_bucket_call_workSpecId</entry>
+    <entry key="xerox_bucket_call_bucketId_field_spec_unqiueId">xerox_bucket_call_bucketId_field_spec_unqiueId</entry>
+    <entry key="xerox_bucket_call_dispatch_date_and_time_actionSpecId">xerox_bucket_call_dispatch_date_and_time_actionSpecId</entry>
+    <entry key="xerox_bucket_call_push_to_bucket_actionSpecId">xerox_bucket_call_push_to_bucket_actionSpecId</entry>
+    <entry key="xerox_bucket_call_workSpec_dispatch_date_uniqueId">xerox_bucket_call_workSpec_dispatch_date_uniqueId</entry>
+    <entry key="xerox_bucket_call_workSpec_dispatch_time_uniqueId">xerox_bucket_call_workSpec_dispatch_time_uniqueId</entry>
+    <entry key="defaultZeroValueFieldExternalLabels">defaultZeroValueFieldExternalLabels</entry>
+    
+    <entry key="bucketCallNotificationFieldSpecUniqueId">bucketCallNotificationFieldSpecUniqueId</entry>
+	<entry key="bucketCallUserStatusFieldSpecUniqueId">bucketCallUserStatusFieldSpecUniqueId</entry>
+	<entry key="bucketCallPartnerRespFieldSpecUniqueId">bucketCallPartnerRespFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewTotalColorFieldSpecUniqueId">bucketCallNewTotalColorFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewTotalMonoFieldSpecUniqueId">bucketCallNewTotalMonoFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewA3ColorFieldSpecUniqueId">bucketCallNewA3ColorFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewA3MonoFieldSpecUniqueId">bucketCallNewA3MonoFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewAreaFieldSpecUniqueId">bucketCallNewAreaFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewTotalLengthFieldSpecUniqueId">bucketCallNewTotalLengthFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewLowUsageFieldSpecUniqueId">bucketCallNewLowUsageFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewMediumUsageFieldSpecUniqueId">bucketCallNewMediumUsageFieldSpecUniqueId</entry>
+	<entry key="bucketCallNewHighUsageFieldSpecUniqueId">bucketCallNewHighUsageFieldSpecUniqueId</entry>
+	<entry key="bucketCallArrivedDateFieldSpecUniqueId">bucketCallArrivedDateFieldSpecUniqueId</entry>
+	<entry key="bucketCallArrivedTimeFieldSpecUniqueId">bucketCallArrivedTimeFieldSpecUniqueId</entry>
+	<entry key="bucketCallWkStdtFieldSpecUniqueId">bucketCallWkStdtFieldSpecUniqueId</entry>
+	<entry key="bucketCallWkSttmFieldSpecUniqueId">bucketCallWkSttmFieldSpecUniqueId</entry>
+	<entry key="bucketCallWkEddtFieldSpecUniqueId">bucketCallWkEddtFieldSpecUniqueId</entry>
+	<entry key="bucketCallWkEdtmFieldSpecUniqueId">bucketCallWkEdtmFieldSpecUniqueId</entry>
+	<entry key="bucketCallCausalCodeGroupFieldSpecUniqueId">bucketCallCausalCodeGroupFieldSpecUniqueId</entry>
+	<entry key="bucketCallDamageCodeFieldSpecUniqueId">bucketCallDamageCodeFieldSpecUniqueId</entry>
+	<entry key="bucketCallTextCodeFieldSpecUniqueId">bucketCallTextCodeFieldSpecUniqueId</entry>
+    <entry key="bucketCallSystemRemarksFormFieldSpecUniqueId">bucketCallSystemRemarksFormFieldSpecUniqueId</entry>
+	<entry key="bucketCallUpdatedRemarksFormFieldSpecUniqueId">bucketCallUpdatedRemarksFormFieldSpecUniqueId</entry>
+	<entry key="xeroxBucketCallsSerialNoUniqueIdKey">xeroxBucketCallsSerialNoUniqueIdKey</entry>
+	<entry key="new_service_calls_closing_details_action_specId">new_service_calls_closing_details_action_specId</entry>
+	<entry key="new_service_arrived_action_specId">new_service_arrived_action_specId</entry>
+   <!-- Xerox constants ends -->
+   <entry key="supportingImgExtn">jpg,jpeg,png,tif,gif</entry>
+   <entry key="restrictImageFormatKey">restrictImageFormatKey</entry>
+   <entry key="lift_order_form_vehicle_number_field_spec_uniqueId">lift_order_form_vehicle_number_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_dc_number_field_spec_uniqueId">lift_order_form_dc_number_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_driver_name_field_spec_uniqueId">lift_order_form_driver_name_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_driver_mobile_field_spec_uniqueId">lift_order_form_driver_mobile_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_lame_bird_field_spec_uniqueId">lift_order_form_lame_bird_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_lame_bird_avg_wt_field_spec_uniqueId">lift_order_form_lame_bird_avg_wt_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_remaining_feed_field_spec_uniqueId">lift_order_form_remaining_feed_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_lifting_bird_type_field_spec_uniqueId">lift_order_form_lifting_bird_type_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_bluetooth_data_field_spec_uniqueId">lift_order_form_bluetooth_data_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_auto_generated_no_field_spec_uniqueId">lift_order_form_auto_generated_no_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_quantity_ea_section_field_spec_uniqueId">lift_order_form_quantity_ea_section_field_spec_uniqueId</entry>
+	<entry key="lift_order_form_quantity_kg_section_field_spec_uniqueId">lift_order_form_quantity_kg_section_field_spec_uniqueId</entry>
+	
+	<entry key="lift_order_form_Sap_created_time_field_spec_uniqueId">lift_order_form_Sap_created_time_field_spec_uniqueId</entry>
+	
+	<entry key="farmer_promotion_form_plant_field_spec_uniqueId">farmer_promotion_form_plant_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_farmerId_field_spec_uniqueId">farmer_promotion_form_farmerId_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_farmerName_field_spec_uniqueId">farmer_promotion_form_farmerName_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_lotNumber_field_spec_uniqueId">farmer_promotion_form_lotNumber_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_lineType_field_spec_uniqueId">farmer_promotion_form_lineType_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_lsName_field_spec_uniqueId">farmer_promotion_form_lsName_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_farmerLattitude_field_spec_uniqueId">farmer_promotion_form_farmerLattitude_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_farmerLongitude_field_spec_uniqueId">farmer_promotion_form_farmerLongitude_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_farmerStatus_field_spec_uniqueId">farmer_promotion_form_farmerStatus_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfFeeder_field_spec_uniqueId">farmer_promotion_form_numberOfFeeder_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfAutoFeeder_field_spec_uniqueId">farmer_promotion_form_numberOfAutoFeeder_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfDrinker_field_spec_uniqueId">farmer_promotion_form_numberOfDrinker_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfNippleDrinker_field_spec_uniqueId">farmer_promotion_form_numberOfNippleDrinker_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfFans_field_spec_uniqueId">farmer_promotion_form_numberOfFans_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfBrooder_field_spec_uniqueId">farmer_promotion_form_numberOfBrooder_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfFoggerNozal_field_spec_uniqueId">farmer_promotion_form_numberOfFoggerNozal_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_numberOfSprinkler_field_spec_uniqueId">farmer_promotion_form_numberOfSprinkler_field_spec_uniqueId</entry>
+	<entry key="farmer_promotion_form_floorType_field_spec_uniqueId">farmer_promotion_form_floorType_field_spec_uniqueId</entry>
+	<entry key="ibgrp_farmer_promotion_workSpecId">ibgrp_farmer_promotion_workSpecId</entry>
+	
+   <entry key="agl_companyId">agl_companyId</entry>
+   <entry key="agl_stock_entity_specId">agl_stock_entity_specId</entry>
+   <entry key="agl_stock_entity_spec_description_entity_field_specId">agl_stock_entity_spec_description_entity_field_specId</entry>
+   <entry key="agl_stock_entity_spec_size_entity_field_specId">agl_stock_entity_spec_size_entity_field_specId</entry>
+   
+   <entry key="allowOnlySelfRaisedTickets">allowOnlySelfRaisedTickets</entry>
+   <entry key="spoorsFirebaseServerKey">AIzaSyAhg-OHBcLaSv0i9GZpb8pV5KXu9XWa60A</entry>
+   <entry key="fcmPushUrl">https://fcm.googleapis.com/fcm/send</entry>
+   <entry key="aglStockReportRemoteUrlId">aglStockReportRemoteUrlId</entry>
+   <entry key="sagar_orderAndCollection_formSpec_shop_fieldSpec_uniqueId">sagar_orderAndCollection_formSpec_shop_fieldSpec_uniqueId</entry>
+   <entry key="sagar_orderAndCollection_formSpec_remarks_fieldSpec_uniqueId">sagar_orderAndCollection_formSpec_remarks_fieldSpec_uniqueId</entry>
+   <entry key="xerox_server_environment">xerox_server_environment</entry>
+   <entry key="siemensEffectiveWorkTimeInMin">510</entry>
+   
+   <entry key="spTokenCommonKey">dpssassa-djhfdg=0579fdh</entry>
+   <entry key="call_status_actionForm_field_spec_uniqueId">call_status_actionForm_field_spec_uniqueId</entry>
+   <entry key="codingWorkFieldSpecUniqueId">codingWorkFieldSpecUniqueId</entry>
+   <entry key="updatedCodingWorkFieldSpecUniqueId">updatedCodingWorkFieldSpecUniqueId</entry>
+   
+    <entry key="imeiBasedProvisioningKey">imeiBasedProvisioningKey</entry>	
+    <entry key="imeiBasedProvisioning">true</entry>
+    
+    <entry key="siemensTicketWorkSpecTickectNoFieldSpecUniqueId">siemensTicketWorkSpecTickectNoFieldSpecUniqueId</entry>
+   <entry key="siemensSignInFormUniqueId">siemensSignInFormUniqueId</entry>
+   <entry key="siemensSignInFormSignReasonFieldUniqueId">siemensSignInFormSignReasonFieldUniqueId</entry>
+   <entry key="siemensMonthlyTimeSheetServiceOrderNoFieldSpecUniqueId">siemensMonthlyTimeSheetServiceOrderNoFieldSpecUniqueId</entry>
+   <entry key="siemensMonthlyTimeSheetWbsNoFieldSpecUniqueId">siemensMonthlyTimeSheetWbsNoFieldSpecUniqueId</entry>
+   <entry key="siemensMonthlyTimeSheetCostCenterFieldSpecUniqueId">siemensMonthlyTimeSheetCostCenterFieldSpecUniqueId</entry>
+   
+   <entry key="reelabsPromotionalMaterialEntitySpecId">reelabsPromotionalMaterialEntitySpecId</entry>
+	<entry key="reelabsPromotionalMaterialEntityDescriptionFieldSpecId">reelabsPromotionalMaterialEntityDescriptionFieldSpecId</entry>
+	<entry key="reelabsPromotionalMaterialEntityRateFieldSpecId">reelabsPromotionalMaterialEntityRateFieldSpecId</entry>
+	<entry key="reelabsPromotionalMaterialEntityStockQuantityFieldSpecId">reelabsPromotionalMaterialEntityStockQuantityFieldSpecId</entry>
+	<entry key="reelabsPromotionalMaterialEntityEmployeeFieldSpecId">reelabsPromotionalMaterialEntityEmployeeFieldSpecId</entry>
+	<entry key="reelabsUnlistedDoctorCustomerTypeId">reelabsUnlistedDoctorCustomerTypeId</entry>
+	<entry key="reelabsClientVisitFormPromotionalMaterialSectionFieldUniqueId">reelabsClientVisitFormPromotionalMaterialSectionFieldUniqueId</entry>
+	<entry key="reelabsClientVisitFormQuantitySectionFieldUniqueId">reelabsClientVisitFormQuantitySectionFieldUniqueId</entry>
+	<entry key="reelabsProspectFormPromotionalMaterialSectionFieldUniqueId">reelabsProspectFormPromotionalMaterialSectionFieldUniqueId</entry>
+	<entry key="reelabsProspectFormQuantitySectionFieldUniqueId">reelabsProspectFormQuantitySectionFieldUniqueId</entry> 
+	<entry key="reelabsDoctorVisitFormPromotionalMaterialSectionFieldUniqueId">reelabsDoctorVisitFormPromotionalMaterialSectionFieldUniqueId</entry>
+	<entry key="reelabsDoctorVisitFormQuantitySectionFieldUniqueId">reelabsDoctorVisitFormQuantitySectionFieldUniqueId</entry>
+	
+	
+	<entry key="ibGroupAquaDealersCustomEntitySpecId">ibGroupAquaDealersCustomEntitySpecId</entry> 
+	<entry key="ibGroupAquaFarmCustomEntitySpecId">ibGroupAquaFarmCustomEntitySpecId</entry>
+	<entry key="ibGroupAquaPondCustomEntitySpecId">ibGroupAquaPondCustomEntitySpecId</entry>
+	
+	<entry key="siemensMonthlyTimeSheetInitiatorActionSpecId">siemensMonthlyTimeSheetInitiatorActionSpecId</entry>
+	<entry key="siemensMonthlyTimeSheetReportingManagerActionSpecId">siemensMonthlyTimeSheetReportingManagerActionSpecId</entry>
+	<entry key="siemensMonthlyTimeSheetTimeSheetAdministratorActionSpecId">siemensMonthlyTimeSheetTimeSheetAdministratorActionSpecId</entry>
+	
+	<entry key="siemensMontlyTimeSheetApprovalApprovalStatusFieldSpecUniqueId">siemensMontlyTimeSheetApprovalApprovalStatusFieldSpecUniqueId</entry>
+	<entry key="siemensMontlyTimeSheetApprovalCommentFieldSpecUniqueId">siemensMontlyTimeSheetApprovalCommentFieldSpecUniqueId</entry>
+	
+	<entry key="ibGrpLiftingForRetailBranchesLotNumberFormFieldUniqueId">ibGrpLiftingForRetailBranchesLotNumberFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesFarmerNumberFormFieldUniqueId">ibGrpLiftingForRetailBranchesFarmerNumberFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesFarmerNameFormFieldUniqueId">ibGrpLiftingForRetailBranchesFarmerNameFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesLiftingDateFormFieldUniqueId">ibGrpLiftingForRetailBranchesLiftingDateFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesRetailOutletFormFieldUniqueId">ibGrpLiftingForRetailBranchesRetailOutletFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesRetailOutletDescriptionFormFieldUniqueId">ibGrpLiftingForRetailBranchesRetailOutletDescriptionFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesQuantityEAFormFieldUniqueId">ibGrpLiftingForRetailBranchesQuantityEAFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesQuantityKGFormFielduniqueId">ibGrpLiftingForRetailBranchesQuantityKGFormFielduniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesUnitRateFormFieldUniqueId">ibGrpLiftingForRetailBranchesUnitRateFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesTotalAmountFormFieldUniqueId">ibGrpLiftingForRetailBranchesTotalAmountFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesPartyPersonalVehicleFormFieldUniqueId">ibGrpLiftingForRetailBranchesPartyPersonalVehicleFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesChalanNoFormFIeldUniqueId">ibGrpLiftingForRetailBranchesChalanNoFormFIeldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesRemarksFormFieldUniqueId">ibGrpLiftingForRetailBranchesRemarksFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesVehicleNoFormFieldUniqueId">ibGrpLiftingForRetailBranchesVehicleNoFormFieldUniqueId</entry>
+	
+	<entry key="ibGrpLiftingForRetailBranchesDriverNameFormFieldUniqueId">ibGrpLiftingForRetailBranchesDriverNameFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesDriverMobileFormFieldUniqueId">ibGrpLiftingForRetailBranchesDriverMobileFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesLameBirdFormFieldUniqueId">ibGrpLiftingForRetailBranchesLameBirdFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesLameBirdAvgWtFormFieldUniqueId">ibGrpLiftingForRetailBranchesLameBirdAvgWtFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesRemainingFeedFormFieldUniqueId">ibGrpLiftingForRetailBranchesRemainingFeedFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesLiftingBirdTypeFormFieldUniqueId">ibGrpLiftingForRetailBranchesLiftingBirdTypeFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesBluetoothDataFormFieldUniqueId">ibGrpLiftingForRetailBranchesBluetoothDataFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesAutoGeneratedNumberFormFieldUniqueId">ibGrpLiftingForRetailBranchesAutoGeneratedNumberFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesMengeEASectionFormFieldUniqueId">ibGrpLiftingForRetailBranchesMengeEASectionFormFieldUniqueId</entry>
+	<entry key="ibGrpLiftingForRetailBranchesMengeKGSectionFormFieldUniqueId">ibGrpLiftingForRetailBranchesMengeKGSectionFormFieldUniqueId</entry>
+	
+	<entry key="wessexExpenseFormHqFieldUniqueId">wessexExpenseFormHqFieldUniqueId</entry>
+	<entry key="wessexExpenseFormDateFieldUniqueId">wessexExpenseFormDateFieldUniqueId</entry>
+	<entry key="wessexExpenseFormStationTypeFieldUniqueId">wessexExpenseFormStationTypeFieldUniqueId</entry>
+	<entry key="wessexExpenseFormCountryFieldUniqueId">wessexExpenseFormCountryFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAreaFromFieldUniqueId">wessexExpenseFormAreaFromFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAreaToFieldUniqueId">wessexExpenseFormAreaToFieldUniqueId</entry>
+	<entry key="wessexExpenseFormDailyTravelReimburseAppliedAmtFieldUniqueId">wessexExpenseFormDailyTravelReimburseAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormDailyTravelReimburseApprovedAmtFieldUniqueId">wessexExpenseFormDailyTravelReimburseApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormOfficeMeetngAppliedAmtFieldUniqueId">wessexExpenseFormOfficeMeetngAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormOfficeMeetngApprovedAmtFieldUniqueId">wessexExpenseFormOfficeMeetngApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormTravelMealAppliedAmtFieldUniqueId">wessexExpenseFormTravelMealAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormTravelMealApprovedAmtFieldUniqueId">wessexExpenseFormTravelMealApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAccmdnAndMealAppliedAmtFieldUniqueId">wessexExpenseFormAccmdnAndMealAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAccmdnAndMealApprovedAmtFieldUniqueId">wessexExpenseFormAccmdnAndMealApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAirTravelAppliedAmtFieldUniqueId">wessexExpenseFormAirTravelAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAirTravelApprovedAmtFieldUniqueId">wessexExpenseFormAirTravelApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormTaxiFareAppliedAmtFieldUniqueId">wessexExpenseFormTaxiFareAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormTaxiFareApprovedAmtFieldUniqueId">wessexExpenseFormTaxiFareApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormPrintingAndStationeryAppliedAmtFieldUniqueId">wessexExpenseFormPrintingAndStationeryAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormPrintingAndStationeryApprovedAmtFieldUniqueId">wessexExpenseFormPrintingAndStationeryApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormDriverPerdiemAppliedAmtFieldUniqueId">wessexExpenseFormDriverPerdiemAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormDriverPerdiemApprovedAmtFieldUniqueId">wessexExpenseFormDriverPerdiemApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAirTimeAndInternetAppliedAmtFieldUniqueId">wessexExpenseFormAirTimeAndInternetAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormAirTimeAndInternetApprovedAmtFieldUniqueId">wessexExpenseFormAirTimeAndInternetApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormCourierAppliedAmtFieldUniqueId">wessexExpenseFormCourierAppliedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormCourierApprovedAmtFieldUniqueId">wessexExpenseFormCourierApprovedAmtFieldUniqueId</entry>
+	<entry key="wessexExpenseFormTotalApprovedAmttFieldUniqueId">wessexExpenseFormTotalApprovedAmttFieldUniqueId</entry>
+	<entry key="wessexExpenseFormUniqueId">wessexExpenseFormUniqueId</entry>
+	<entry key="aeonEmployeeAttendenceSummaryReport">aeonEmployeeAttendenceSummaryReport</entry>
+	<entry key="aeonCustomizedMultiDaySignInSignOutReport">aeonCustomizedMultiDaySignInSignOutReport</entry>
+
+	<entry key="branchOpeningFormSpecUniqueId">branchOpeningFormSpecUniqueId</entry>
+	<entry key="auditorDeclarationFormSpecUniqueId">auditorDeclarationFormSpecUniqueId</entry>
+
+	<entry key="aglCasualLeaveTypeEntityId">aglCasualLeaveTypeEntityId</entry>
+	<entry key="aglPrivilegedLeaveTypeEntityId">aglPrivilegedLeaveTypeEntityId</entry>
+	<entry key="swadhaarLoNamePortfolioFieldSpecUniqueId">swadhaarLoNamePortfolioFieldSpecUniqueId</entry>
+	<entry key="displayBarcodeSearchIconKey">displayBarcodeSearchIcon</entry>	
+    <entry key="displayBarcodeSearchIcon">false</entry>
+    <entry key="monthlyTimeSheetFormUniqueIdKey">monthlyTimeSheetFormUniqueId</entry>
+    <entry key="configuratorAuthorityValue">ROLE_CONFIGURATOR</entry>
+    <entry key="managerWebAndConfiguratorAuthorityValue">ROLE_MNGR_CONFIGURATOR</entry>
+    <entry key="userWebAndConfiguratorAuthorityValue">ROLE_USER_CONFIGURATOR</entry>
+	
+	<entry key="fuelFillingFormSpecUnqiueId">fuelFillingFormSpecUnqiueId</entry>
+	<entry key="fuelFillingForm_vehicalTypeFieldSpecUniqueId">fuelFillingForm_vehicalTypeFieldSpecUniqueId</entry>
+	<entry key="fuelFillingForm_fillingDateFieldSpecUniqueId">fuelFillingForm_fillingDateFieldSpecUniqueId</entry>
+	<entry key="fuelFillingForm_quantityFieldSpecUniqueId">fuelFillingForm_quantityFieldSpecUniqueId</entry>
+	<entry key="fuelFillingForm_amountFieldSpecUniqueId">fuelFillingForm_amountFieldSpecUniqueId</entry>
+	<entry key="fuelFillingForm_vehicleOwnedFieldSpecUniqueId">fuelFillingForm_vehicleOwnedFieldSpecUniqueId</entry>
+    <entry key="fuelFillingForm_fuelTypeFieldSpecUniqueId">fuelFillingForm_fuelTypeFieldSpecUniqueId</entry>
+	
+	<entry key="vehicleOwnedEntitySpec_companyOwned_entityId">vehicleOwnedEntitySpec_companyOwned_entityId</entry>
+	<entry key="vehicleOwnedEntitySpec_personalOwned_entityId">vehicleOwnedEntitySpec_personalOwned_entityId</entry>
+	<entry key="vehicleTypeEntitySpec_bigCar_entityId">vehicleTypeEntitySpec_bigCar_entityId</entry>
+	<entry key="vehicleTypeEntitySpec_smallCar_entityId">vehicleTypeEntitySpec_smallCar_entityId</entry>
+	<entry key="fuelTypeEntitySpec_petrol_entityId">fuelTypeEntitySpec_petrol_entityId</entry>
+	<entry key="fuelTypeEntitySpec_diesel_entityId">fuelTypeEntitySpec_diesel_entityId</entry>
+	
+	<entry key="company_bigCar_listPrice_entityId">company_bigCar_listPrice_entityId</entry>
+	<entry key="company_smallCar_listPrice_entityId">company_smallCar_listPrice_entityId</entry>
+	<entry key="personal_petrol_listPrice_entityId">personal_petrol_listPrice_entityId</entry>
+	<entry key="personal_diesel_listPrice_entityId">personal_diesel_listPrice_entityId</entry>
+
+    <entry key="modeOfTravel_car_entityId">modeOfTravel_car_entityId</entry>
+	<entry key="signOutFormSpec_vehicleOwned_fieldSpecUniqueId">signOutFormSpec_vehicleOwned_fieldSpecUniqueId</entry>
+	<entry key="signOutFormSpec_vehicleType_fieldSpecUniqueId">signOutFormSpec_vehicleType_fieldSpecUniqueId</entry>
+	<entry key="signOutFormSpec_fuelType_fieldSpecUniqueId">signOutFormSpec_fuelType_fieldSpecUniqueId</entry>
+	
+		<entry key="creditVedikaCustomWorkReportWorkSpecId">creditVedikaCustomWorkReportWorkSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportWorkFieldBranchUniqueId">creditVedikaCustomWorkReportWorkFieldBranchUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportBranchNamesEntitySpecId">creditVedikaCustomWorkReportBranchNamesEntitySpecId</entry>
+
+    <entry key="creditVedikaCustomWorkReportPhysicalCashVerificationActionSpecId">creditVedikaCustomWorkReportPhysicalCashVerificationActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportPhysicalCashVerificationFormUniqueId">creditVedikaCustomWorkReportPhysicalCashVerificationFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportPhysicalCashVerificationObservationFieldUniqueId">creditVedikaCustomWorkReportPhysicalCashVerificationObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportPhysicalCashVerificationRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportPhysicalCashVerificationRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportPhysicalCashVerificationRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportPhysicalCashVerificationRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportPhysicalCashVerificationRemarksFieldUniqueId">creditVedikaCustomWorkReportPhysicalCashVerificationRemarksFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportCenterMeetingProcessActionSpecId">creditVedikaCustomWorkReportCenterMeetingProcessActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportCenterMeetingProcessFormUniqueId">creditVedikaCustomWorkReportCenterMeetingProcessFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCenterMeetingProcessObservationFieldUniqueId">creditVedikaCustomWorkReportCenterMeetingProcessObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCenterMeetingProcessRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportCenterMeetingProcessRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCenterMeetingProcessRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportCenterMeetingProcessRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCenterMeetingProcessRemarksFieldUniqueId">creditVedikaCustomWorkReportCenterMeetingProcessRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportCenterMeetingProcessCenterNameFieldUniqueId">creditVedikaCustomWorkReportCenterMeetingProcessCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportAbsentCustomerDetailsActionSpecId">creditVedikaCustomWorkReportAbsentCustomerDetailsActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportAbsentCustomerDetailsFormUniqueId">creditVedikaCustomWorkReportAbsentCustomerDetailsFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportAbsentCustomerDetailsObservationFieldUniqueId">creditVedikaCustomWorkReportAbsentCustomerDetailsObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportAbsentCustomerDetailsRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportAbsentCustomerDetailsRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportAbsentCustomerDetailsRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportAbsentCustomerDetailsRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportAbsentCustomerDetailsRemarksFieldUniqueId">creditVedikaCustomWorkReportAbsentCustomerDetailsRemarksFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportOnSiteCollectionBranchActionSpecId">creditVedikaCustomWorkReportOnSiteCollectionBranchActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportOnSiteCollectionBranchFormUniqueId">creditVedikaCustomWorkReportOnSiteCollectionBranchFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOnSiteCollectionBranchObservationFieldUniqueId">creditVedikaCustomWorkReportOnSiteCollectionBranchObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOnSiteCollectionBranchRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportOnSiteCollectionBranchRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOnSiteCollectionBranchRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportOnSiteCollectionBranchRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOnSiteCollectionBranchRemarksFieldUniqueId">creditVedikaCustomWorkReportOnSiteCollectionBranchRemarksFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportCompulsoryGroupTrainingActionSpecId">creditVedikaCustomWorkReportCompulsoryGroupTrainingActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportCompulsoryGroupTrainingFormUniqueId">creditVedikaCustomWorkReportCompulsoryGroupTrainingFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCompulsoryGroupTrainingObservationFieldUniqueId">creditVedikaCustomWorkReportCompulsoryGroupTrainingObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCompulsoryGroupTrainingRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportCompulsoryGroupTrainingRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCompulsoryGroupTrainingRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportCompulsoryGroupTrainingRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCompulsoryGroupTrainingRemarksFieldUniqueId">creditVedikaCustomWorkReportCompulsoryGroupTrainingRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportCompulsoryGroupTrainingCenterNameFieldUniqueId">creditVedikaCustomWorkReportCompulsoryGroupTrainingCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportGroupRecognitionTestActionSpecId">creditVedikaCustomWorkReportGroupRecognitionTestActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportGroupRecognitionTestFormUniqueId">creditVedikaCustomWorkReportGroupRecognitionTestFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportGroupRecognitionTestObservationFieldUniqueId">creditVedikaCustomWorkReportGroupRecognitionTestObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportGroupRecognitionTestRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportGroupRecognitionTestRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportGroupRecognitionTestRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportGroupRecognitionTestRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportGroupRecognitionTestRemarksFieldUniqueId">creditVedikaCustomWorkReportGroupRecognitionTestRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportGroupRecognitionTestCenterNameFieldUniqueId">creditVedikaCustomWorkReportGroupRecognitionTestCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportOverdueCustomerDetailsActionSpecId">creditVedikaCustomWorkReportOverdueCustomerDetailsActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportOverdueCustomerDetailsFormUniqueId">creditVedikaCustomWorkReportOverdueCustomerDetailsFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOverdueCustomerDetailsObservationFieldUniqueId">creditVedikaCustomWorkReportOverdueCustomerDetailsObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOverdueCustomerDetailsRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportOverdueCustomerDetailsRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOverdueCustomerDetailsRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportOverdueCustomerDetailsRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportOverdueCustomerDetailsRemarksFieldUniqueId">creditVedikaCustomWorkReportOverdueCustomerDetailsRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportOverdueCustomerDetailsCenterNameFieldUniqueId">creditVedikaCustomWorkReportOverdueCustomerDetailsCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportDisbursementActionSpecId">creditVedikaCustomWorkReportDisbursementActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportDisbursementFormUniqueId">creditVedikaCustomWorkReportDisbursementFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportDisbursementObservationFieldUniqueId">creditVedikaCustomWorkReportDisbursementObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportDisbursementRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportDisbursementRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportDisbursementRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportDisbursementRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportDisbursementRemarksFieldUniqueId">creditVedikaCustomWorkReportDisbursementRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportDisbursementCenterNameFieldUniqueId">creditVedikaCustomWorkReportDisbursementCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportCustomerFieldVisitReportActionSpecId">creditVedikaCustomWorkReportCustomerFieldVisitReportActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportCustomerFieldVisitReportFormUniqueId">creditVedikaCustomWorkReportCustomerFieldVisitReportFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCustomerFieldVisitReportObservationFieldUniqueId">creditVedikaCustomWorkReportCustomerFieldVisitReportObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCustomerFieldVisitReportRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportCustomerFieldVisitReportRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCustomerFieldVisitReportRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportCustomerFieldVisitReportRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCustomerFieldVisitReportRemarksFieldUniqueId">creditVedikaCustomWorkReportCustomerFieldVisitReportRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportCustomerFieldVisitReportCenterNameFieldUniqueId">creditVedikaCustomWorkReportCustomerFieldVisitReportCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsActionSpecId">creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsFormUniqueId">creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsObservationFieldUniqueId">creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsRemarksFieldUniqueId">creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsCenterNameFieldUniqueId">creditVedikaCustomWorkReportIssuesWithCrfKycDocumentsCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgActionSpecId">creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgFormUniqueId">creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgObservationFieldUniqueId">creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgRemarksFieldUniqueId">creditVedikaCustomWorkReportListOfNoticesAndRegistersJlgRemarksFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportCrossSaleMisAsOnActionSpecId">creditVedikaCustomWorkReportCrossSaleMisAsOnActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportCrossSaleMisAsOnFormUniqueId">creditVedikaCustomWorkReportCrossSaleMisAsOnFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCrossSaleMisAsOnObservationFieldUniqueId">creditVedikaCustomWorkReportCrossSaleMisAsOnObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCrossSaleMisAsOnRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportCrossSaleMisAsOnRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCrossSaleMisAsOnRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportCrossSaleMisAsOnRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportCrossSaleMisAsOnRemarksFieldUniqueId">creditVedikaCustomWorkReportCrossSaleMisAsOnRemarksFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkReportInsuranceActionSpecId">creditVedikaCustomWorkReportInsuranceActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkReportInsuranceFormUniqueId">creditVedikaCustomWorkReportInsuranceFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportInsuranceObservationFieldUniqueId">creditVedikaCustomWorkReportInsuranceObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportInsuranceRemarksListForNoFieldUniqueId">creditVedikaCustomWorkReportInsuranceRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportInsuranceRemarksListForYesFieldUniqueId">creditVedikaCustomWorkReportInsuranceRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportInsuranceRemarksFieldUniqueId">creditVedikaCustomWorkReportInsuranceRemarksFieldUniqueId</entry>
+    <entry key="creditVedikaCustomWorkReportInsuranceCenterNameFieldUniqueId">creditVedikaCustomWorkReportInsuranceCenterNameFieldUniqueId</entry>
+
+    <entry key="creditVedikaCustomWorkApplicabilityOfDemandvsCollectionActionSpecId">creditVedikaCustomWorkApplicabilityOfDemandvsCollectionActionSpecId</entry>
+	<entry key="creditVedikaCustomWorkApplicabilityOfDemandvsCollectionFormUniqueId">creditVedikaCustomWorkApplicabilityOfDemandvsCollectionFormUniqueId</entry>
+	<entry key="creditVedikaCustomWorkApplicabilityOfDemandvsCollectionObservationFieldUniqueId">creditVedikaCustomWorkApplicabilityOfDemandvsCollectionObservationFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkApplicabilityOfDemandvsCollectionRemarksListForNoFieldUniqueId">creditVedikaCustomWorkApplicabilityOfDemandvsCollectionRemarksListForNoFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkApplicabilityOfDemandvsCollectionRemarksListForYesFieldUniqueId">creditVedikaCustomWorkApplicabilityOfDemandvsCollectionRemarksListForYesFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkApplicabilityOfDemandvsCollectionRemarksFieldUniqueId">creditVedikaCustomWorkApplicabilityOfDemandvsCollectionRemarksFieldUniqueId</entry>
+	<entry key="creditVedikaCustomWorkReportAbsentCustomerDetailsCenterNameFieldUniqueId">creditVedikaCustomWorkReportAbsentCustomerDetailsCenterNameFieldUniqueId</entry>
+	
+	<!-- Ib Expense Report -->
+	<entry key="ibAquaSalesEntityId">ibAquaSalesEntityId</entry>  
+	<entry key="ibAquaSignOutFormSpecId">ibAquaSignOutFormSpecId</entry>
+	<entry key="dateOfReportingFieldSpecUniqueId">dateOfReportingFieldSpecUniqueId</entry>
+	<entry key="typeOfWorkingFieldSpecUniqueId">typeOfWorkingFieldSpecUniqueId</entry>
+	<entry key="townsVisitedFieldSpecUniqueId">townsVisitedFieldSpecUniqueId</entry>
+	<entry key="fareFieldSpecUniqueId">fareFieldSpecUniqueId</entry>
+	<entry key="modeOfTravelFieldSpecUniqueId">modeOfTravelFieldSpecUniqueId</entry>
+	<entry key="expenseTypeSectionFieldSpecUniqueId">expenseTypeSectionFieldSpecUniqueId</entry>
+	<entry key="expenseAmountSectionFieldSpecUniqueId">expenseAmountSectionFieldSpecUniqueId</entry>
+	<entry key="ticketSectionFieldSpecUniqueId">ticketSectionFieldSpecUniqueId</entry>
+	<entry key="distanceTravelledFieldSpecUniqueId">distanceTravelledFieldSpecUniqueId</entry>
+	<entry key="nonResidentEntityId">nonResidentEntityId</entry>
+	<entry key="lodgingEntityId">lodgingEntityId</entry>
+	<entry key="employeeEntityFieldSpecId">employeeEntityFieldSpecId</entry>
+	<entry key="designationEntityFieldSpecId">designationEntityFieldSpecId</entry>
+	<entry key="typeOfWorkEntityFieldSpecId">typeOfWorkEntityFieldSpecId</entry>
+	<entry key="amountEntityFieldSpecId">amountEntityFieldSpecId</entry>
+	<entry key="osEntityId">osEntityId</entry>
+	<entry key="hqEntityId">hqEntityId</entry>
+	<entry key="exHqEntityId">exHqEntityId</entry>
+	<entry key="empDesignationEntitySpecId">empDesignationEntitySpecId</entry>
+	
+	<entry key="gmetGarbagePickupWorkSpecId">gmetGarbagePickupWorkSpecId</entry>
+	<entry key="gmetContractListEntitySpecId">gmetContractListEntitySpecId</entry>
+	<entry key="gmetContractListEntitySpecCustomerEntityFieldSpecId">gmetContractListEntitySpecCustomerEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecEmployeeEntityFieldSpecId">gmetContractListEntitySpecEmployeeEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecAddressLine1EntityFieldSpecId">gmetContractListEntitySpecAddressLine1EntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecAddressLine2EntityFieldSpecId">gmetContractListEntitySpecAddressLine2EntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecPickUpLocationEntityFieldSpecId">gmetContractListEntitySpecPickUpLocationEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecOrganisationEntityFieldSpecId">gmetContractListEntitySpecOrganisationEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecTenantEntityFieldSpecId">gmetContractListEntitySpecTenantEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecDocumentNoEntityFieldSpecId">gmetContractListEntitySpecDocumentNoEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecContractStartDateEntityFieldSpecId">gmetContractListEntitySpecContractStartDateEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecContractEndDateEntityFieldSpecId">gmetContractListEntitySpecContractEndDateEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecMinimumTripsEntityFieldSpecId">gmetContractListEntitySpecMinimumTripsEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecProductEntityFieldSpecId">gmetContractListEntitySpecProductEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecRentItemEntityFieldSpecId">gmetContractListEntitySpecRentItemEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecQtyOfRentItemsEntityFieldSpecId">gmetContractListEntitySpecQtyOfRentItemsEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecVolumeInTonesEntityFieldSpecId">gmetContractListEntitySpecVolumeInTonesEntityFieldSpecId</entry>
+	<entry key="gmetContractListEntitySpecTypeOfCustomerEntityFieldSpecId">gmetContractListEntitySpecTypeOfCustomerEntityFieldSpecId</entry>
+	<entry key="restrictCustomerCheckOutBeforeMinTimeKey">restrictCustomerCheckOutBeforeMinTimeKey</entry>
+	<entry key="gmetContractListEntitySpecTypeOfContainerEntityFieldSpecId">gmetContractListEntitySpecTypeOfContainerEntityFieldSpecId</entry>
+	<entry key="gmetGarbagePickupWorkSpecDocumentListFieldSpecUniqueId">gmetGarbagePickupWorkSpecDocumentListFieldSpecUniqueId</entry>
+	<entry key="gmetContractListEntitySpecContractStatusFieldSpecId">gmetContractListEntitySpecContractStatusFieldSpecId</entry>
+	<entry key="gmetDocumentListCompletedItemEntityId">gmetDocumentListCompletedItemEntityId</entry>
+	<entry key="garbage_collection_emp_field_spec_uniqueId">garbage_collection_emp_field_spec_uniqueId</entry>
+	<entry key="garbage_collection_customer_care_action_specId">garbage_collection_customer_care_action_specId</entry>
+	<entry key="garbage_driver_manager_care_action_specId">garbage_driver_manager_care_action_specId</entry>
+	<entry key="garbage_collection_confirmed_field_spec_uniqueId">garbage_collection_confirmed_field_spec_uniqueId</entry>
+	<entry key="customer_care_groupId">customer_care_groupId</entry>
+	<entry key="remoteUrlUserName">remoteUrlUserName</entry>
+	<entry key="remoteUrlPassword">remoteUrlPassword</entry>
+	
+	<entry key="aquaDashBoardExportEmpGroupId">aquaDashBoardExportEmpGroupId</entry>
+	
+	<entry key="reelabsProspectWorkFormCustomerFieldUnique">reelabsProspectWorkFormCustomerFieldUnique</entry>
+	<entry key="reelabsProspectWorkFormLeadSourceFieldUnique">reelabsProspectWorkFormLeadSourceFieldUnique</entry>
+	<entry key="reelabsLeadSourceEntitySpecId">reelabsLeadSourceEntitySpecId</entry>
+	
+	<entry key="cdsgStockRquestUpdateFormSpecUniqueId">cdsgStockRquestUpdateFormSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateSectionSpecId">cdsgStockRquestUpdateSectionSpecId</entry>
+	<entry key="cdsgStockRquestUpdateEntitySpecId">cdsgStockRquestUpdateEntitySpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductSectionFieldSpecUniqueId">cdsgStockRquestUpdateProductSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateProductIdSectionFieldSpecUniqueId">cdsgStockRquestUpdateProductIdSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateQuantitySectionFieldSpecUniqueId">cdsgStockRquestUpdateQuantitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateUOMSectionFieldSpecUniqueId">cdsgStockRquestUpdateUOMSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateLoadInQauntitySectionFieldSpecUniqueId">cdsgStockRquestUpdateLoadInQauntitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateProductNameEntityFieldSpecId">cdsgStockRquestUpdateProductNameEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdatePriceEntityFieldSpecId">cdsgStockRquestUpdatePriceEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateQauntityRequestedEntityFieldSpecId">cdsgStockRquestUpdateQauntityRequestedEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateUOMEntityFieldSpecId">cdsgStockRquestUpdateUOMEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateEmployeeEntityFieldSpecId">cdsgStockRquestUpdateEmployeeEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdatePercentageOfTaxApplicableEntityFieldSpecId">cdsgStockRquestUpdatePercentageOfTaxApplicableEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductEntityProductIdEntityFieldSpecId">cdsgStockRquestUpdateProductEntityProductIdEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductEntityProductNameEntityFieldSpecId">cdsgStockRquestUpdateProductEntityProductNameEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductEntityPriceEntityFieldSpecId">cdsgStockRquestUpdateProductEntityPriceEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductEntityUOMEntityFieldSpecId">cdsgStockRquestUpdateProductEntityUOMEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductEntityTaxEntityFieldSpecId">cdsgStockRquestUpdateProductEntityTaxEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductEntitySpecId">cdsgStockRquestUpdateProductEntitySpecId</entry>
+	<entry key="cdsgStockRquestUpdateStockReferenceNoSectionFieldSpecUniqueId">cdsgStockRquestUpdateStockReferenceNoSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateStockReferenceNoEntityFieldSpecId">cdsgStockRquestUpdateStockReferenceNoEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateStockReferneceNoFieldSpecId">cdsgStockRquestUpdateStockReferneceNoFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateStockReferneceNoFieldSpecUniqueId">cdsgStockRquestUpdateStockReferneceNoFieldSpecUniqueId</entry>
+	<entry key="cdsgStockRquestUpdateStockMasterStockReferenceNumberEntityFieldSpecId">cdsgStockRquestUpdateStockMasterStockReferenceNumberEntityFieldSpecId</entry>
+	<entry key="cdsgStockRquestUpdateProductIdEntityFieldSpecId">cdsgStockRquestUpdateProductIdEntityFieldSpecId</entry>
+	<entry key="cdsgStockRequestUpdateBarcodeFieldSpecId">cdsgStockRequestUpdateBarcodeFieldSpecId</entry>
+	
+	<entry key="cdsgSaleInvoiceLluviaFormSpecUniqueId">cdsgSaleInvoiceLluviaFormSpecUniqueId</entry>
+	<entry key="cdsgSaleInvoiceLluviaFormAXFOCFieldSpecUniqueId">cdsgSaleInvoiceLluviaFormAXFOCFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormSpecUniqueId">cdsgSalesInvoiceCFSFormSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormAXFOCFieldSpecUniqueId">cdsgSalesInvoiceCFSFormAXFOCFieldSpecUniqueId</entry>
+	<entry key="cdsgSaleInvoiceLluviaFormNOCaseSectionFieldSpecUniqueId">cdsgSaleInvoiceLluviaFormNOCaseSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSaleInvoiceLluviaFormYESCaseSectionFieldSpecUniqueId">cdsgSaleInvoiceLluviaFormYESCaseSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSaleInvoiceCFSFormNOCaseSectionFieldSpecUniqueId">cdsgSaleInvoiceCFSFormNOCaseSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSaleInvoiceCFSFormYESCaseSectionFieldSpecUniqueId">cdsgSaleInvoiceCFSFormYESCaseSectionFieldSpecUniqueId</entry>
+	
+	<entry key="cdsgCfsLoadInFormSpecUniqueId">cdsgCfsLoadInFormSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadInFormProductSectionFieldSpecUniqueId">cdsgCfsLoadInFormProductSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadInFormProductIdSectionFieldSpecUniqueId">cdsgCfsLoadInFormProductIdSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadInFormUmoSectionFieldSpecUniqueId">cdsgCfsLoadInFormUmoSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadInFormStockReferenceNumberSectionFieldSpecUniqueId">cdsgCfsLoadInFormStockReferenceNumberSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadInFormReceivedQuantitySectionFieldSpecUniqueId">cdsgCfsLoadInFormReceivedQuantitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadOutFormSpecUniqueId">cdsgCfsLoadOutFormSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadOutFormProductSectionFieldSpecUniqueId">cdsgCfsLoadOutFormProductSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadOutFormReportedQuantitySectionFieldSpecUniqueId">cdsgCfsLoadOutFormReportedQuantitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadInFormSpecUniqueId">cdsgLLuviaLoadInFormSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadInFormProductSectionFieldSpecUniqueId">cdsgLLuviaLoadInFormProductSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadInFormProductIdSectionFieldSpecUniqueId">cdsgLLuviaLoadInFormProductIdSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadInFormUmoSectionFieldSpecUniqueId">cdsgLLuviaLoadInFormUmoSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadInFormStockReferenceNumberSectionFieldSpecUniqueId">cdsgLLuviaLoadInFormStockReferenceNumberSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadInFormReceivedQuantitySectionFieldSpecUniqueId">cdsgLLuviaLoadInFormReceivedQuantitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadOutFormSpecUniqueId">cdsgLLuviaLoadOutFormSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadOutFormProductSectionFieldSpecUniqueId">cdsgLLuviaLoadOutFormProductSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadOutFormReportedQuantitySectionFieldSpecUniqueId">cdsgLLuviaLoadOutFormReportedQuantitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormCustomerFieldSpecUniqueId">cdsgSalesInvoiceCFSFormCustomerFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormCustomerIdFieldSpecUniqueId">cdsgSalesInvoiceCFSFormCustomerIdFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormInvoiceNumberFieldSpecUniqueId">cdsgSalesInvoiceCFSFormInvoiceNumberFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormProductSectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormProductSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormProductIdSectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormProductIdSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormUOMSectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormUOMSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormQuantitySectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormQuantitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormAxDiscountSectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormAxDiscountSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormNetAmountSectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormNetAmountSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormNetAmountManunalSectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormNetAmountManunalSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormSalesTypeFieldSpecUniqueId">cdsgSalesInvoiceCFSFormSalesTypeFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormNetAmountTransactionCashFieldSpecUniqueId">cdsgSalesInvoiceCFSFormNetAmountTransactionCashFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormNetAmountTransactionCreditFieldSpecUniqueId">cdsgSalesInvoiceCFSFormNetAmountTransactionCreditFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormStockReferenceNumberSectionFieldSpecUniqueId">cdsgSalesInvoiceCFSFormStockReferenceNumberSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormCustomerFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormCustomerFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormCustomerIdFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormCustomerIdFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormInvoiceNumberFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormInvoiceNumberFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormProductSectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormProductSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormProductIdSectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormProductIdSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormUOMSectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormUOMSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormQuantitySectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormQuantitySectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormAxDiscountSectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormAxDiscountSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormNetAmountSectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormNetAmountSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormNetAmountManunalSectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormNetAmountManunalSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormSalesTypeFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormSalesTypeFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormNetAmountTransactionCashFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormNetAmountTransactionCashFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormNetAmountTransactionCreditFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormNetAmountTransactionCreditFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormStockReferenceNumberSectionFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormStockReferenceNumberSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgCfsLoadOutFormStockReferenceNumberSectionFieldSpecUniqueId">cdsgCfsLoadOutFormStockReferenceNumberSectionFieldSpecUniqueId</entry>
+	<entry key="cdsgLLuviaLoadOutFormStockReferenceNumberSectionFieldSpecUniqueId">cdsgLLuviaLoadOutFormStockReferenceNumberSectionFieldSpecUniqueId</entry>
+	
+	<entry key="cdsgSalesInvoiceLLuviaFormProductSectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormProductSectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormUOMSectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormUOMSectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormQuantitySectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormQuantitySectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormProductSectionFOCTwoFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormProductSectionFOCTwoFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormUOMSectionFOCTwoFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormUOMSectionFOCTwoFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormQuantitySectionFOCTwoFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormQuantitySectionFOCTwoFieldSpecUniqueId</entry>
+	
+	<entry key="cdsgSalesInvoiceCFSFormProductSectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceCFSFormProductSectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormUOMSectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceCFSFormUOMSectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormQuantitySectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceCFSFormQuantitySectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormProductSectionFOCTwoFieldSpecUniqueId">cdsgSalesInvoiceCFSFormProductSectionFOCTwoFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormUOMSectionFOCTwoFieldSpecUniqueId">cdsgSalesInvoiceCFSFormUOMSectionFOCTwoFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormQuantitySectionFOCTwoFieldSpecUniqueId">cdsgSalesInvoiceCFSFormQuantitySectionFOCTwoFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormProductIdSectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormProductIdSectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormProductIdSectionFOCOneFieldSpecUniqueId">cdsgSalesInvoiceCFSFormProductIdSectionFOCOneFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceCFSFormAxFocFieldSpecUniqueId">cdsgSalesInvoiceCFSFormAxFocFieldSpecUniqueId</entry>
+	<entry key="cdsgSalesInvoiceLLuviaFormAxFocFieldSpecUniqueId">cdsgSalesInvoiceLLuviaFormAxFocFieldSpecUniqueId</entry>
+	
+	
+	<entry key="yearStartsKey">yearStarts</entry>
+	<entry key="yearStartsDateKey">yearStartsDate</entry>
+	<entry key="monthStartsKey">monthStarts</entry>
+	<entry key="weekStartsKey">weekStarts</entry>
+	
+	<entry key="wessexExpenseFormNumberOfKmsFieldUniqueId">wessexExpenseFormNumberOfKmsFieldUniqueId</entry>
+	<entry key="wessexExpenseFormRateFieldUniqueId">wessexExpenseFormRateFieldUniqueId</entry>
+	<entry key="wessexExpenseFormDailyTravelReimbursementAmountFieldUniqueId">wessexExpenseFormDailyTravelReimbursementAmountFieldUniqueId</entry>
+	
+	<entry key="includeWorkInvitationsKey">includeWorkInvitations</entry>
+	
+
+	<entry key="aqua_shrimp_stockingFormSpec_seedQuantity_formFieldSpec_uniqueId">aqua_shrimp_stockingFormSpec_seedQuantity_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_shrimp_harvestingFormSpec_dateOfStocking_formFieldSpec_uniqueId">aqua_shrimp_harvestingFormSpec_dateOfStocking_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_shrimp_harvestingFormSpec_dateOfHarvesting_formFieldSpec_uniqueId">aqua_shrimp_harvestingFormSpec_dateOfHarvesting_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_shrimp_samplingFormSpec_pH_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_pH_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_shrimp_samplingFormSpec_nitrates_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_nitrates_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_shrimp_samplingFormSpec_animalHealth_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_animalHealth_formFieldSpec_uniqueId</entry>
+	<entry key="ibGroupEmployeeTypeEntitySpecId">ibGroupEmployeeTypeEntitySpecId</entry>
+	<entry key="ibGroupEmployeeTypeShrimpEntityId">ibGroupEmployeeTypeShrimpEntityId</entry>
+	<entry key="ibGroupEmployeeTypeBothEntityId">ibGroupEmployeeTypeBothEntityId</entry>
+	<entry key="ibGroupEmployeeTypeFieldUniqueId">ibGroupEmployeeTypeFieldUniqueId</entry>
+	<entry key="pondCustomEntitySpec_location_formFieldSpec_uniqueId">pondCustomEntitySpec_location_formFieldSpec_uniqueId</entry>
+	
+	<entry key="nearestLocationTimeInterval">5</entry>
+	<entry key="unresolvedLocationLimit">50000</entry>
+	
+	<entry key="aqua_shrimp_samplingFormSpec_remarks_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_remarks_formFieldSpec_uniqueId</entry>
+	<entry key="activityBasedReportKey">activityBasedReportKey</entry>
+	
+	<entry key="loginRequiredForMediaDownloadKey">loginRequiredForMediaDownloadKey</entry>	
+    <entry key="loginRequiredForMediaDownload">true</entry>
+    <entry key="customerBulkUploadMaxRows">8000</entry>
+    <entry key="wessexExpenseFormFareHqFieldUniqueId">wessexExpenseFormFareHqFieldUniqueId</entry>
+    <entry key="wessexExpenseFormFareHqApprovedAmountFieldUniqueId">wessexExpenseFormFareHqApprovedAmountFieldUniqueId</entry> 
+    <entry key="wessexActivityFormUniqueId">wessexActivityFormUniqueId</entry>
+    <entry key="wessexActivityFormDateSectionFieldUniqueId">wessexActivityFormDateSectionFieldUniqueId</entry>
+    <entry key="wessexActivityFormTypeofActivitySectionFieldUniqueId">wessexActivityFormTypeofActivitySectionFieldUniqueId</entry>
+    <entry key="wessexActivityFormVenueSectionFieldUniqueId">wessexActivityFormVenueSectionFieldUniqueId</entry>
+    <entry key="wessexActivityFormListOfAttendeesFieldUniqueId">wessexActivityFormListOfAttendeesFieldUniqueId</entry>
+    <entry key="wessexActivityFormAmountFieldUniqueId">wessexActivityFormAmountFieldUniqueId</entry>
+    <entry key="wessexActivityFormAmountApprovedFieldUniqueId">wessexActivityFormAmountApprovedFieldUniqueId</entry>
+    <entry key="wessexActivityFormPurposeOfCampaignFieldUniqueId">wessexActivityFormPurposeOfCampaignFieldUniqueId</entry>
+		
+
+	<entry key="employeeBranchFieldSpecUniqueIdForAttendanceReport">employeeBranchFieldSpecUniqueIdForAttendanceReport</entry>
+	<entry key="employeeDepartmentFieldSpecUniqueIdForAttendanceReport">employeeDepartmentFieldSpecUniqueIdForAttendanceReport</entry>
+	<entry key="employeeVerticalFieldSpecUniqueIdForAttendanceReport">employeeVerticalFieldSpecUniqueIdForAttendanceReport</entry>
+	<entry key="companyStartTimeForAttendanceReport">companyStartTimeForAttendanceReport</entry>
+	<entry key="companyMidDayTimeForAttendanceReport">companyMidDayTimeForAttendanceReport</entry>
+	<entry key="companyEndTimeForAttendanceReport">companyEndTimeForAttendanceReport</entry>
+	<entry key="enableWorkActionSpecEmployeeGroupBasedAllocationAssignment">enableWorkActionSpecEmpGrpBasedAlloationKey</entry>
+	<entry key="displayDayplanIconInCustomerModule">false</entry>
+	<entry key="displayDayplanIconInCustomerModuleKey">displayDayplanIconInCustomerModule</entry>
+		
+	<entry key="maxAllowedResponeJsonSize">maxAllowedResponeJsonSizeKey</entry>
+		
+	<entry key="rossariLocalOpenFormSpecFieldSpecUniqueId">rossariLocalOpenFormSpecFieldSpecUniqueId</entry>
+	<entry key="rossariLocalOpenFormDateFieldSpecUniqueId">rossariLocalOpenFormDateFieldSpecUniqueId</entry>
+	<entry key="rossariLocalOpenFormModeOfTravellingFieldSpecUniqueId">rossariLocalOpenFormModeOfTravellingFieldSpecUniqueId</entry>
+	<entry key="rossariLocalOpenFormStartKMSFieldSpecUniqueId">rossariLocalOpenFormStartKMSFieldSpecUniqueId</entry>
+	<entry key="rossariLocalOpenFormSpeedOMeterFieldSpecUniqueId">rossariLocalOpenFormSpeedOMeterFieldSpecUniqueId</entry>
+	<entry key="rossariLocalOpenFormTicketImageFieldSpecUniqueId">rossariLocalOpenFormTicketImageFieldSpecUniqueId</entry>
+	<entry key="rossariLocalOpenFieldRemarks">rossariLocalOpenFieldRemarks</entry>
+	
+	<entry key="rossariLocalCloseFormSpecFieldSpecUniqueId">rossariLocalCloseFormSpecFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormModeOfTravelFieldSpecUniqueId">rossariLocalCloseFormModeOfTravelFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormTollOrParkFeeFieldSpecUniqueId">rossariLocalCloseFormTollOrParkFeeFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormDateFieldSpecUniqueId">rossariLocalCloseFormDateFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormOpeningMeterReadingFieldSpecUniqueId">rossariLocalCloseFormOpeningMeterReadingFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormClosingMeterReadingFieldSpecUniqueId">rossariLocalCloseFormClosingMeterReadingFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormTotalKMSFieldSpecUniqueId">rossariLocalCloseFormTotalKMSFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormDayAllowanceFieldSpecUniqueId">rossariLocalCloseFormDayAllowanceFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormRemarksFieldSpecUniqueId">rossariLocalCloseFormRemarksFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormTollFeeFieldSpecUniqueId">rossariLocalCloseFormTollFeeFieldSpecUniqueId</entry>
+	<entry key="rossariLocalCloseFormRateFieldSpecUniqueId">rossariLocalCloseFormRateFieldSpecUniqueId</entry>
+
+   <entry key="rossariOutstationOpenFieldSpecUniqueId">rossariOutstationOpenFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationOpenFormDateFieldSpecUniqueId">rossariOutstationOpenFormDateFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationOpenFormSpeedOMeterFieldSpecUniqueId">rossariOutstationOpenFormSpeedOMeterFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationOpenFormModeOfTravelFieldSpecUniqueId">rossariOutstationOpenFormModeOfTravelFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationOpenFormOpeningMeterReadingFieldSpecUniqueId">rossariOutstationOpenFormOpeningMeterReadingFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationOpenFormTicketImageFieldSpecUniqueId">rossariOutstationOpenFormTicketImageFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationOpenFormRemarksFieldSpecUniqueId">rossariOutstationOpenFormRemarksFieldSpecUniqueId</entry>
+   
+    <entry key="rossariOutstationCloseFieldSpecUniqueId">rossariOutstationCloseFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormDateFieldSpecUniqueId">rossariOutstationCloseFormDateFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormModeOfTravelFieldSpecUniqueId">rossariOutstationCloseFormModeOfTravelFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormOpeningMeterReadingFieldSpecUniqueId">rossariOutstationCloseFormOpeningMeterReadingFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormClosingMeterReadingFieldSpecUniqueId">rossariOutstationCloseFormClosingMeterReadingFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormTotalKMSFieldSpecUniqueId">rossariOutstationCloseFormTotalKMSFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormSpeedOMeterFieldSpecUniqueId">rossariOutstationCloseFormSpeedOMeterFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormTicketImageFieldSpecUniqueId">rossariOutstationCloseFormTicketImageFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormRateFieldSpecUniqueId">rossariOutstationCloseFormRateFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormAmountFieldSpecUniqueId">rossariOutstationCloseFormAmountFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormTollFeeFieldSpecUniqueId">rossariOutstationCloseFormTollFeeFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormParkingFeeFieldSpecUniqueId">rossariOutstationCloseFormParkingFeeFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormConveyanceFieldSpecUniqueId">rossariOutstationCloseFormConveyanceFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormLodgingFieldSpecUniqueId">rossariOutstationCloseFormLodgingFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormBoardingFieldSpecUniqueId">rossariOutstationCloseFormBoardingFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormTransportationCostFieldSpecUniqueId">rossariOutstationCloseFormTransportationCostFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormLocalConveyanceFieldSpecUniqueId">rossariOutstationCloseFormLocalConveyanceFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormMiscellaneousExpensesFieldSpecUniqueId">rossariOutstationCloseFormMiscellaneousExpensesFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormGrandTotalFieldSpecUniqueId">rossariOutstationCloseFormGrandTotalFieldSpecUniqueId</entry>
+	<entry key="rossariOutstationCloseFormRemarksFieldSpecUniqueId">rossariOutstationCloseFormRemarksFieldSpecUniqueId</entry>
+	<entry key="rossariDepartmentFieldSpecUniequeId">rossariDepartmentFieldSpecUniequeId</entry>
+	
+	<entry key="rossariLocalCloseFormLocalConveyenceFieldSpecUniqueId">rossariLocalCloseFormLocalConveyenceFieldSpecUniqueId</entry>
+<entry key="rossariOutstationCloseFormDayAllowanceFieldSpecUniqueId">rossariOutstationCloseFormDayAllowanceFieldSpecUniqueId</entry>
+	
+	<entry key="janak_workOrder_installation_action_specId">janak_workOrder_installation_action_specId</entry>
+	<entry key="janak_workOrder_productData_entity_specId">janak_workOrder_productData_entity_specId</entry>
+    <entry key="janak_workOrder_productData_entity_deliveryId_specId">janak_workOrder_productData_entity_deliveryId_specId</entry>
+	
+	<entry key="deltaDailyWorkReportCouponFieldSpecUniqueId">deltaDailyWorkReportCouponFieldSpecUniqueId</entry>
+	<entry key="polymerDailyWorkReportProductFieldUniqueId">polymerDailyWorkReportProductFieldUniqueId</entry>
+	
+	<entry key="enableActionableWorksResolvingKey">enableActionableWorksResolvingKey</entry>
+	
+	<entry key="ibGroupNewWeeklyFormSpecUniqueId">ibGroupNewWeeklyFormSpecUniqueId</entry>
+	<entry key="ibGroupNewWeeklyFormLotNumberFieldSpecUniqueId">ibGroupNewWeeklyFormLotNumberFieldSpecUniqueId</entry>
+	<entry key="ibGroupNewWeeklyFormBranchCodeFieldSpecUniqueId">ibGroupNewWeeklyFormBranchCodeFieldSpecUniqueId</entry>
+	
+	<entry key="ibGroupLiftOrderFormSpecUniqueId">ibGroupLiftOrderFormSpecUniqueId</entry>
+	<entry key="ibGroupLiftOrderFormOrderNumberFieldSpecUniqueId">ibGroupLiftOrderFormOrderNumberFieldSpecUniqueId</entry>
+	<entry key="ibGroupLiftOrderFormBranchCodeFieldSpecUniqueId">ibGroupLiftOrderFormBranchCodeFieldSpecUniqueId</entry>
+	
+	<entry key="ibGroupZoneBranchesItemsListEntitySpecId">ibGroupZoneBranchesItemsListEntitySpecId</entry>
+	<entry key="ibGroupZoneBranchesItemsListBrachNameEntityFieldSpecId">ibGroupZoneBranchesItemsListBrachNameEntityFieldSpecId</entry>
+	<entry key="ibGroupZoneBranchesItemsListZoneNameEntityFieldSpecId">ibGroupZoneBranchesItemsListZoneNameEntityFieldSpecId</entry>
+	<entry key="deviceHomeItemIdCsv">8,12,18,22,24,34,38,42,50,52</entry>
+	<entry key="ipiIndiaBCPFormSpecId">ipiIndiaBCPFormSpecId</entry>
+	<entry key="ipiIndiaOrderBookingFormSpecId">ipiIndiaOrderBookingFormSpecId</entry>
+	<entry key="ibGroupLiftOrderFormlotNumberFieldSpecUniqueId">ibGroupLiftOrderFormlotNumberFieldSpecUniqueId</entry>
+	
+	<entry key="ibGroupZonesListEntitySpecId">ibGroupZonesListEntitySpecId</entry>
+	<entry key="ibGroupBranchesListEntitySpecId">ibGroupBranchesListEntitySpecId</entry>
+	<entry key="IBGroupNewWeeklyFarmMonitoringFormSpecUniqueId">IBGroupNewWeeklyFarmMonitoringFormSpecUniqueId</entry>
+	<entry key="IBGroupLIFTOrderFormSpecUniqueId">IBGroupLIFTOrderFormSpecUniqueId</entry>
+	<entry key="IBGroupDailyFarmMonitoringFormSpecUniqueId">IBGroupDailyFarmMonitoringFormSpecUniqueId</entry>
+	<entry key="aqua_shrimp_samplingFormSpec_Sampling_date_formFieldSpec_uniqueId">aqua_shrimp_samplingFormSpec_Sampling_date_formFieldSpec_uniqueId</entry>	
+	
+	
+	<entry key="ibgroupEmployeeInformationFormUniqueId">ibgroupEmployeeInformationFormUniqueId</entry>
+	<entry key="ibgroupMotivationalFormUniqueId">ibgroupMotivationalFormUniqueId</entry>
+	<entry key="ibgroupWorkSpecId">ibgroupWorkSpecId</entry>
+	<entry key="ibgroupEmployeeInfoWorkActionSpecId">ibgroupEmployeeInfoWorkActionSpecId</entry>
+	<entry key="ibgroupMotivationalWorkActionSpecId">ibgroupMotivationalWorkActionSpecId</entry>
+	<entry key="ibgroupEmployeeInfoEmpAgeFieldUniqueId">ibgroupEmployeeInfoEmpAgeFieldUniqueId</entry>
+	<entry key="ibgroupEmployeeInfoEmpCodeFieldUniqueId">ibgroupEmployeeInfoEmpCodeFieldUniqueId</entry>
+	<entry key="ibgroupEmployeeInfoYearFieldUniqueId">ibgroupEmployeeInfoYearFieldUniqueId</entry>
+	<entry key="ibgroupEmployeeInfoMonthFieldUniqueId">ibgroupEmployeeInfoMonthFieldUniqueId</entry>
+	<entry key="ibgroupEmployeeInfoGenderFieldUniqueId">ibgroupEmployeeInfoGenderFieldUniqueId</entry>
+	<entry key="ibgroupMotivationalFormJobFactorSectionFieldUniqueId">ibgroupMotivationalFormJobFactorSectionFieldUniqueId</entry>
+	<entry key="ibgroupMotivationalFormRankingSectionFieldUniqueId">ibgroupMotivationalFormRankingSectionFieldUniqueId</entry>
+	<entry key="ibgroupJobfactorQ1EntityId">ibgroupJobfactorQ1EntityId</entry>
+	<entry key="ibgroupJobfactorQ2EntityId">ibgroupJobfactorQ2EntityId</entry>
+	<entry key="ibgroupJobfactorQ3EntityId">ibgroupJobfactorQ3EntityId</entry>
+	<entry key="ibgroupJobfactorQ4EntityId">ibgroupJobfactorQ4EntityId</entry>
+	<entry key="ibgroupJobfactorQ5EntityId">ibgroupJobfactorQ5EntityId</entry>
+	<entry key="ibgroupJobfactorQ6EntityId">ibgroupJobfactorQ6EntityId</entry>
+	<entry key="ibgroupJobfactorQ7EntityId">ibgroupJobfactorQ7EntityId</entry>
+	<entry key="ibgroupJobfactorQ8EntityId">ibgroupJobfactorQ8EntityId</entry>
+	<entry key="ibgroupJobfactorQ9EntityId">ibgroupJobfactorQ9EntityId</entry>
+	<entry key="ibgroupJobfactorQ10EntityId">ibgroupJobfactorQ10EntityId</entry>
+	<entry key="ibgroupJobfactorQ11EntityId">ibgroupJobfactorQ11EntityId</entry>
+	<entry key="ibgroupJobfactorQ12EntityId">ibgroupJobfactorQ12EntityId</entry>
+	<entry key="ibgroupJobfactorQ13EntityId">ibgroupJobfactorQ13EntityId</entry>
+	<entry key="ibgroupJobfactorQ14EntityId">ibgroupJobfactorQ14EntityId</entry>
+	<entry key="ibgroupJobfactorEntitySpecId">ibgroupJobfactorEntitySpecId</entry>
+	<entry key="ibgroupEmployeeInfoEmpNameFieldUniqueId">ibgroupEmployeeInfoEmpNameFieldUniqueId</entry>
+	<entry key="googleSchedularApiKey" >AIzaSyA9ZnzBRhkLQ_vhFWxsdNO8thRNVf594VI</entry>
+	
+	<entry key="ibgroupOrganizationSurveyEnglishFormUniqueId">ibgroupOrganizationSurveyEnglishFormUniqueId</entry>
+	<entry key="ibgroupOrganizationSurveyHindiFormUniqueId">ibgroupOrganizationSurveyHindiFormUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyAstatementRankingStatementSectionFieldUniqueId">ibgroupOrgEngSurveyAstatementRankingStatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyAstatementRankingPresentSectionFieldUniqueId">ibgroupOrgEngSurveyAstatementRankingPresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyAstatementRankingDesirableSectionFieldUniqueId">ibgroupOrgEngSurveyAstatementRankingDesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking1StatementSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking1StatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking1PresentSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking1PresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking1DesirableSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking1DesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking2StatementSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking2StatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking2PresentSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking2PresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking2DesirableSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking2DesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking3StatementSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking3StatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking3PresentSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking3PresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgEngSurveyBstatementRanking3DesirableSectionFieldUniqueId">ibgroupOrgEngSurveyBstatementRanking3DesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyAstatementRankingStatementSectionFieldUniqueId">ibgroupOrgHindiSurveyAstatementRankingStatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyAstatementRankingPresentSectionFieldUniqueId">ibgroupOrgHindiSurveyAstatementRankingPresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyAstatementRankingDesirableSectionFieldUniqueId">ibgroupOrgHindiSurveyAstatementRankingDesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking1StatementSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking1StatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking1PresentSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking1PresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking1DesirableSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking1DesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking2StatementSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking2StatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking2PresentSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking2PresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking2DesirableSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking2DesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking3StatementSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking3StatementSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking3PresentSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking3PresentSectionFieldUniqueId</entry>
+	<entry key="ibgroupOrgHindiSurveyBstatementRanking3DesirableSectionFieldUniqueId">ibgroupOrgHindiSurveyBstatementRanking3DesirableSectionFieldUniqueId</entry>
+	<entry key="ibgroupDataEngEntitySpecId">ibgroupDataEngEntitySpecId</entry>
+	<entry key="ibgroupDataHindiEntitySpecId">ibgroupDataHindiEntitySpecId</entry>
+	<entry key="ibgroupOrgEngWorkActionSpecId">ibgroupOrgEngWorkActionSpecId</entry>
+	<entry key="ibgroupOrgHindiWorkActionSpecId">ibgroupOrgHindiWorkActionSpecId</entry>
+	<entry key="cosiderLocStrictnessForActivityKey">cosiderLocStrictnessForActivityKey</entry>
+	<entry key="captureSignOutFormForPreviousAutoSignOutKey">captureSignOutFormForPreviousAutoSignOutKey</entry>
+	<entry key="notifyTimeIntervalInMin">60</entry>
+	<entry key="internalTeamEmailsForServiceFailNotification">pavan.m@spoors.in,ops_team@spoors.in</entry>
+	<entry key="verifyCapturedImageAtStartWork">false</entry>
+	<entry key="verifyCapturedImageAtStartWorkKey">verifyCapturedImageAtStartWork</entry>
+	<entry key="autoApprovalAndRejectionsConfigKey">autoApprovalAndRejectionsConfigKey</entry>
+	
+	<entry key="kalpataruAttendanceRegularizationFormSpecUniqueId">kalpataruAttendanceRegularizationFormSpecUniqueId</entry>
+	<entry key="kalpataruAttendanceRegularizationDateUniqueId">kalpataruAttendanceRegularizationDateUniqueId</entry>
+	<entry key="kalpataruAttendanceRegularizationInTimeUniqueId">kalpataruAttendanceRegularizationInTimeUniqueId</entry>
+	<entry key="kalpataruAttendanceRegularizationOutTimeUniqueId">kalpataruAttendanceRegularizationOutTimeUniqueId</entry>
+	<entry key="kalpataruAttendanceRegularizationWorkedHoursUniqueId">kalpataruAttendanceRegularizationWorkedHoursUniqueId</entry>
+	<entry key="kalpataruAttendanceRegularizationTypeUniqueId">kalpataruAttendanceRegularizationTypeUniqueId</entry>
+	<entry key="kalpataruAttendanceRegularizationReasonUniqueId">kalpataruAttendanceRegularizationReasonUniqueId</entry>
+	<entry key="kalpataruSignOutFormUniqueId">kalpataruSignOutFormUniqueId</entry>
+	
+	<!-- CDSG Intigration constants -->
+	<entry key="productPriceProductFieldSpecId">productPriceProductFieldSpecId</entry>
+	<entry key="productPriceProductIdFieldSpecId">productPriceProductIdFieldSpecId</entry>
+	<entry key="productPriceUOMFieldSpecId">productPriceUOMFieldSpecId</entry>
+	<entry key="productPriceUOMPriceFieldSpecId">productPriceUOMPriceFieldSpecId</entry>
+	<entry key="productPriceDefaultUOMFieldSpecId">productPriceDefaultUOMFieldSpecId</entry>
+	<entry key="discountPromotionNameFieldSpecId">discountPromotionNameFieldSpecId</entry>
+	<entry key="discountScopeFieldSpecId">discountScopeFieldSpecId</entry>
+	<entry key="discountCustomerFieldSpecId">discountCustomerFieldSpecId</entry>
+	<entry key="discountCustomerGroupFieldSpecId">discountCustomerGroupFieldSpecId</entry>
+	<entry key="discountItemFieldSpecId">discountItemFieldSpecId</entry>
+	<entry key="discountUnitofMeasurementFieldSpecId">discountUnitofMeasurementFieldSpecId</entry>
+	<entry key="discountFromQuantityFieldSpecId">discountFromQuantityFieldSpecId</entry>
+	<entry key="discountToQuantityFieldSpecId">discountToQuantityFieldSpecId</entry>
+	<entry key="discountDiscountAmountFieldSpecId">discountDiscountAmountFieldSpecId</entry>
+	<entry key="discountDiscountPercentageFieldSpecId">discountDiscountPercentageFieldSpecId</entry>
+	<entry key="discountDiscountPercentage2FieldSpecId">discountDiscountPercentage2FieldSpecId</entry>
+	<entry key="cdsgPromotionDetailsFieldSpecId">cdsgPromotionDetailsFieldSpecId</entry>
+	<entry key="cdsgPromotionDetailsFromDateFieldSpecId">cdsgPromotionDetailsFromDateFieldSpecId</entry>
+	<entry key="cdsgPromotionDetailsToDateFieldSpecId">cdsgPromotionDetailsToDateFieldSpecId</entry>
+	<entry key="cdsgPromotionDetailsEntitySpecId">cdsgPromotionDetailsEntitySpecId</entry>
+	<entry key="cdsgProductMasterProductIdFieldSpecId">cdsgProductMasterProductIdFieldSpecId</entry>
+	<entry key="cdsgProductMasterInventoryUOMFieldSpecId">cdsgProductMasterInventoryUOMFieldSpecId</entry>
+	<entry key="cdsgProductMasterEntitySpecId">cdsgProductMasterEntitySpecId</entry>
+	<entry key="cdsgSupplymentaryEntitySpecId">cdsgSupplymentaryEntitySpecId</entry>
+	<entry key="cdsgSupplymentaryPromotionNameFieldSpecId">cdsgSupplymentaryPromotionNameFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryScopeFieldSpecId">cdsgSupplymentaryScopeFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryCustomerFieldSpecId">cdsgSupplymentaryCustomerFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryCustomerGroupFieldSpecId">cdsgSupplymentaryCustomerGroupFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryItemFieldSpecId">cdsgSupplymentaryItemFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryProductUOMFieldSpecId">cdsgSupplymentaryProductUOMFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryFromQuantityFieldSpecId">cdsgSupplymentaryFromQuantityFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryToQuantityFieldSpecId">cdsgSupplymentaryToQuantityFieldSpecId</entry>
+	<entry key="cdsgSupplymentarySupplementaryItemFieldSpecId">cdsgSupplymentarySupplementaryItemFieldSpecId</entry>
+	<entry key="cdsgSupplymentarySupplementaryQuantityFieldSpecId">cdsgSupplymentarySupplementaryQuantityFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryMandatoryFieldSpecId">cdsgSupplymentaryMandatoryFieldSpecId</entry>
+	<entry key="cdsgSupplymentaryUnitofmeasurementFieldSpecId">cdsgSupplymentaryUnitofmeasurementFieldSpecId</entry>
+	<entry key="cdsgUnitConversionEntitySpecId">cdsgUnitConversionEntitySpecId</entry>
+	<entry key="cdsgUnitConversionFromUOMFieldSpecId">cdsgUnitConversionFromUOMFieldSpecId</entry>
+	<entry key="cdsgUnitConversionToUOMFieldSpecId">cdsgUnitConversionToUOMFieldSpecId</entry>
+	<entry key="cdsgUnitConversionToQuantityFieldSpecId">cdsgUnitConversionToQuantityFieldSpecId</entry>
+	<entry key="cdsgUnitOfMeasurementEntitySpecId">cdsgUnitOfMeasurementEntitySpecId</entry>
+	<entry key="productPriceCompanyIdFieldSpecId">productPriceCompanyIdFieldSpecId</entry>
+	<entry key="cdsgSupplymentarySupplementaryItemIdFieldSpecId">cdsgSupplymentarySupplementaryItemIdFieldSpecId</entry>
+	<entry key="cdsgProductMasterBarcodeFieldSpecId">cdsgProductMasterBarcodeFieldSpecId</entry>
+	<entry key="cdsgProductMasterProductNameFieldSpecId">cdsgProductMasterProductNameFieldSpecId</entry>
+	<entry key="cdsgProductMasterSearchNameFieldSpecId">cdsgProductMasterSearchNameFieldSpecId</entry>
+	<entry key="cdsgProductMasterBrandFieldSpecId">cdsgProductMasterBrandFieldSpecId</entry>
+	<entry key="cdsgProductMasterSubBrandFieldSpecId">cdsgProductMasterSubBrandFieldSpecId</entry>
+	<entry key="cdsgProductMasterCategoryFieldSpecId">cdsgProductMasterCategoryFieldSpecId</entry>
+	<entry key="cdsgProductMasterSubCategoryFieldSpecId">cdsgProductMasterSubCategoryFieldSpecId</entry>
+	<entry key="cdsgProductMasterSalesTaxGroupFieldSpecId">cdsgProductMasterSalesTaxGroupFieldSpecId</entry>
+	<entry key="cdsgProductMasterPurchaseUOMFieldSpecId">cdsgProductMasterPurchaseUOMFieldSpecId</entry>
+	<entry key="cdsgProductMasterSalesUOMFieldSpecId">cdsgProductMasterSalesUOMFieldSpecId</entry>
+	<entry key="cdsgProductMasterCompanyIdFieldSpecId">cdsgProductMasterCompanyIdFieldSpecId</entry>
+	<entry key="cdsgBrandMasterEntitySpecId">cdsgBrandMasterEntitySpecId</entry>
+	<entry key="cdsgSubBrandMasterEntitySpecId">cdsgSubBrandMasterEntitySpecId</entry>
+	<entry key="cdsgCategoryMasterEntitySpecId">cdsgCategoryMasterEntitySpecId</entry>
+	<entry key="cdsgSubCategoryMasterEntitySpecId">cdsgSubCategoryMasterEntitySpecId</entry>
+	<entry key="cdsgItemSalesTaxGroupMasterEntitySpecId">cdsgItemSalesTaxGroupMasterEntitySpecId</entry>
+	<entry key="cdsgUnitConversionProductFieldSpecId">cdsgUnitConversionProductFieldSpecId</entry>
+	
+	<entry key="defaultEmpPickerForReports">1</entry>
+	<entry key="defaultEmpPickerForReportsKey">defaultEmpPickerForReports</entry>
+		
+	<entry key="ibGroupAquaNewPondFormSpecUniqueId">ibGroupAquaNewPondFormSpecUniqueId</entry>
+	<entry key="ibGroupAquaDealerPondFormSpecUniqueId">ibGroupAquaDealerPondFormSpecUniqueId</entry>
+	<entry key="ibGroupAquaFarmerFormSpecUniqueId">ibGroupAquaFarmerFormSpecUniqueId</entry>
+	
+	<entry key="ibGroupAquaEmployeeStateRelationEntitySpecIdKey">ibGroupAquaEmployeeStateRelationEntitySpecIdKey</entry>
+	<entry key="ibGroupAquaEmployeeStateRelationEmployeeFieldSpecIdKey">ibGroupAquaEmployeeStateRelationEmployeeFieldSpecIdKey</entry>
+	<entry key="ibGroupAquaEmployeeStateRelationEmployeeTypeFieldSpecIdKey">ibGroupAquaEmployeeStateRelationEmployeeTypeFieldSpecIdKey</entry>
+	
+	<entry key="ibGroupAquaEmployeeTypeEntityFishFieldSpecIdKey">ibGroupAquaEmployeeTypeEntityFishFieldSpecIdKey</entry>
+	<entry key="ibGroupAquaEmployeeTypeEntityShrimpFieldSpecIdKey">ibGroupAquaEmployeeTypeEntityShrimpFieldSpecIdKey</entry>
+	<entry key="ibGroupAquaEmployeeTypeEntityBothFieldSpecIdKey">ibGroupAquaEmployeeTypeEntityBothFieldSpecIdKey</entry>
+	
+	<entry key="customEntityHistoryLimit">10</entry>
+	<entry key="dataPushFailedEscalationDefaultMailIds">web_team@spoors.in,ops_team@spoors.in</entry>
+	<entry key="companyRestAPI_dataPush_failed_alert">true</entry>
+	<entry key="workDataPost_dataPush_failed_alert">true</entry>
+	<entry key="schedular_failed_alert">true</entry>
+	<entry key="ibGroup_dataPush_failed_alert">true</entry>
+	<entry key="xerox_dataPush_failed_alert">true</entry>
+	
+	<entry key="enableDayplanNotificationForNotVisitingCustInDefinedOrder">enableDayplanNotification</entry>
+	<entry key="enableRoutePlanNotificationForNotVisitingCustInDefinedOrder">enableRouteplanNotification</entry>
+	<entry key="imageFieldsInWorkApiEncriptionKey">MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAKAUZV+tjiNBKhlBZbKBnzeugpdYPhh5PbHanjV0aQ+LF7vetPYhbTiCVqA3a+Chmge44+prlqd3qQCYra6OYIe7oPVq4mETa1c/7IuSlKJgxC5wMqYKxYydb1eULkrs5IvvtNddx+9O/JlyM5sTPosgFHOzr4WqkVtQ71IkR+HrAgMBAAECgYAkQLo8kteP0GAyXAcmCAkA2Tql/8wASuTX9ITD4lsws/VqDKO64hMUKyBnJGX/91kkypCDNF5oCsdxZSJgV8owViYWZPnbvEcNqLtqgs7nj1UHuX9S5yYIPGN/mHL6OJJ7sosOd6rqdpg6JRRkAKUV+tmN/7Gh0+GFXM+ug6mgwQJBAO9/+CWpCAVoGxCA+YsTMb82fTOmGYMkZOAfQsvIV2v6DC8eJrSa+c0yCOTa3tirlCkhBfB08f8U2iEPS+Gu3bECQQCrG7O0gYmFL2RX1O+37ovyyHTbst4s4xbLW4jLzbSoimL235lCdIC+fllEEP96wPAiqo6dzmdH8KsGmVozsVRbAkB0ME8AZjp/9Pt8TDXD5LHzo8mlruUdnCBcIo5TMoRG2+3hRe1dHPonNCjgbdZCoyqjsWOiPfnQ2Brigvs7J4xhAkBGRiZUKC92x7QKbqXVgN9xYuq7oIanIM0nz/wq190uq0dh5Qtow7hshC/dSK3kmIEHe8z++tpoLWvQVgM538apAkBoSNfaTkDZhFavuiVl6L8cWCoDcJBItip8wKQhXwHp0O3HLg10OEd14M58ooNfpgt+8D8/8/2OOFaR0HzA+2Dm</entry>
+	
+	<entry key="aqua_shrimp_stockingFormSpec_stockingTime_formFieldSpec_uniqueId">aqua_shrimp_stockingFormSpec_stockingTime_formFieldSpec_uniqueId</entry>
+	
+	<entry key="ncellLogin">false</entry>
+	<entry key="siemensLogin">false</entry>
+	<entry key="statsGroupEmployeeTargetBulkUploadType">16</entry>
+	<entry key="restrictScreenshotCaptureKey">restrictScreenshotCaptureKey</entry>
+	<entry key="restrictMediaSharingKey">restrictMediaSharingKey</entry>
+	
+	<entry key="farmCustomEntitySpecId">farmCustomEntitySpecId</entry>
+	<entry key="farmCustomEntitySpecId_feedBrand_formFieldSpec_uniqueId">farmCustomEntitySpecId_feedBrand_formFieldSpec_uniqueId</entry>
+	<entry key="farmCustomEntitySpec_farmName_formFieldSpec_uniqueId">farmCustomEntitySpec_farmName_formFieldSpec_uniqueId</entry>
+	<entry key="farmCustomEntitySpec_typeOfFarm_formFieldSpec_uniqueId">farmCustomEntitySpec_typeOfFarm_formFieldSpec_uniqueId</entry>
+	<entry key="farmCustomEntitySpec_farmOwnershipType_formFieldSpec_uniqueId">farmCustomEntitySpec_farmOwnershipType_formFieldSpec_uniqueId</entry>
+	<entry key="farmCustomEntitySpec_farmerName_formFieldSpec_uniqueId">farmCustomEntitySpec_farmerName_formFieldSpec_uniqueId</entry>
+	<entry key="farmCustomEntitySpec_farmCultureType_formFieldSpec_uniqueId">farmCustomEntitySpec_farmCultureType_formFieldSpec_uniqueId</entry>
+	<entry key="farmCultureTypeFishEntityId">farmCultureTypeFishEntityId</entry>
+	<entry key="farmCultureTypeShrimpEntityId">farmCultureTypeShrimpEntityId</entry>
+	<entry key="farmCultureTypeBothEntityId">farmCultureTypeBothEntityId</entry>
+	
+	<entry key="ibGroupAquaNewFarmFormSpecUniqueId">ibGroupAquaNewFarmFormSpecUniqueId</entry>
+	<entry key="unresolvedLocationGeoPathLimit">10000</entry>
+	
+	<entry key="showEmployeeLevelCustomercheckIns">false</entry>
+    <entry key="showEmployeeLevelCustomercheckInsKey">showEmployeeLevelCustomercheckInsKey</entry>
+    
+    <entry key="aqua_fish_samplingFormSpec_sampling_date_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_sampling_date_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_fishFeedCode_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_fishFeedCode_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_periodicFcr_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_periodicFcr_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_ph_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_ph_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_nitrates_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_nitrates_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_animalHealth_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_animalHealth_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_remarks_formFieldSpec_uniqueId">aqua_fish_samplingFormSpec_remarks_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_fishSpecies_formSectionFieldSpec_uniqueId">aqua_fish_samplingFormSpec_fishSpecies_formSectionFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_avgBodyWeight_formSectionFieldSpec_uniqueId">aqua_fish_samplingFormSpec_avgBodyWeight_formSectionFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_samplingFormSpec_monthlyGrowth_formSectionFieldSpec_uniqueId">aqua_fish_samplingFormSpec_monthlyGrowth_formSectionFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_stockingFormSpec_stockingTime_formFieldSpec_uniqueId">aqua_fish_stockingFormSpec_stockingTime_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_stockingFormSpec_seedQuantity_sectionFieldSpec_uniqueId">aqua_fish_stockingFormSpec_seedQuantity_sectionFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_stockingFormSpec_fishSpecies_stockingReportSectionFormFieldSpec_uniqueId">aqua_fish_stockingFormSpec_fishSpecies_stockingReportSectionFormFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_stockingFormSpec_size_stockingSizeSectionFormFieldSpec_uniqueId">aqua_fish_stockingFormSpec_size_stockingSizeSectionFormFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_stockingFormSpec_fishSpecies_stockingSizeSectionFormFieldSpec_uniqueId">aqua_fish_stockingFormSpec_fishSpecies_stockingSizeSectionFormFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_fishSpecies_harvestingDetailsSectionFormFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_fishSpecies_harvestingDetailsSectionFormFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_avgBodyWeight_harvestingDetailsSectionFormFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_avgBodyWeight_harvestingDetailsSectionFormFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_traditionalFeed_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_traditionalFeed_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_abisFeed_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_abisFeed_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_otherFeed_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_otherFeed_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_fcr_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_fcr_formFieldSpec_uniqueId</entry>
+	<entry key="aqua_fish_harvestingFormSpec_dateOfHarvesting_formFieldSpec_uniqueId">aqua_fish_harvestingFormSpec_dateOfHarvesting_formFieldSpec_uniqueId</entry>
+	<entry key="ibGroupEmployeeTypeFishEntityId">ibGroupEmployeeTypeFishEntityId</entry>
+	
+	
+	
+	
+</properties>
+

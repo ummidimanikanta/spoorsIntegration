@@ -1,0 +1,11 @@
+.ui-tooltip {
+	border: 1px solid white;
+	background: gray;
+	color: white;
+	size: 50px;
+	font-size: 14px;
+	border: solid;
+	border-color: gray;
+	border-radius: 10px;
+	max-width: 350px;
+}

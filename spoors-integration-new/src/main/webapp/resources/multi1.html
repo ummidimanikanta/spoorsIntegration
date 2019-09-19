@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multiselect</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery.ui.spinner.css" />
+
+<link rel="stylesheet" href="http://localhost:8080/effort/resources/css/kg.multiselect.css" />
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<script type="text/javascript" src="http://localhost:8080/effort/resources/js/kg.multiselect.js"></script>
+
+<script>
+	$(document).ready(function() { 
+		$('#target').kgMultiselect({sortable: true, searchable: true});
+	});
+</script>
+
+</head>
+
+<body style="margin: 0px; padding: 0px;">
+<form action="http://google.com" method="get">
+	<select id="target" name="target" multiple="multiple">
+		<option value="red">Red</option>
+		<option value="green" selected="selected">Green</option>
+		<option value="blue">Blue</option>
+		<option value="orange">Orange</option>
+		<option value="purple">Purple</option>
+		<option value="yellow">Yellow</option>
+		<option value="brown">Brown</option>
+		<option value="black">Black</option>
+	</select>
+	<input type="submit" />
+</form>
+</body>
+</html>

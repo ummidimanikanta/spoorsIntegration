@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="db">effort7</entry>
+	<entry key="dp_ip">139.59.50.66</entry>
+<!-- 	<entry key="dp_ip">35.244.46.147</entry> -->
+	<entry key="db_port">3306</entry>
+	<entry key="db_username">effort</entry>
+	<entry key="db_password">nokpyukwa203</entry>
+	<entry key="db_geo_username">effort</entry>
+	<entry key="db_geo_password">nokpyukwa203</entry>
+	<entry key="max_active">250</entry>
+	<entry key="initialSize">50</entry>
+	<entry key="minIdle">50</entry>
+	<entry key="maxIdle">250</entry>
+	<entry key="maxWait">15000</entry>
+</properties>

@@ -1,0 +1,62 @@
+.icons {
+    padding: 0em;
+}
+
+.icons li, .icons li .icons li {
+    position:relative;
+    top:0;
+    bottom:0;
+    padding-bottom: 7px;
+
+}
+
+.icons li .icons {
+    margin-left: 4em;
+}
+
+.icons li {
+    list-style-type: none;
+}
+
+.icons li a {
+    padding:0 0 0 11px;
+    position: relative;
+    top:1em;
+}
+
+.icons li a:hover {
+    text-decoration: none;
+}
+
+.icons li a.addBorderBefore:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 28px;
+    position: absolute;
+    left: -47px;
+    top:-16px;
+    border-left: 1px solid gray;
+}
+
+.icons li:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 0;
+    position: relative;
+    left: 0em;
+    top:1em;
+    border-top: 1px solid gray;
+}
+
+.icons li .icons li:last-child:after, .icons li:last-child:after {
+    content: '';
+    display: block;
+    width: 1em;
+    height: 0em; 
+    position: relative;
+    background: #fff;
+    top: 9px;
+    left: 0px;
+}

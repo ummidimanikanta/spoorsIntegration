@@ -1,0 +1,29 @@
+.legend {
+	            padding: 5px;
+	            font: 12px Arial;
+	            heigth:80
+	            background: yellow;
+	            box-shadow: 2px 2px 1px #888;
+}
+.progress-meter .background {
+  fill: #DFEAFD;
+}
+.progress-meter .foreground {
+  fill: #2E7AF9;
+}
+.progress-meter text {
+  font-family: 'Arial';
+  font-size: 35px;
+}
+.progress-meter .text2 {
+  font-family: 'Arial';
+  font-size: 13px;
+}
+.unprogress-meter text {
+  font-family: 'Arial';
+  font-size: 13px;
+}
+.unprogress-meter .text2 {
+  font-family: 'Arial';
+  font-size: 13px;
+}

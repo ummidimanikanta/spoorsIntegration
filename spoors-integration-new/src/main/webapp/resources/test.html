@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spoors EFFORT</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" href="http://localhost:8080/effort/resources/css/effort.css" />
+	
+	<style type="text/css">
+		.dr-events{
+			width: 900px;
+			margin: auto;
+			
+		}
+		
+		.dr-task{
+			overflow-x: hidden;
+    		overflow-y: auto;
+			color: #000000 !important;
+			cursor: default;
+    		font-size: 0.85em;	
+    		background: none repeat scroll 0 0 #FFFFFF !important;
+    		border: 1px solid #99B4D1;
+    		border-top-left-radius: 3px;
+		    border-top-right-radius: 3px;
+		    border-bottom-left-radius: 3px;
+		    border-bottom-right-radius: 3px;
+		    padding-top: 2px;
+		    padding-bottom: 2px;
+		    padding-left: 5px;
+		    padding-right: 5px;
+		    
+		    position: absolute;
+		    
+		}
+		
+		.dr-events .dr-bc{
+			overflow:auto;
+			padding-bottom: 30px;
+			position:relative
+		}
+		
+		.dr-events .dr-header,
+		.dr-events .dr-body{
+			margin-left:auto; 
+    		margin-right:auto;
+    		border-spacing:0;
+    		border-collapse: collapse;
+    		table-layout: fixed;
+		}
+		
+		.dr-events .dr-body{
+			border: 1px solid #DDDDDD;
+		}
+		
+		.dr-events .dr-header th{
+			margin: auto;
+		}
+		
+		.dr-events .dr-body th{
+			margin: auto;
+			font-size: 13px;
+			font-weight: normal;
+			border: 1px solid #DDDDDD;
+			padding: 1px;
+			padding-left: 3px;
+			padding-right: 3px;
+			height: 20px;
+		}
+		
+		.dr-events .dr-body td{
+			font-size: 13px;
+			font-weight: normal;
+			border: 1px solid #DDDDDD;
+			background-color: #FCF8E3;
+			padding: 1px;
+			padding-left: 3px;
+			padding-right: 3px;
+			height: 20px;
+		}
+		
+		.dr-events p{
+			width: 100px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			padding: 0px;
+			margin: 0px;
+		}
+		
+		.dr-events .dr-body .dr-title{
+			min-width: 100px;
+			overflow: ;
+			border-width: 1px 1px 1px 1px;
+			background: none;
+		}
+		
+		.dr-events .dr-body .dr-major{
+			min-width: 30px;
+			border-width: 1px 0px 1px 1px;
+		}
+		
+		.dr-events .dr-body .dr-minor{
+			min-width: 30px;
+			border-width: 1px 0px 1px 1px;
+			border-left-style: dotted;
+		}
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+	<script type="text/javascript">
+		var resources = [
+			{
+				id: 1,
+	            title: 'resource1 dnvkjn kj kjv dkj dkjvnkj'
+	        },
+	        {
+				id: 2,
+	            title: 'resource2'
+	        }
+ 		];
+		
+		var tasks = [
+			{
+				id: 1,
+				resourceId: 1,
+                title: 'event3 vsvvvx v vfv',
+                start: '2013-04-19 08:00:00',
+                end: '2013-04-19 10:00:00'
+            },
+            {
+				id: 1,
+				resourceId: 2, 
+                title: 'event2',
+                start: '2013-04-19 09:00:00',
+                end: '2013-04-19 11:00:00'
+            }
+		];
+	
+		$(document).ready(function() {
+			var resourceMap = {};
+			
+			$("#tabs-nohdr").tabs(
+		   			{ 
+		   				selected: 0 
+		   			}
+		   	);  
+			
+			$("#tabs-left").tabs(
+		   			{ 
+		   				selected: 0 
+		   			}
+		   	);  
+			
+			$('.dr-body tbody').each(function() {
+				var j = 0;
+				for ( var i = 0; i < tasks.length; i++) {
+					var task = tasks[i];
+					if (typeof task.resourceId === "undefined") {
+						addRow(0, '', $(this));
+						j = 1;
+						break;
+					}
+				}
+				
+				
+				for (var i = 0; i < resources.length; i++) {
+					var resource = resources[i];
+					
+					var row = (i+j);
+					
+					resourceMap[resource.id] = row;
+				
+					addRow(row, resource.title, $(this));
+				}
+			});
+			
+			$('.dr-tasks').each(function() {
+				for (var i = 0; i < tasks.length; i++) {
+					var task = tasks[i];
+					var row = 0;
+					var columnStart = 0;
+					var width = 0;
+					
+					var start = task.start;
+					var end = task.end;
+					
+					if (!(typeof task.resourceId === "undefined")) {
+						row = resourceMap[task.resourceId];
+					}
+					
+					if(typeof start === "undefined"){
+						columnStart = 0;
+					} else {
+						var d = Date.parse(start);
+						
+					}
+					
+					if (!(typeof row === "undefined")) {
+						var point = [[2,5,50]];
+						var task = $('<div id="task1" class="dr-task"><p>'+task.title+'</p></div>')
+							.css('z-index', i+10)
+							.css('top', (22+1)*(row+1)+'px')
+							.css('left', (106+1)+((36+1)*(point[0][1]-1))+'px')
+							.css('width', point[0][2]+'px')
+							.appendTo($(this));
+					}
+				}
+			});
+		});
+		
+		function addRow(i, title, parent){
+			var resourceRow = $('<tr>'+
+					'<td id="dr-slot00r'+i+'" class="dr-title">'+title+'</td>'+
+					'<td id="dr-slot01r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot02r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot03r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot04r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot05r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot06r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot07r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot08r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot09r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot10r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot11r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot12r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot13r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot14r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot15r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot16r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot17r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot18r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot19r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot20r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot21r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot22r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot23r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot24r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot25r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot26r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot27r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot28r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot29r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot30r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot31r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot32r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot33r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot34r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot35r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot36r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot37r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot38r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot39r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot40r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot41r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot42r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot43r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot44r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot45r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot46r'+i+'" class="dr-minor"></td>'+
+					'<td id="dr-slot47r'+i+'" class="dr-major"></td>'+
+					'<td id="dr-slot48r'+i+'" class="dr-minor"></td>'+
+				'</tr>')
+				.appendTo(parent);
+		}
+	</script>
+</head>
+<body>
+	<div class="dr-events">
+		<table class="dr-header">
+			<thead>
+				<tr>
+					<th></th>
+					<th><h2>Wednesday, Apr 17, 2013</h2></th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		<div class="dr-bc">
+			<div class="dr-tasks" style="width: 100%; height: 1005;">
+				
+			</div>
+			<table class="dr-body">
+				<thead>
+					<tr>
+						<th id="dr-slot00" class="dr-title">&nbsp;</th>
+						<th id="dr-slot01" class="dr-major">12am</th>
+						<th id="dr-slot02" class="dr-minor"></th>
+						<th id="dr-slot03" class="dr-major">1am</th>
+						<th id="dr-slot04" class="dr-minor"></th>
+						<th id="dr-slot05" class="dr-major">2am</th>
+						<th id="dr-slot06" class="dr-minor"></th>
+						<th id="dr-slot07" class="dr-major">3am</th>
+						<th id="dr-slot08" class="dr-minor"></th>
+						<th id="dr-slot09" class="dr-major">4am</th>
+						<th id="dr-slot10" class="dr-minor"></th>
+						<th id="dr-slot11" class="dr-major">5am</th>
+						<th id="dr-slot12" class="dr-minor"></th>
+						<th id="dr-slot13" class="dr-major">6am</th>
+						<th id="dr-slot14" class="dr-minor"></th>
+						<th id="dr-slot15" class="dr-major">7am</th>
+						<th id="dr-slot16" class="dr-minor"></th>
+						<th id="dr-slot17" class="dr-major">8am</th>
+						<th id="dr-slot18" class="dr-minor"></th>
+						<th id="dr-slot19" class="dr-major">9am</th>
+						<th id="dr-slot20" class="dr-minor"></th>
+						<th id="dr-slot21" class="dr-major">10am</th>
+						<th id="dr-slot22" class="dr-minor"></th>
+						<th id="dr-slot23" class="dr-major">11am</th>
+						<th id="dr-slot24" class="dr-minor"></th>
+						<th id="dr-slot25" class="dr-major">12pm</th>
+						<th id="dr-slot26" class="dr-minor"></th>
+						<th id="dr-slot27" class="dr-major">1pm</th>
+						<th id="dr-slot28" class="dr-minor"></th>
+						<th id="dr-slot29" class="dr-major">2pm</th>
+						<th id="dr-slot30" class="dr-minor"></th>
+						<th id="dr-slot31" class="dr-major">3pm</th>
+						<th id="dr-slot32" class="dr-minor"></th>
+						<th id="dr-slot33" class="dr-major">4pm</th>
+						<th id="dr-slot34" class="dr-minor"></th>
+						<th id="dr-slot35" class="dr-major">5pm</th>
+						<th id="dr-slot36" class="dr-minor"></th>
+						<th id="dr-slot37" class="dr-major">6pm</th>
+						<th id="dr-slot38" class="dr-minor"></th>
+						<th id="dr-slot39" class="dr-major">7pm</th>
+						<th id="dr-slot40" class="dr-minor"></th>
+						<th id="dr-slot41" class="dr-major">8pm</th>
+						<th id="dr-slot42" class="dr-minor"></th>
+						<th id="dr-slot43" class="dr-major">9pm</th>
+						<th id="dr-slot44" class="dr-minor"></th>
+						<th id="dr-slot45" class="dr-major">10pm</th>
+						<th id="dr-slot46" class="dr-minor"></th>
+						<th id="dr-slot47" class="dr-major">11pm</th>
+						<th id="dr-slot48" class="dr-minor"></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+	<br><br>
+	<div id="tabs-nohdr" class="tabs-nohdr">
+		<ul>
+			<li><a href="#tabs-1">Today's jobs</a></li>
+			<li><a href="#tabs-2">Overdue jobs</a></li>
+			<li><a href="#tabs-3">Recently completed jobs</a></li>
+			<li><a href="#tabs-4">Upcoming Jobs</a></li>
+			<li><a href="#tabs-5">Last known locations</a></li>
+		</ul>
+	
+		<div id="tabs-1" class="homeTab"></div>
+		<div id="tabs-2" class="homeTab"></div>
+		<div id="tabs-3" class="homeTab"></div>
+		<div id="tabs-4" class="homeTab"></div>
+		<div id="tabs-5" class="homeTab"></div>
+	</div>
+	
+	<br><br>
+	<div id="tabs-left" class="tabs-left">
+		<ul>
+			<li><a href="#tabs-1">Today's jobs</a></li>
+			<li><a href="#tabs-2">Overdue jobs</a></li>
+			<li><a href="#tabs-3">Recently completed jobs</a></li>
+			<li><a href="#tabs-4">Upcoming Jobs</a></li>
+			<li><a href="#tabs-5">Last known locations</a></li>
+		</ul>
+	
+		<div id="tabs-1" class="homeTab">1</div>
+		<div id="tabs-2" class="homeTab">2</div>
+		<div id="tabs-3" class="homeTab">3</div>
+		<div id="tabs-4" class="homeTab">4</div>
+		<div id="tabs-5" class="homeTab">5<div style="width: 600px; height: 1000px; background-color: white; border: 1px solid black;">vsdfv</div></div>
+	</div>
+</body>
+</html>

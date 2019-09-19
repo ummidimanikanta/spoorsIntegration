@@ -1,0 +1,416 @@
+/* .percircle.dark { */
+/*    background-color: #777 */
+/* } */
+.percircle.dark .bar,
+.percircle.dark .fill {
+    border-color: #c6ff00
+}
+.percircle.dark>span {
+    color: #777
+}
+.percircle.dark:after {
+    background-color: #ffffff;
+}
+.percircle.dark:hover>span {
+    color: #c6ff00
+}
+
+ .percircle.red .bar,
+.percircle.red .fill {
+    border-color: #dd5454;
+     
+}
+.percircle.red:hover>span {
+    color: #dd5454
+}
+.percircle.red.dark .bar,
+.percircle.red.dark .fill {
+    border-color: #f84a4a;
+}
+.percircle.red.dark:hover>span {
+    color: #f84a4a
+}
+.percircle.blue .bar,
+.percircle.blue .fill {
+    border-color: #82cefa
+}
+.percircle.blue:hover>span {
+    color: #82cefa
+}
+.percircle.blue.dark .bar,
+.percircle.blue.dark .fill {
+    border-color: #20cceb
+}
+.percircle.blue.dark:hover>span {
+    color: #20cceb
+}
+.percircle.green .bar,
+.percircle.green .fill {
+    border-color: #8dea7b
+}
+.percircle.green:hover>span {
+    color: #8dea7b
+}
+.percircle.green.dark .bar,
+.percircle.green.dark .fill {
+    border-color: #a9ff3a
+}
+.percircle.green.dark:hover>span {
+    color: #a9ff3a
+}
+.percircle.orange .bar,
+.percircle.orange .fill {
+    border-color: #e88239
+}
+.percircle.orange:hover>span {
+    color: #e88239
+}
+.percircle.orange.dark .bar,
+.percircle.orange.dark .fill {
+    border-color: #dc5b00
+}
+.percircle.orange.dark:hover>span {
+    color: #dc5b00
+}
+.percircle.pink .bar,
+.percircle.pink .fill {
+    border-color: #ff8ed0
+}
+.percircle.pink:hover>span {
+    color: #ff8ed0
+}
+.percircle.pink.dark .bar,
+.percircle.pink.dark .fill {
+    border-color: #ff58b9
+}
+.percircle.pink.dark:hover>span {
+    color: #ff58b9
+}
+.percircle.purple .bar,
+.percircle.purple .fill {
+    border-color: #aa7eff
+}
+.percircle.purple:hover>span {
+    color: #aa7eff
+}
+.percircle.purple.dark .bar,
+.percircle.purple.dark .fill {
+    border-color: #7a38f7
+}
+.percircle.purple.dark:hover>span {
+    color: #7a38f7
+}
+.percircle.yellow .bar,
+.percircle.yellow .fill {
+    border-color: #dcbd00
+}
+.percircle.yellow:hover>span {
+    color: #dcbd00
+}
+.percircle.yellow.dark .bar,
+.percircle.yellow.dark .fill {
+    border-color: #ffdb00
+}
+.percircle.yellow.dark:hover>span {
+    color: #ffdb00
+}
+
+.percircle.pending .bar,
+.percircle.pending .fill {
+    border-color: #8dea7b
+}
+.percircle.pending:hover>span {
+    color: #8dea7b
+}
+
+.percircle.yetToStart .bar,
+.percircle.yetToStart .fill {
+    border-color: #dcbd00
+}
+.percircle.yetToStart:hover>span {
+    color: #dcbd00
+}
+.percircle.yetToStart.dark .bar,
+.percircle.yetToStart.dark .fill {
+    border-color: #ccb601
+}
+.percircle.yetToStart.dark:hover>span {
+    color: #ccb601
+}
+
+.percircle.unassign .bar,
+.percircle.unassign .fill {
+    border-color: #c924ff;
+}
+.percircle.unassign:hover>span {
+    color: #c924ff;
+}
+.percircle.unassign.dark .bar,
+.percircle.unassign.dark .fill {
+    border-color: #ad00e6;
+}
+.percircle.unassign.dark:hover>span {
+    color: #ad00e6;
+}
+
+.percircle.overdue .bar,
+.percircle.overdue .fill {
+    border-color: #ff1919
+}
+.percircle.overdue:hover>span {
+    color: #ff1919
+}
+.percircle.overdue.dark .bar,
+.percircle.overdue.dark .fill {
+    border-color: #ff0f0f
+}
+.percircle.overdue.dark:hover>span {
+    color: #ff0f0f
+}
+
+
+.percircle.rejected .bar,
+.percircle.rejected .fill {
+    border-color: #FF9933
+}
+.percircle.rejected:hover>span {
+    color: #FF9933
+}
+.percircle.rejected.dark .bar,
+.percircle.rejected.dark .fill {
+    border-color: #FB8816
+}
+.percircle.rejected.dark:hover>span {
+    color: #FB8816
+}
+
+.percircle.inProgress .bar,
+.percircle.inProgress .fill {
+    border-color: #14caff
+}
+.percircle.inProgress:hover>span {
+    color: #14caff
+}
+.percircle.inProgress.dark .bar,
+.percircle.inProgress.dark .fill {
+    border-color: #00a0ce
+}
+.percircle.inProgress.dark:hover>span {
+    color: #00a0ce
+}
+
+.percircle.gt50 .slice,
+.rect-auto {
+    clip: rect(auto, auto, auto, auto)
+}
+.gt50 .fill,
+.percircle .bar,
+.pie {
+    position: absolute;
+    border: .08em solid #307bbb;
+    width: .84em;
+    height: .84em;
+    clip: rect(0, .5em, 1em, 0);
+    border-radius: 50%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+.bar {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+.gt50 .bar:after,
+.gt50 .fill,
+.pie-fill {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+.percircle {
+    position: relative;
+    font-size: 120px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    float: left;
+    margin: 0 .1em .1em 0;
+    background-color: #ccc
+}
+.percircle *,
+.percircle:after,
+.percircle:before {
+    box-sizing: content-box
+}
+.percircle.animate:after,
+.percircle.animate>span {
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out
+}
+.percircle.animate .bar {
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out
+}
+.percircle.center {
+    float: none;
+    margin: 0 auto
+}
+.percircle.big {
+    font-size: 240px
+}
+.percircle.small {
+    font-size: 80px
+}
+.percircle>span {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 50%;
+    height: 1em;
+    margin-top: -.5em;
+    font-size: .2em;
+    color: #ccc;
+    display: block;
+    text-align: center;
+    white-space: nowrap
+}
+.perclock>span {
+    font-size: .175em
+}
+.percircle:after {
+    position: absolute;
+    top: .08em;
+    left: .08em;
+    display: block;
+    content: " ";
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    width: .84em;
+    height: .84em
+}
+.percircle .slice {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    clip: rect(0, 1em, 1em, .5em)
+}
+.percircle:hover {
+    cursor: default
+}
+.percircle:hover>span {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    color: #307bbb
+}
+.percircle:hover:after {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.pendingText{
+	padding: 4px;
+    font-size: 14px;
+    background-color: #8dea7b;
+    color: #777777;
+}
+
+
+.pendingText>a{
+color: 	#ffffff;
+/* color: #777777; */
+}
+
+.pendingText>a:hover {
+	text-decoration: none;
+	/* color: #109600; */
+	color: #000000;
+}
+
+
+.unassignedText{
+	padding: 4px;
+    font-size: 14px;
+    background-color: #ad00e6;
+    color: #777777;
+}
+
+.unassignedText>a{
+/* 	color: #a9a9a9; */
+color: 	#ffffff;
+}
+
+.unassignedText>a:hover {
+	text-decoration: none;
+	/* color: #5f2377; */
+	color: #000000;
+}
+
+.yetToStartText{
+	padding: 4px;
+    font-size: 14px;
+    background-color: #ccb601;
+    color: #777777;
+}
+
+.yetToStartText>a{
+/* 	color: #a9a9a9; */
+color: 	#ffffff;
+}
+
+.yetToStartText>a:hover {
+	text-decoration: none;
+	/* color: rgb(105, 94, 0); */
+	color: #000000;
+}
+
+.inProgressText{
+	padding: 4px;
+    font-size: 14px;
+    background-color: #00a0ce;
+    color: #777777;
+}
+
+.inProgressText>a{
+/* 	color: #d2cece; */
+color: 	#ffffff;
+}
+
+.inProgressText>a:hover {
+	text-decoration: none;
+	/* color: #1e11e6; */
+	color: #000000;
+}
+
+.overdueText{
+	padding: 4px;
+    font-size: 14px;
+    background-color:#ff0f0f;
+    color: #777777;
+}
+
+.overdueText>a{
+/* 	color: #a9a9a9; */
+color: 	#ffffff;
+}
+
+.overdueText>a:hover {
+	text-decoration: none;
+	/* color: #881616; */
+	color: #000000;
+}
+
+.rejectedText{
+	padding: 4px;
+    font-size: 14px;
+    background-color: #FB8816;
+    color: #777777;
+}
+
+.rejectedText>a{
+/* 	color: #a9a9a9; */
+color: 	#ffffff;
+}
+
+.rejectedText>a:hover {
+	text-decoration: none;
+	/* color: #9e5105; */
+	color: #000000;
+}

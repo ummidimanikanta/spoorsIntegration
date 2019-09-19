@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<definition name="template-main-deleteSideBars-configurator"
+		template="/WEB-INF/views/layouts/noSidePanelsLayout.jsp">
+		<put-attribute name="title-content" value="EFFORT" />
+		<put-attribute name="css-content" value="/WEB-INF/views/sections/css.jsp" />
+		<put-attribute name="js-content" value="/WEB-INF/views/sections/js.jsp" />
+		<put-attribute name="nav-menu-content"
+			value="/WEB-INF/views/sections/menu_nav_configurator.jsp" />
+		<put-attribute name="body-content" value="" />
+		<put-attribute name="footer-content" value="/WEB-INF/views/sections/footer.jsp" />
+	</definition>
+	
+	<definition name="configurationList" extends="template-main-deleteSideBars-configurator">
+		<put-attribute name="header-title-content" value="Configure" />
+		<put-attribute name="title-content" value="" />
+		<put-attribute name="body-content"
+			value="/WEB-INF/views/contents/configurationList.jsp" />
+	</definition>
+	
+	<definition name="template-pop2" template="/WEB-INF/views/layouts/popLayout2.jsp">
+		<put-attribute name="title-content" value="EFFORT" />
+		<put-attribute name="css-content" value="/WEB-INF/views/sections/css.jsp" />
+		<put-attribute name="js-content" value="/WEB-INF/views/sections/js.jsp" />
+		<put-attribute name="body-content" value="" />
+		<put-attribute name="footer-content" value="/WEB-INF/views/sections/footer.jsp" />
+	</definition>
+	
+		<definition name="addConfiguration" extends="template-main-deleteSideBars-configurator">
+			<put-attribute name="header-title-content" value="Configure" />
+			<put-attribute name="title-content" value="" />
+			<put-attribute name="body-content"
+			value="/WEB-INF/views/contents/addConfiguration.jsp" />
+		</definition>
+	<!-- Integration Configuration Escalation  -->
+	<definition name="AddConfigEscalation" extends="template-main-deleteSideBars-configurator">
+		<put-attribute name="header-title-content"	value="Add Integration Configuration Escalation" />
+		<put-attribute name="title-content" value="" />
+		<put-attribute name="body-content"
+			value="/WEB-INF/views/contents/AddConfigEscalation.jsp" />
+	</definition>	
+		
+	<!-- Integration Configuration Call Logs -->
+	<definition name="integrationCallLogsList" extends="template-main-deleteSideBars-configurator">
+	<put-attribute name="header-title-content"	value="List Integration Call Logs" />
+	<put-attribute name="title-content" value="" />
+	<put-attribute name="body-content"
+		value="/WEB-INF/views/contents/integrationCallLogsList.jsp" />
+	</definition>
+	
+	<!-- Integration Configuration Call Audit -->
+	<definition name="integrationCallAuditList" extends="template-main-deleteSideBars-configurator">
+		<put-attribute name="header-title-content"	value="List Integration Call Audit" />
+		<put-attribute name="title-content" value="" />
+		<put-attribute name="body-content"
+			value="/WEB-INF/views/contents/integrationCallAuditList.jsp" />
+	</definition>
+    <definition name="addFieldMapping" extends="template-main-deleteSideBars-configurator">
+		<put-attribute name="header-title-content" value="Add Field Mapping" />
+		<put-attribute name="title-content" value="Add Field Mapping"/>
+		<put-attribute name="body-content"
+			value="/WEB-INF/views/contents/addFieldMapping.jsp" />
+	</definition>	
+</tiles-definitions>
+

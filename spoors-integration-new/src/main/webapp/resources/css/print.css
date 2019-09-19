@@ -1,0 +1,136 @@
+html, body {
+               /* NEUTRALIZE 'layout container' styles */
+               overflow:        visible         !important;
+               width:                auto                !important;
+               height:                auto                !important;
+               position:        static                !important;
+               margin : 0px;
+               background: white;
+               font-size: 12pt;
+       }
+       .ui-layout-pane ,
+       .ui-layout-resizer ,
+       .ui-layout-toggler {
+               /* NEUTRALIZE 'layout element' styles */
+               display:        none                !important; /* hide ALL by default */
+               position:        relative        !important;
+               top:                auto                !important;
+               bottom:                auto                !important;
+               left:                auto                !important;
+               right:                auto                !important;
+               width:                auto                !important;
+               height:                auto                !important;
+               overflow:        visible                !important;
+       }
+       /* SHOW ONLY the panes you want */
+       .ui-layout-pane-north ,
+       .ui-layout-pane-south ,
+       .ui-layout-pane-east ,
+       .ui-layout-pane-center {
+               display:        block                !important;
+               /* OPTIONAL: change cosmetic styles as desired
+               border:                0                        !important;
+               padding:        0                        !important;
+               background:        transparent        !important;
+               */
+       }
+       /* float the east pane to create a sidebar */
+       .ui-layout-pane-east {
+               float:                        right;
+               width:                        25%                        !important;
+               margin-left:        1em                        !important;
+               margin-bottom:        1ex                        !important;
+       }
+
+
+input{
+	background: none;
+	border: none;
+}
+
+.ignore-print{
+	display: none;
+}
+
+.header {
+	display: none;
+}
+
+.footer {
+	display: none;
+}
+
+.nav-menu {
+	display: none;
+}
+
+.side-panel {
+	display: none;
+}
+
+.title{
+	display: none;
+}
+
+.print{
+	display: none;
+}
+
+.print-no-border{
+	border: none;
+}
+
+.print-no-scroll{
+	overflow: visible;
+	height: auto;
+}
+
+.grid{
+	border-collapse: collapse;
+	border-spacing: 0; 
+}
+
+.grid td{
+	border: 1px solid #000; 
+	word-wrap:break-word;
+	color: #000;
+	background-color: #fff; 
+}
+
+.grid th{
+	margin: 0px;
+	color: #fff;
+	background-color: #000; 
+	border: 1px solid #000; 
+}
+
+.grid.noGrid td{
+	border: 1px solid #000; 
+}
+
+.grid.noGrid{
+	border-collapse: collapse;
+}
+
+.formFieldInput{
+	border: none; 
+	background: none;
+}
+
+#vertical_menu{
+	display:none;
+	width: 0px;
+	
+}
+.menu_top{
+	display:none;
+	width: 0px;
+}
+.footerText{
+	display:none;
+	width: 0px;
+}
+.HideWhenprint{
+	display:none;
+	width: 0px;
+}

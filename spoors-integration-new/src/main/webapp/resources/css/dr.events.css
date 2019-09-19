@@ -1,0 +1,122 @@
+.dr-events{
+	/* width: 900px; */
+	/* max-width: 100%; */
+	width: auto;
+	/* margin: auto; */
+}
+
+.dr-task{
+	overflow-x: hidden;
+	overflow-y: auto;
+	color: #000000 !important;
+	cursor: default;
+	font-size: 0.85em;	
+	background: none repeat scroll 0 0 #FFFFFF !important;
+	border: 1px solid #99B4D1;
+	border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+}
+
+.dr-events .dr-bc{
+	/* overflow:auto; */
+	/* padding-bottom: 30px; */
+	height: 100%;
+	position:relative
+}
+
+.dr-events .dr-header{
+	margin-left:auto; 
+	margin-right:auto;
+	border-spacing:0;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.dr-events .dr-body, 
+.dr-events .dr-body-title {
+	border: 1px solid #DDDDDD;
+	margin: 0px;
+	border-spacing:0;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.dr-events .dr-header th{
+	margin: auto;
+}
+
+.dr-events .dr-body th,
+.dr-events .dr-body-title th{
+	margin: auto;
+	font-size: 13px;
+	font-weight: normal;
+	border: 1px solid #DDDDDD;
+	padding: 1px;
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 22px;
+}
+
+.dr-events .dr-body td,
+.dr-events .dr-body-title td{
+	font-size: 13px;
+	font-weight: normal;
+	border: 1px solid #DDDDDD;
+	padding: 1px;
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 22px;
+}
+
+.dr-events p{
+	width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0px;
+	margin: 0px;
+}
+
+.dr-events .dr-body-title .dr-title{
+	min-width: 106px;
+	overflow: ;
+	border-width: 1px 1px 1px 1px;
+	background: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.dr-events .dr-body .dr-major{
+	min-width: 35px;
+	border-width: 1px 0px 1px 1px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.dr-events .dr-body .dr-minor{
+	min-width: 35px;
+	border-width: 1px 0px 1px 1px;
+	border-left-style: dotted;
+	padding: 0px;
+	margin: 0px;
+}
+
+.dr-cell-enable{
+	background-color: #FCF8E3;
+	cursor: pointer;
+}
+
+.dr-cell-enable:hover{
+	background-color: #d4d4d4;
+}
+
+.dr-cell-disable{
+	background-color: #D0D0D0;
+}

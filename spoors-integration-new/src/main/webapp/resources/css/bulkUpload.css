@@ -1,0 +1,39 @@
+.newBlueHeader{
+	/* background: #F5F7FF; */
+	border-bottom: 1px solid #E1E5EB;
+	padding: 15px;
+}
+
+.pL30{
+	padding-left: 30px;
+}
+
+.pT20{
+	padding-top: 20px;
+}
+
+.pT30{
+	padding-top: 30px;
+}
+
+.firstTD{
+	padding: 0!important;
+	/* -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 3px; */
+	border : 1px solid #E1E5EB;
+	/* border-style: none; */
+	/* min-height: 450px; */
+	height: auto!important;
+	/* border-radius : 5px; */
+}
+
+input[type=file]{
+	display : inline;
+}
+
+.bulkFile{
+	width: 215px;
+}
+.pL30pT8{
+	padding-left: 30px;
+	padding-top: 8px;	
+}
